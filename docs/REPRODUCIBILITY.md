@@ -1,6 +1,6 @@
 # How to reproduce the public FiscalRazor repository
 
-The original public-scoring test module imports `beautifulsoup4` for its SSA HTML parser; install it with `python -m pip install beautifulsoup4==4.14.3` before running that suite on a fresh environment. The root GitHub CI installs this optional test dependency.
+The original public-scoring test module imports `beautifulsoup4` for its SSA HTML parser; install it with `python -m pip install beautifulsoup4==4.14.3` before running that suite on a fresh environment. The trustee baseline replay and its tests also use this dependency. The root GitHub CI installs it.
 
 **This procedure is divided into two gates:** (A) reproduce the **included public source excerpts and independent formulas**, which needs no network or user data; (B) acquire and verify **complete original datasets**, which requires internet access on first acquisition. The February 2026 CBO replay has passed. Other agencies and model-calibration stages have separate evidence requirements.
 
@@ -40,6 +40,17 @@ python scripts/replay_cps_households.py /path/to/asecpub26csv.zip --output cps_r
 ```
 
 Compare it with the [checked-in household receipt](../publication/results/cps_asec_2026_household_income_replay.json). See [methods and benchmark deviations](CPS_HOUSEHOLD_REPLAY.md).
+
+The [scoring frontier](SCORING_FRONTIER_REPLAY.md) documents four additional replays. Keep the downloaded originals in a separate source directory. Place the BLS Interview, Diary and hierarchy archives there as `intrvw25.zip`, `diary25.zip` and `stubs.zip`. For the trustee replay, save the SSA operations page as `ssa.html`, SSA VI.G3 as `ssa_long.html`, and the CMS expanded archive as `cms.zip`. The sources are linked from the scoring frontier and receipts.
+
+```bash
+python scripts/replay_vat_credit_scenarios.py /path/to/asecpub26csv.zip
+python scripts/replay_bls_ce_2025.py /path/to/source-dir
+python scripts/replay_trustee_baselines.py /path/to/source-dir
+python scripts/replay_irs_zip_margins.py /path/to/23zpallagi.csv
+```
+
+Each command accepts `--output` for an aggregate JSON receipt. Compare against the tracked receipts under `publication/results/`.
 
 ## C. Freshness, versioning, and uncertainty
 

@@ -6,8 +6,9 @@ These are **falsifiable tasks**, not general aspirations or claimed completions.
 
 - **Completed for CBO February 2026.** All 18 original CSVs passed publisher Git blob and record-count checks. All 252 published input values matched and spending-account outlays reconciled across 11 fiscal years. See the [source replay](CBO_SOURCE_REPLAY.md).
 - **CPS ASEC household benchmark completed.** The [public-use replay](CPS_HOUSEHOLD_REPLAY.md) joins all 160 replicate weights and reports its differences from Census Table 1. Extend calibration to held-out income moments and the tax-household definition required by §101.
-- Retrieve **BLS CE 2025** interview and diary PUMD, apply BLS's 2025 collection-gap adjustment rules to the appropriate units and 44 replicate weights, reproduce at least three independent published category totals within documented tolerances.
-- Retrieve public **IRS SOI** distributional totals and available **CMS MCBS** public-use records, preserving their different units, survey weights and limitations. These are not equivalent to nonpublic JCT return-level or Medicare claims data.
+- **BLS CE 2025 spending benchmark completed.** Original Interview and Diary archives were replayed with lapse adjustments and 44 replicate weights. Five published spending aggregates are compared in the [scoring frontier](SCORING_FRONTIER_REPLAY.md).
+- **SSA/CMS trustee baseline bridge completed.** Separate OASI, DI and HI operations reconcile at published precision and annual long-run series are available through 2100.
+- **IRS SOI 2023 geographic margins replayed.** Compare with same-year CPS modeled units, then extend to newer vintages as their published returns become available. Retrieve **CMS MCBS** public-use records and calibrate separately to beneficiary benchmarks. Provider-level Medicare payment estimation requires finer claims and contract information.
 
 **Pass:** independently executed original-byte receipts, parser/weight calibration, a table of per-source deviations and negative-case tests. **Fail:** source landing pages only, hand-entered sample rows, an altered ZIP, or a publication claim based solely on source URLs.
 
@@ -33,6 +34,6 @@ For bounded but uncertain policy effects, compute the **worst-case residual defi
 
 Submit a fixed, counsel-reviewed legislative specification for official-scoring consideration through an appropriate congressional route; seek nonconfidential methodological feedback from CBO, JCT, SSA OACT and CMS OACT. Obtain independent review of the code, public-data versions, uncertainty and policy assumptions. Public source-level checks do not substitute for any official estimate. A research article should make its adversarial failures and unavailable datasets explicit in the main text.
 
-## Immediate experiment: frozen-source stability table
+## Immediate experiments
 
-`python scripts/build_publication.py` reproduces FY2027–2036 targets and stylized PCE consumption-capacity calculations, with 13 adversarial tests. It is a source-backed *benchmark*, not a forecast that the Act meets those targets. The next research work should replace the hypothetical full-PCE tax base with a verified, legally mapped BEA/BLS sectoral base, then reconstruct §101's actual household credits from survey data.
+The [scoring frontier](SCORING_FRONTIER_REPLAY.md) records the §101 tax-unit replay, BLS spending validation, and separate OASI/DI/HI baselines. For §101, the next admissions are a defensible definition of MAGI and qualifying persons for nonfilers and a legally mapped BEA/BLS consumption base. Track the uncertainty of both inputs before modeling joint distributional effects.

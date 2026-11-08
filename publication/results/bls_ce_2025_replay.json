@@ -1,0 +1,49 @@
+{
+  "annual_expenditures_per_consumer_unit": {
+    "FOODTOTL": {
+      "adjusted_usd": 10648.14,
+      "difference_usd": 15.14,
+      "published_usd": 10633,
+      "replicate_standard_error_usd": 170.46,
+      "without_lapse_adjustment_usd": 10575.37
+    },
+    "HEALTH": {
+      "adjusted_usd": 6485.27,
+      "difference_usd": 15.27,
+      "published_usd": 6470,
+      "replicate_standard_error_usd": 99.85,
+      "without_lapse_adjustment_usd": 6523.61
+    },
+    "HOUSING": {
+      "adjusted_usd": 27788.79,
+      "difference_usd": -1.21,
+      "published_usd": 27790,
+      "replicate_standard_error_usd": 506.85,
+      "without_lapse_adjustment_usd": 27684.09
+    },
+    "TOTALEXP": {
+      "adjusted_usd": 82029.27,
+      "difference_usd": 124.27,
+      "published_usd": 81905,
+      "replicate_standard_error_usd": 1249.03,
+      "without_lapse_adjustment_usd": 81704.06
+    },
+    "TRANS": {
+      "adjusted_usd": 13488.94,
+      "difference_usd": -3.06,
+      "published_usd": 13492,
+      "replicate_standard_error_usd": 390.71,
+      "without_lapse_adjustment_usd": 13493.33
+    }
+  },
+  "ce_diary_population": 136804818.12,
+  "ce_interview_population": 137994431.46,
+  "diary_family_rows": 8615,
+  "interview_family_rows": 16754,
+  "replicates": 44,
+  "source_sha256": {
+    "diary25.zip": "6140fe25bdfa85b7f341afad40e75a0c23ca552c6cecc0b2438837003455a89c",
+    "intrvw25.zip": "d68d09c237cd14a1c6992f902f972662b40d283e63877e90932a17f5674c2038",
+    "stubs.zip": "4e872e7be2ce0923dfa3e7b82f81d28e21d166946a6b390f0b8ee25a42dcc833"
+  }
+}

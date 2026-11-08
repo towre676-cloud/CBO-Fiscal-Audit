@@ -1,0 +1,90 @@
+{
+  "by_census_household_income_quintile": {
+    "1": {
+      "agi_proxy_credit_usd": "13055032751.4885",
+      "households": 10653,
+      "lower_credit_usd": "12706750008.1260",
+      "nonfiler_units": 8098,
+      "resolved_filer_units": 5216,
+      "tax_units": 13359,
+      "unresolved_max_credit_usd": "16892366726.6350",
+      "unresolved_units": 8143,
+      "upper_credit_usd": "29947399478.1235",
+      "weighted_households": 27410474.11,
+      "weighted_multi_unit_households": 5855891.51
+    },
+    "2": {
+      "agi_proxy_credit_usd": "19339553028.0170",
+      "households": 10560,
+      "lower_credit_usd": "17421657243.2480",
+      "nonfiler_units": 3330,
+      "resolved_filer_units": 10815,
+      "tax_units": 14186,
+      "unresolved_max_credit_usd": "6914604320.8100",
+      "unresolved_units": 3371,
+      "upper_credit_usd": "26254157348.8270",
+      "weighted_households": 27405308.46,
+      "weighted_multi_unit_households": 7630262.97
+    },
+    "3": {
+      "agi_proxy_credit_usd": "11901615426.8825",
+      "households": 10516,
+      "lower_credit_usd": "10038584374.5010",
+      "nonfiler_units": 1664,
+      "resolved_filer_units": 12835,
+      "tax_units": 14537,
+      "unresolved_max_credit_usd": "3544499938.2950",
+      "unresolved_units": 1702,
+      "upper_credit_usd": "15446115365.1775",
+      "weighted_households": 27415270.48,
+      "weighted_multi_unit_households": 8068476.67
+    },
+    "4": {
+      "agi_proxy_credit_usd": "5793282692.3430",
+      "households": 10746,
+      "lower_credit_usd": "4862205008.7450",
+      "nonfiler_units": 1160,
+      "resolved_filer_units": 14222,
+      "tax_units": 15396,
+      "unresolved_max_credit_usd": "2359148257.6550",
+      "unresolved_units": 1174,
+      "upper_credit_usd": "8152430949.9980",
+      "weighted_households": 27409875.66,
+      "weighted_multi_unit_households": 8776681.26
+    },
+    "5": {
+      "agi_proxy_credit_usd": "2953746738.3910",
+      "households": 10846,
+      "lower_credit_usd": "2479774789.0800",
+      "nonfiler_units": 849,
+      "resolved_filer_units": 14613,
+      "tax_units": 15477,
+      "unresolved_max_credit_usd": "1723268706.8900",
+      "unresolved_units": 864,
+      "upper_credit_usd": "4677015445.2810",
+      "weighted_households": 27415457.53,
+      "weighted_multi_unit_households": 8094636.97
+    }
+  },
+  "classification": "CONDITIONAL_2025_CREDIT_EXPOSURE_NOT_POLICY_SCORE",
+  "filer_magi_minus_model_agi_range_usd": [
+    0,
+    5000
+  ],
+  "guidelines_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-17/html/2025-01377.htm",
+  "source_sha256": "fe819d0d2fc4470c282e76c247b8aa8b6054811619730307e9f2fe6186707d93",
+  "source_url": "https://www2.census.gov/programs-surveys/cps/datasets/2026/march/asecpub26csv.zip",
+  "total": {
+    "agi_proxy_credit_usd": "53043230637.1220",
+    "households": 53321,
+    "lower_credit_usd": "47508971423.7000",
+    "nonfiler_units": 15101,
+    "resolved_filer_units": 57701,
+    "tax_units": 72955,
+    "unresolved_max_credit_usd": "31433887950.2850",
+    "unresolved_units": 15254,
+    "upper_credit_usd": "84477118587.4070",
+    "weighted_households": 137056386.24,
+    "weighted_multi_unit_households": 38425949.38
+  }
+}
