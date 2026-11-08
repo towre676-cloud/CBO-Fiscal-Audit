@@ -18,6 +18,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+      - name: Install preserved public-scoring test parser dependency
+        run: python -m pip install beautifulsoup4==4.14.3
       - name: Verify immutable v1.1 source archive
         working-directory: fiscalrazor
         run: python scripts/verify_manifest_v11.py
