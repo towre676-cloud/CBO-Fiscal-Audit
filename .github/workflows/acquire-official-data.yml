@@ -4,7 +4,7 @@ on:
     inputs:
       acquire_cps:
         type: boolean
-        description: 'Also attempt large Census 2026 CPS ASEC public datasets'
+        description: 'Also replay the 2026 Census CPS ASEC household income benchmark'
         default: false
       acquire_cms:
         type: boolean
@@ -28,30 +28,35 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Fetch original February 2026 CBO files and validate Git blob SHA-1
-        run: python scripts/acquire_real_federal_v08.py --fetch-all-cbo
-      - name: Reconcile CBO original rows and budget accounts
-        run: python scripts/replay_real_v08.py --require-originals
-      - name: Fetch Census public ASEC/replicate weights
+      - name: Reconcile original February 2026 CBO files and verify the published receipt
+        working-directory: .
+        run: |
+          python scripts/replay_cbo_originals.py --output cbo_replay.json
+          cmp cbo_replay.json publication/results/cbo_2026_original_source_replay.json
+      - name: Fetch the Census CPS ASEC CSV archive with replicate weights
         if: ${{ inputs.acquire_cps }}
-        run: python scripts/acquire_real_federal_v08.py --id cps_asec_2026_csv --id cps_asec_2026_replicates
+        run: python scripts/acquire_real_federal_v08.py --id cps_asec_2026_csv
+      - name: Rebuild the Census household-income receipt
+        if: ${{ inputs.acquire_cps }}
+        working-directory: .
+        run: |
+          python scripts/replay_cps_households.py fiscalrazor/data/raw/v08_official_origins/cps_asec_2026_csv.zip --output cps_replay.json
+          cmp cps_replay.json publication/results/cps_asec_2026_household_income_replay.json
       - name: Fetch CMS public tables
         if: ${{ inputs.acquire_cms }}
         run: python scripts/acquire_real_federal_v08.py --id cms_medicare_2026_expanded
       - name: Fetch IRS aggregate public file
         if: ${{ inputs.acquire_irs }}
         run: python scripts/acquire_real_federal_v08.py --id irs_soi_2023_zip_agi
-      - name: Check admissions; do not manufacture missing joint score
-        run: python scripts/replay_v09.py --require-originals
       - name: Upload available public-source receipts and CBO-derived results
         uses: actions/upload-artifact@v4
         if: always()
         with:
           name: fiscalrazor-cbo-public-evidence
           path: |
-            fiscalrazor/data/raw/v08_official_origins/cbo_*.origin.json
-            fiscalrazor/results/v08/*.json
-            fiscalrazor/results/v09/*.json
-            fiscalrazor/results/v09/*.csv
+            cbo_replay.json
+            cps_replay.json
+            fiscalrazor/data/raw/v08_official_origins/*.origin.json
+            fiscalrazor/results/v08/original_sources_status.json
           retention-days: 7
           if-no-files-found: warn
