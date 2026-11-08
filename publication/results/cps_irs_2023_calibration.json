@@ -1,0 +1,79 @@
+{
+  "by_positive_agi_stub": {
+    "1": {
+      "cps_household_weighted_agi_usd": 399421403213.16,
+      "cps_household_weighted_returns": 32622212.18,
+      "cps_person_weighted_agi_usd": 424807068255.34,
+      "cps_person_weighted_returns": 34751391.98,
+      "irs_agi_usd": 512514757000,
+      "irs_returns": 40392770
+    },
+    "2": {
+      "cps_household_weighted_agi_usd": 1189637394049.03,
+      "cps_household_weighted_returns": 32817223.58,
+      "cps_person_weighted_agi_usd": 1254412395379.55,
+      "cps_person_weighted_returns": 34660896.35,
+      "irs_agi_usd": 1327914439000,
+      "irs_returns": 35877820
+    },
+    "3": {
+      "cps_household_weighted_agi_usd": 1477607301570.2,
+      "cps_household_weighted_returns": 24315997.45,
+      "cps_person_weighted_agi_usd": 1519115585603.17,
+      "cps_person_weighted_returns": 25024002.62,
+      "irs_agi_usd": 1483592897000,
+      "irs_returns": 24105050
+    },
+    "4": {
+      "cps_household_weighted_agi_usd": 1351902881166.55,
+      "cps_household_weighted_returns": 15730799.85,
+      "cps_person_weighted_agi_usd": 1368574717184.38,
+      "cps_person_weighted_returns": 15935357.69,
+      "irs_agi_usd": 1354426376000,
+      "irs_returns": 15646000
+    },
+    "5": {
+      "cps_household_weighted_agi_usd": 4183576922146.69,
+      "cps_household_weighted_returns": 30250329.85,
+      "cps_person_weighted_agi_usd": 4209293825348.04,
+      "cps_person_weighted_returns": 30455542.71,
+      "irs_agi_usd": 3813350329000,
+      "irs_returns": 27489510
+    },
+    "6": {
+      "cps_household_weighted_agi_usd": 5586322964670.87,
+      "cps_household_weighted_returns": 15839491.27,
+      "cps_person_weighted_agi_usd": 5602499443281.41,
+      "cps_person_weighted_returns": 15875398.99,
+      "irs_agi_usd": 6681305473000,
+      "irs_returns": 13370480
+    }
+  },
+  "classification": "UNREWEIGHTED_SAME_YEAR_CPS_IRS_MARGINS",
+  "cps_archive_sha256": "cdb39cdac34bef99dd0940ab28e306f692404c2eea44d85dfd634214872a0a09",
+  "cps_filing_diagnostics": {
+    "dependent_nonpositive_returns": 46,
+    "dependent_positive_agi_sample_returns": 3465,
+    "dependent_zero_agi_person_weight": 6514984,
+    "joint_with_different_person_weights": 0,
+    "principal_nonpositive_returns": 607,
+    "principal_positive_agi_sample_returns": 61591,
+    "principal_zero_agi_person_weight": 79524243,
+    "unresolved_or_nonfiler_units": 15154
+  },
+  "cps_households": 56192,
+  "cps_modeled_tax_units": 77352,
+  "cps_source": "https://www2.census.gov/programs-surveys/cps/datasets/2024/march/asecpub24csv.zip",
+  "income_year": 2023,
+  "irs_csv_sha256": "e312d7b865f0761527697611a35bfff036c20b27e173bd4253821f99b24ad8d7",
+  "irs_source": "https://www.irs.gov/pub/irs-soi/23zpallagi.csv",
+  "state_by_stub_cells": 306,
+  "total": {
+    "cps_household_weighted_agi_usd": 14188468866816.5,
+    "cps_household_weighted_returns": 151576054.18,
+    "cps_person_weighted_agi_usd": 14378703035051.89,
+    "cps_person_weighted_returns": 156702590.34,
+    "irs_agi_usd": 15173104271000,
+    "irs_returns": 156881630
+  }
+}

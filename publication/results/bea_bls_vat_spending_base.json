@@ -1,0 +1,320 @@
+{
+  "bea_archive_sha256": "1e1c69badf0f5615f8da3ef4b7ac8d7f250f5d74a6b0a7c5e09eefbca66c0c1c",
+  "bea_buckets": {
+    "exempt": [
+      "DTMHRC",
+      "DOWNRC",
+      "DPHYRC",
+      "DDENRC",
+      "DHHCRC",
+      "DMLBRC",
+      "DIMCRC"
+    ],
+    "geography_adjustments": [
+      "DNFRRC",
+      "DFORRC"
+    ],
+    "taxable": [
+      "DAOPRC",
+      "DGARRC",
+      "DSHURC",
+      "DNRDRC",
+      "DAPPRC",
+      "DOPCRC",
+      "DGASRC"
+    ],
+    "zero_rated": [
+      "DRXDRC",
+      "DFAVRC",
+      "DGGSRC",
+      "DMILRC"
+    ]
+  },
+  "bea_calendar_year": {
+    "2023": {
+      "classification_only_base_million": [
+        1551200,
+        14471813
+      ],
+      "exempt_million": 3585282,
+      "geography_adjustments_million": 32632,
+      "line_values_million": {
+        "DAOPRC": 221749,
+        "DAPPRC": 86308,
+        "DDENRC": 172854,
+        "DFAVRC": 125255,
+        "DFORRC": 20096,
+        "DGARRC": 396062,
+        "DGASRC": 423549,
+        "DGDSRC": 6119579,
+        "DGGSRC": 16549,
+        "DHHCRC": 161605,
+        "DIMCRC": 232908,
+        "DMILRC": 30191,
+        "DMLBRC": 48500,
+        "DNFRRC": 12536,
+        "DNRDRC": 114891,
+        "DOPCRC": 194996,
+        "DOWNRC": 2221430,
+        "DPCERC": 18772629,
+        "DPHYRC": 734841,
+        "DRXDRC": 510907,
+        "DSERRC": 12653050,
+        "DSHURC": 113645,
+        "DTENRC": 688906,
+        "DTMHRC": 13144
+      },
+      "pce_before_net_geography_adjustments_million": 18739997,
+      "pce_million": 18772629,
+      "static_5pct_product_million": [
+        "77560.00",
+        "723590.65"
+      ],
+      "taxable_million": 1551200,
+      "unclassified_million": 12920613,
+      "zero_rated_million": 682902
+    },
+    "2024": {
+      "classification_only_base_million": [
+        1568035,
+        15211315
+      ],
+      "exempt_million": 3848552,
+      "geography_adjustments_million": 36971,
+      "line_values_million": {
+        "DAOPRC": 228554,
+        "DAPPRC": 87978,
+        "DDENRC": 185735,
+        "DFAVRC": 128809,
+        "DFORRC": 23741,
+        "DGARRC": 410520,
+        "DGASRC": 402115,
+        "DGDSRC": 6263410,
+        "DGGSRC": 16951,
+        "DHHCRC": 184378,
+        "DIMCRC": 236835,
+        "DMILRC": 30926,
+        "DMLBRC": 51092,
+        "DNFRRC": 13230,
+        "DNRDRC": 119926,
+        "DOPCRC": 203281,
+        "DOWNRC": 2383327,
+        "DPCERC": 19822499,
+        "DPHYRC": 793281,
+        "DRXDRC": 548975,
+        "DSERRC": 13559089,
+        "DSHURC": 115661,
+        "DTENRC": 734384,
+        "DTMHRC": 13904
+      },
+      "pce_before_net_geography_adjustments_million": 19785528,
+      "pce_million": 19822499,
+      "static_5pct_product_million": [
+        "78401.75",
+        "760565.75"
+      ],
+      "taxable_million": 1568035,
+      "unclassified_million": 13643280,
+      "zero_rated_million": 725661
+    },
+    "2025": {
+      "classification_only_base_million": [
+        1593694,
+        15944187
+      ],
+      "exempt_million": 4096865,
+      "geography_adjustments_million": 53128,
+      "line_values_million": {
+        "DAOPRC": 232922,
+        "DAPPRC": 89344,
+        "DDENRC": 198248,
+        "DFAVRC": 133044,
+        "DFORRC": 39742,
+        "DGARRC": 435490,
+        "DGASRC": 376653,
+        "DGDSRC": 6489219,
+        "DGGSRC": 17493,
+        "DHHCRC": 213139,
+        "DIMCRC": 255975,
+        "DMILRC": 31914,
+        "DMLBRC": 53611,
+        "DNFRRC": 13386,
+        "DNRDRC": 126040,
+        "DOPCRC": 212512,
+        "DOWNRC": 2521870,
+        "DPCERC": 20870150,
+        "DPHYRC": 839233,
+        "DRXDRC": 593519,
+        "DSERRC": 14380931,
+        "DSHURC": 120733,
+        "DTENRC": 771628,
+        "DTMHRC": 14789
+      },
+      "pce_before_net_geography_adjustments_million": 20817022,
+      "pce_million": 20870150,
+      "static_5pct_product_million": [
+        "79684.70",
+        "797209.35"
+      ],
+      "taxable_million": 1593694,
+      "unclassified_million": 14350493,
+      "zero_rated_million": 775970
+    }
+  },
+  "bea_series": {
+    "DAOPRC": {
+      "label": "Alcoholic beverages purchased for off-premises consumption (5)",
+      "line": 99
+    },
+    "DAPPRC": {
+      "label": "Household appliances (part of 33)",
+      "line": 29
+    },
+    "DDENRC": {
+      "label": "Dental services (45)",
+      "line": 175
+    },
+    "DFAVRC": {
+      "label": "Fresh fruits and vegetables",
+      "line": 90
+    },
+    "DFORRC": {
+      "label": "Net foreign travel",
+      "line": 333
+    },
+    "DGARRC": {
+      "label": "Garments",
+      "line": 105
+    },
+    "DGASRC": {
+      "label": "Gasoline and other motor fuel",
+      "line": 115
+    },
+    "DGDSRC": {
+      "label": "Goods",
+      "line": 2
+    },
+    "DGGSRC": {
+      "label": "Eggs",
+      "line": 88
+    },
+    "DHHCRC": {
+      "label": "Home health care",
+      "line": 177
+    },
+    "DIMCRC": {
+      "label": "Commercial banks",
+      "line": 255
+    },
+    "DMILRC": {
+      "label": "Fresh milk",
+      "line": 86
+    },
+    "DMLBRC": {
+      "label": "Medical laboratories",
+      "line": 178
+    },
+    "DNFRRC": {
+      "label": "Net expenditures abroad by U.S. residents (131)",
+      "line": 145
+    },
+    "DNRDRC": {
+      "label": "Nonprescription drugs",
+      "line": 124
+    },
+    "DOPCRC": {
+      "label": "Personal care products (part of 118)",
+      "line": 137
+    },
+    "DOWNRC": {
+      "label": "Imputed rental of owner-occupied nonfarm housing (21)",
+      "line": 160
+    },
+    "DPCERC": {
+      "label": "Personal consumption expenditures",
+      "line": 1
+    },
+    "DPHYRC": {
+      "label": "Physician services (44)",
+      "line": 174
+    },
+    "DRXDRC": {
+      "label": "Prescription drugs",
+      "line": 123
+    },
+    "DSERRC": {
+      "label": "Services",
+      "line": 150
+    },
+    "DSHURC": {
+      "label": "Shoes and other footwear",
+      "line": 112
+    },
+    "DTENRC": {
+      "label": "Rental of tenant-occupied nonfarm housing (20)",
+      "line": 154
+    },
+    "DTMHRC": {
+      "label": "Tenant-occupied mobile homes",
+      "line": 155
+    }
+  },
+  "bea_source": "https://apps.bea.gov/national/Release/TXT/FlatFiles.ZIP",
+  "bls_archives_sha256": {
+    "diary25.zip": "6140fe25bdfa85b7f341afad40e75a0c23ca552c6cecc0b2438837003455a89c",
+    "intrvw25.zip": "d68d09c237cd14a1c6992f902f972662b40d283e63877e90932a17f5674c2038",
+    "stubs.zip": "4e872e7be2ce0923dfa3e7b82f81d28e21d166946a6b390f0b8ee25a42dcc833"
+  },
+  "bls_category_comparisons_2025": {
+    "540000": {
+      "bea_conceptual_series": [
+        "DRXDRC"
+      ],
+      "bea_million": 593519,
+      "bls_annual_usd_per_consumer_unit": 373.6
+    },
+    "550210": {
+      "bea_conceptual_series": [
+        "DNRDRC"
+      ],
+      "bea_million": 126040,
+      "bls_annual_usd_per_consumer_unit": 129.04
+    },
+    "560110": {
+      "bea_conceptual_series": [
+        "DPHYRC"
+      ],
+      "bea_million": 839233,
+      "bls_annual_usd_per_consumer_unit": 198.25
+    },
+    "560210": {
+      "bea_conceptual_series": [
+        "DDENRC"
+      ],
+      "bea_million": 198248,
+      "bls_annual_usd_per_consumer_unit": 455.31
+    },
+    "ALCBEVG": {
+      "bea_conceptual_series": [
+        "DAOPRC"
+      ],
+      "bea_million": 232922,
+      "bls_annual_usd_per_consumer_unit": 632.49
+    },
+    "GASFUEL": {
+      "bea_conceptual_series": [
+        "DGASRC"
+      ],
+      "bea_million": 376653,
+      "bls_annual_usd_per_consumer_unit": 2503.72
+    },
+    "RNTDWELL": {
+      "bea_conceptual_series": [
+        "DTENRC"
+      ],
+      "bea_million": 771628,
+      "bls_annual_usd_per_consumer_unit": 6235.59
+    }
+  },
+  "classification": "PARTIAL_PRODUCT_MAPPING_NO_INVOICE_REVENUE_OR_HOUSEHOLD_INCIDENCE"
+}
