@@ -1,5 +1,7 @@
 # How to reproduce the public FiscalRazor repository
 
+The original public-scoring test module imports `beautifulsoup4` for its SSA HTML parser; install it with `python -m pip install beautifulsoup4==4.14.3` before running that suite on a fresh environment. The root GitHub CI installs this optional test dependency.
+
 **This procedure is divided into two gates:** (A) reproduce the **included public source excerpts and independent formulas**, which needs no network or user data; (B) acquire and verify **complete original datasets**, which requires internet access and has **not** been executed to completion in this publication environment. Do not report gate B as complete because gate A passed.
 
 ## A. Included-data and software replay (Python 3.11+)
