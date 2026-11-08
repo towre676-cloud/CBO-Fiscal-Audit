@@ -23,7 +23,7 @@ INTERVIEW_PERIODS = ("251x", "252", "253", "254", "261")
 DIARY_PERIODS = ("251", "252", "253", "254")
 
 
-def hierarchy(archive):
+def hierarchy(archive, categories=TABLE_1):
     active = {}
     mapping = {}
     for line in archive.read("stubs/CE-HG-Integ-2025.txt").decode("cp1252").splitlines():
@@ -33,14 +33,14 @@ def hierarchy(archive):
         code = line[69:77].strip()
         survey = line[79]
         active = {rank: group for rank, group in active.items() if rank < level}
-        if code in TABLE_1:
+        if code in categories:
             active[level] = code
         if active and survey in ("I", "D"):
             key = survey, code
             if key in mapping:
                 raise ValueError("Duplicate UCC in selected expenditure hierarchy")
             mapping[key] = tuple(active.values())
-    if {group for values in mapping.values() for group in values} != TABLE_1.keys():
+    if {group for values in mapping.values() for group in values} != categories.keys():
         raise ValueError("Incomplete BLS expenditure hierarchy")
     return mapping
 
@@ -53,11 +53,11 @@ def scope(period, month):
     return {8: 3.5, 9: 5.5, 12: 5.5}.get(month, 3)
 
 
-def survey_estimates(archive, survey, mapping, adjusted):
+def survey_estimates(archive, survey, mapping, adjusted, categories=TABLE_1):
     interview = survey == "I"
     prefix = "intrvw25" if interview else "diary25"
     periods = INTERVIEW_PERIODS if interview else DIARY_PERIODS
-    estimates = {code: [0.0] * len(WEIGHTS) for code in TABLE_1}
+    estimates = {code: [0.0] * len(WEIGHTS) for code in categories}
     population = [0.0] * len(WEIGHTS)
     count = 0
     for period in periods:

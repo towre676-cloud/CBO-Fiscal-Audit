@@ -52,6 +52,14 @@ python scripts/replay_irs_zip_margins.py /path/to/23zpallagi.csv
 
 Each command accepts `--output` for an aggregate JSON receipt. Compare against the tracked receipts under `publication/results/`.
 
+The [provision calibration](CALIBRATION_AND_PROVISION_REPLAY.md) adds three further replays. Use the linked BEA flat-file archive, 2024 CPS ZIP and IRS 2023 geographic CSV. For the provision replay, save SSA VI.G1 as `payroll_ssa.html`, the SSA B1.2 page as `ssa_b12.html` and the CMS archive as `cms.zip` in a source directory. The CBO source directory must have the layout described above.
+
+```bash
+python scripts/replay_same_year_tax_units.py /path/to/cps24.zip /path/to/23zpallagi.csv --state-output state_margins.csv
+python scripts/replay_vat_spending_base.py /path/to/FlatFiles.ZIP /path/to/ce-sources
+python scripts/replay_provision_mechanics.py /path/to/trustee-sources /path/to/cbo-sources
+```
+
 ## C. Freshness, versioning, and uncertainty
 
 The benchmark here is **CBO February 11, 2026**. Later law, tariffs, actual receipts, administrative rules and economic projections can change the current-law baseline. A fresh November baseline must be a separate version and **not silently combined** with February model rows. SSA and Medicare Trustees operate on *calendar-year* bases with specialized actuarial denominators, so a joint model must explicitly fiscalize its cash effects.

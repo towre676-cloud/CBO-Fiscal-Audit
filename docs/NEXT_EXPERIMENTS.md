@@ -36,4 +36,4 @@ Submit a fixed, counsel-reviewed legislative specification for official-scoring 
 
 ## Immediate experiments
 
-The [scoring frontier](SCORING_FRONTIER_REPLAY.md) records the §101 tax-unit replay, BLS spending validation, and separate OASI/DI/HI baselines. For §101, the next admissions are a defensible definition of MAGI and qualifying persons for nonfilers and a legally mapped BEA/BLS consumption base. Track the uncertainty of both inputs before modeling joint distributional effects.
+The [scoring frontier](SCORING_FRONTIER_REPLAY.md) records the §101 tax-unit replay, BLS spending validation, and separate OASI/DI/HI baselines. For §101, the next admissions are a defensible definition of MAGI and qualifying persons for nonfilers and a legally mapped BEA/BLS consumption base. The [next calibration pass](CALIBRATION_AND_PROVISION_REPLAY.md) executes a same-year Census–IRS comparison, classifies part of the BEA base, replays selected BLS items, and advances §§107, 108, 111 and 112. It documents the remaining gate for every provision.

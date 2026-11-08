@@ -21,6 +21,9 @@
 | MECH-02 | §101 credit exposure on 2025 tax-unit proxies | [CPS ASEC and HHS replay](SCORING_FRONTIER_REPLAY.md) | Conditional MAGI and nonfiler scenarios | **CONDITIONAL_MICROSIMULATION** |
 | TRUST-01 | Separate 2026 OASI, DI and HI ledgers | [SSA and CMS replay](SCORING_FRONTIER_REPLAY.md) | Published annual identities and series through 2100 | **TRUSTEE_BASELINES_REPLAYED** |
 | IRS-01 | 2023 geographic return and AGI margins | [IRS SOI replay](SCORING_FRONTIER_REPLAY.md) | State subtotals and disclosure buckets reconciled separately | **GEOGRAPHIC_BASELINE_REPLAYED** |
+| CAL-01 | 2023 modeled returns against IRS state subtotals | [Same-year calibration](CALIBRATION_AND_PROVISION_REPLAY.md) | 306 cells, residuals by income band | **UNREWEIGHTED_CALIBRATION_CHECK** |
+| CAL-02 | §101 partial product and CE mapping | [BEA/BLS replay](CALIBRATION_AND_PROVISION_REPLAY.md) | Classified and mixed product spending, seven CE comparisons | **PARTIAL_PRODUCT_CLASSIFICATION** |
+| CAL-03 | §§107, 108, 111, 112 source mechanics | [Provision replays](CALIBRATION_AND_PROVISION_REPLAY.md) | Isolated arithmetic and an SSA standalone comparator | **PROVISION_REPLAYED_WITH_LIMITATIONS** |
 | SCORE-01 | 2027–2036 combined fiscal effect of the 12 provisions | Requires verified policy-level inputs, linked survey and tax units, appropriate feedback | **Not measured** | **NOT_ESTABLISHED** |
 | SCORE-02 | OASI/DI and HI 75-year solvency *after the bill* | Requires joint SSA/CMS actuarial evaluation | **Not measured** | **NOT_ESTABLISHED** |
 | SCORE-03 | Household burden by decile, age, geography and health status | Requires genuinely calibrated CPS/CE/IRS/MCBS and tested imputations | **Not measured** | **NOT_ESTABLISHED** |
