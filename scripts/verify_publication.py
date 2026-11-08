@@ -26,7 +26,7 @@ if __name__=='__main__':
     for f in ROOT.rglob('*'):
         if not f.is_file():continue
         rel=f.relative_to(ROOT)
-        if '__pycache__' in rel.parts or f.suffix.lower() in {'.pyc','.pyo'}: continue
+        if '__pycache__' in rel.parts or '.git' in rel.parts or f.suffix.lower() in {'.pyc','.pyo'}: continue
         if any(x in rel.parts for x in ['.git','.venv','raw']):unsafe.append(str(rel))
         if f.suffix.lower() in {'.pem','.key','.p12'}:unsafe.append(str(rel))
     if unsafe:sys.exit('Unsafe paths in publishable tree: '+repr(unsafe[:8]))
