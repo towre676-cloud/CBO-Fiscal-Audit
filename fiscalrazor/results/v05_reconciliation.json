@@ -1,0 +1,49 @@
+{
+  "status": "PASS_TESTED_SCOPES_NOT_OFFICIAL_POLICY_SCORE",
+  "suites": [
+    {
+      "suite": "FiscalRazor_v0.4 + v0.5 cross checks",
+      "tests": 108,
+      "expected": 108,
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "suite": "Public scoring expansion separately preserved",
+      "tests": 53,
+      "expected": 53,
+      "passed": true,
+      "detail": "OK"
+    }
+  ],
+  "executed_test_cases": 161,
+  "cross_comparison": {
+    "compatible_field_comparisons": {
+      "CBO_7_indicators_X_11_fy": 77,
+      "CBO_direct_GDP_11_fy": 11,
+      "SSA_3_options_X_11_cy": 33,
+      "CMS_HI_5_numeric_fields_X_11_cy": 55
+    },
+    "total_compared": 176,
+    "source_registry": {
+      "our_entries": 51,
+      "other_entries": 56,
+      "distinct_normalized_endpoint_paths": 93,
+      "note": "Multiple endpoints may represent one scientific source; not a count of distinct datasets or validated bytes."
+    },
+    "2036_fiscal_target": {
+      "FY2036_gap_bn": "1714.022728075",
+      "FY2036_3pct_target_deficit_bn": "1401.364271925",
+      "status": "static_baseline_target_NOT_LEGISLATIVE_SCORE"
+    },
+    "external_original_archive_bytes_acquired": false,
+    "joint_fiscal_score": "UNSCORED",
+    "household_distribution": "NOT_ESTABLISHED",
+    "official_CBO_JCT_SSA_CMS_combined_score": "NOT_ESTABLISHED"
+  },
+  "notes": [
+    "Some test cases overlap conceptually; counts are executed cases, not distinct independent validations.",
+    "Source-byte validation remains blocked pending original government archives.",
+    "All policy savings, household distribution and combined agency scoring remain UNSCORED."
+  ]
+}

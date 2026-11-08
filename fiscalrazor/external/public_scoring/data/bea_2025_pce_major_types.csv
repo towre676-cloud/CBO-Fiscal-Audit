@@ -1,0 +1,19 @@
+category_id,parent_id,category,nominal_billion,calendar_year,source_table,source_url
+PCE,,Personal consumption expenditures,20870.15,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+GOODS,PCE,Goods,6489.219,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+DURABLE,GOODS,Durable goods,2263.762,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+NONDURABLE,GOODS,Nondurable goods,4225.457,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+FOOD,NONDURABLE,Food and beverages purchased off premises,1524.002,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+CLOTHING,NONDURABLE,Clothing and footwear,559.768,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+GASOLINE,NONDURABLE,Gasoline and other energy goods,418.814,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+OTHER_NONDURABLE,NONDURABLE,Other nondurable goods,1722.873,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+SERVICES,PCE,Services,14380.931,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+HOUSEHOLD_SERVICES,SERVICES,Household consumption services,13770.309,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+HOUSING,HOUSEHOLD_SERVICES,Housing and utilities,3813.968,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+HEALTH,HOUSEHOLD_SERVICES,Health care,3569.081,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+TRANSPORT,HOUSEHOLD_SERVICES,Transportation services,703.254,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+RECREATION,HOUSEHOLD_SERVICES,Recreation services,804.681,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+FOOD_SERVICES,HOUSEHOLD_SERVICES,Food services and accommodation,1495.998,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+FINANCIAL,HOUSEHOLD_SERVICES,Financial services and insurance,1649.282,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+OTHER_SERVICES,HOUSEHOLD_SERVICES,Other services,1734.046,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53
+NPISH,SERVICES,Net nonprofit institutions serving households,610.622,2025,BEA NIPA 2.3.5 via Federal Reserve FRED,https://fred.stlouisfed.org/release/tables?eid=43861&rid=53

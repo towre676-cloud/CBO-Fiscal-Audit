@@ -1,0 +1,20 @@
+{
+  "project": "FiscalRazor v0.6.0",
+  "legal_specification": "12 fully parameterized research provisions; not enactable legal bill without counsel review",
+  "baseline_source": "CBO February 2026 machine-readable excerpts retained from v0.5; no original complete CBO file locally",
+  "legislative_policy_current_law_score": "UNSCORED_FAIL_CLOSED",
+  "official_government_scoring_status": "NOT_OBTAINED",
+  "real_national_household_incidence": "NOT_COMPUTED_NO_MICRODATA",
+  "real_medicare_reform_outlay_effect": "NOT_COMPUTED_NO_CLAIMS_AND_REBASING",
+  "real_SSA_75_year_joint_solvency": "NOT_COMPUTED_NO_JOINT_COHORT_MODEL",
+  "fiscal_target_FY2036_bn": "1714.022728075",
+  "frozen_one_year_flat_debt_GDP_FY2036_required_bn": "1042.80050811994141241507144",
+  "independent_frontier": {
+    "status": "NOT_DETERMINABLE",
+    "reason": "all 12 estimated policy bounds, 9 interaction bounds and net interest bound required",
+    "policy_count": 0,
+    "interaction_count": 0
+  },
+  "test_fixtures": "SYNTHETIC_ONLY",
+  "policy_status": "UNSCORED"
+}

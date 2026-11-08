@@ -1,0 +1,98 @@
+[
+  {
+    "id": "vat_5_percent_with_rebates",
+    "score_lead": "JCT/CBO",
+    "description": "VAT at 5%, household rebates as separate refundable credit",
+    "missing_legislative_parameters": "taxable PCE base, exemptions, border treatment, compliance, pricing, rebate design and credit fiscalization",
+    "status": "UNSCORED",
+    "official_score_available": false
+  },
+  {
+    "id": "high_income_surtax",
+    "score_lead": "JCT",
+    "description": "high-earner surtax",
+    "missing_legislative_parameters": "filing thresholds, brackets, joint treatment, base, indexing, pass-through interactions",
+    "status": "UNSCORED",
+    "official_score_available": false
+  },
+  {
+    "id": "itemized_deduction_limits",
+    "score_lead": "JCT",
+    "description": "deduction reforms",
+    "missing_legislative_parameters": "caps/phaseouts, SALT and new 2025 law, taxpayer optimization",
+    "status": "UNSCORED",
+    "official_score_available": false
+  },
+  {
+    "id": "employer_health_exclusion_cap",
+    "score_lead": "JCT/CBO",
+    "description": "employer premium exclusion reform",
+    "missing_legislative_parameters": "cap amount and indexing, employer wage pass-through, coverage changes",
+    "status": "UNSCORED",
+    "official_score_available": false
+  },
+  {
+    "id": "corporate_tax_rate",
+    "score_lead": "JCT",
+    "description": "higher corporate rate",
+    "missing_legislative_parameters": "rate, effective date, CAMT/BEAT/credit interactions and transition",
+    "status": "UNSCORED",
+    "official_score_available": false
+  },
+  {
+    "id": "oasdi_high_earnings_250k",
+    "score_lead": "SSA/JCT",
+    "description": "12.4% OASDI above $250k",
+    "missing_legislative_parameters": "threshold indexing, 2027 effective, no benefit credits and donut-hole convergence",
+    "status": "UNSCORED",
+    "official_score_available": false
+  },
+  {
+    "id": "oasdi_base_rate_phaseup",
+    "score_lead": "SSA/JCT",
+    "description": "OASDI rate +1pp by 2031",
+    "missing_legislative_parameters": "exact annual steps, employer/employee split, wages and high-earner interaction",
+    "status": "UNSCORED",
+    "official_score_available": false
+  },
+  {
+    "id": "oasdi_progressive_price_index",
+    "score_lead": "SSA/CBO",
+    "description": "PIA price indexing",
+    "missing_legislative_parameters": "start cohort, percentile, benefit protections, COLA, survivor/disability effects",
+    "status": "UNSCORED",
+    "official_score_available": false
+  },
+  {
+    "id": "medicare_advantage",
+    "score_lead": "CMS/CBO",
+    "description": "MA risk coding, payment rebasing and benchmarks",
+    "missing_legislative_parameters": "payment formulas, plan response, quality bonuses, Part A/B allocation, premiums",
+    "status": "UNSCORED",
+    "official_score_available": false
+  },
+  {
+    "id": "medicare_site_neutral",
+    "score_lead": "CMS/CBO",
+    "description": "site-neutral Medicare physician/hospital rates",
+    "missing_legislative_parameters": "HCPCS scope, utilization, site migration, wage-index geography, premiums",
+    "status": "UNSCORED",
+    "official_score_available": false
+  },
+  {
+    "id": "defense_budget",
+    "score_lead": "CBO",
+    "description": "defense budget authority and outlay reductions",
+    "missing_legislative_parameters": "BA caps by account, spendout rates, service/force structure, FY funding changes",
+    "status": "UNSCORED",
+    "official_score_available": false
+  },
+  {
+    "id": "medicare_hi_financing",
+    "score_lead": "CMS/JCT/CBO",
+    "description": "Medicare HI financing fixes",
+    "missing_legislative_parameters": "HI payroll tax or transfers, revenue base, HI solvency vs budget deficit",
+    "status": "UNSCORED",
+    "official_score_available": false
+  }
+]

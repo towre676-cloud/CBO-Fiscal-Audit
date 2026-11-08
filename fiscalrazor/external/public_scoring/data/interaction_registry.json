@@ -1,0 +1,11 @@
+[
+  ["oasdi_high_earnings_250k","oasdi_base_rate_phaseup"],
+  ["oasdi_high_earnings_250k","oasdi_progressive_price_index"],
+  ["vat_5_percent_with_rebates","high_income_surtax"],
+  ["employer_health_exclusion_cap","high_income_surtax"],
+  ["corporate_tax_rate","high_income_surtax"],
+  ["corporate_tax_rate","itemized_deduction_limits"],
+  ["medicare_advantage","medicare_site_neutral"],
+  ["medicare_advantage","medicare_hi_financing"],
+  ["medicare_site_neutral","medicare_hi_financing"]
+]

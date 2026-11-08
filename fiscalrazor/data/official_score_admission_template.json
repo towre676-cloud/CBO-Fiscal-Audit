@@ -1,0 +1,14 @@
+{
+  "candidate_identifier": null,
+  "versioned_bill_text_sha256": null,
+  "legislative_text": {"status": "NOT_PRESENT", "source_url": null, "source_date": null},
+  "effective_dates": {"status": "NOT_PRESENT", "source_url": null, "source_date": null},
+  "current_law_cutoff": {"status": "NOT_PRESENT", "source_url": null, "source_date": null},
+  "official_cbo_combined_score": {"status": "NOT_ISSUED", "source_url": null, "source_date": null},
+  "official_jct_combined_score": {"status": "NOT_ISSUED", "source_url": null, "source_date": null},
+  "ssa_oasi_di_joint_actuarial_score": {"status": "NOT_ISSUED", "source_url": null, "source_date": null},
+  "cms_hi_joint_actuarial_score": {"status": "NOT_ISSUED", "source_url": null, "source_date": null},
+  "household_microdata_distribution": {"status": "NOT_COMPUTED", "source_url": null, "source_date": null},
+  "independent_reconciliation": {"status": "NOT_COMPUTED", "source_url": null, "source_date": null},
+  "official_combined_result": null
+}

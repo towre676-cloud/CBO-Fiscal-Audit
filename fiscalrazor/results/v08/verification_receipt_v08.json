@@ -1,0 +1,23 @@
+{
+  "FY2036_objectives": {
+    "baseline_deficit_bn": "3115.387",
+    "baseline_interest_bn": "2144.336",
+    "baseline_primary_deficit_bn": "971.051",
+    "baseline_public_debt_bn": "56152.391",
+    "classification": "STATIC_ACCOUNTING_REQUIREMENT_FIXED_OTHER_FINANCING_AND_GDP_NOT_PACKAGE_SCORE",
+    "fy": 2036,
+    "nominal_gdp_bn": "46712.1423975",
+    "one_year_debt_ratio_improvement_bn": "1042.8005081199414124150714446",
+    "three_percent_deficit_limit_bn": "1401.364271925",
+    "three_percent_gap_bn": "1714.022728075"
+  },
+  "all_pairwise_interactions_required_per_year": 66,
+  "as_of_utc": "2026-11-07T01:56:45.257004+00:00",
+  "evidence": "Official joint CBO/JCT/SSA/CMS score and nationally calibrated household reform incidence NOT_ESTABLISHED",
+  "provision_year_estimates_established": 0,
+  "raw_cbo_replay": "FULL_CBO_RAW_REPLAY_BLOCKED",
+  "status": "PUBLISHED_SOURCE_EXCERPT_MATH_ONLY_UNTIL_ORIGINAL_RAW_REPLAY",
+  "total_source_entries": 25,
+  "twelve_reform_provisions": 12,
+  "verified_original_sources": 0
+}

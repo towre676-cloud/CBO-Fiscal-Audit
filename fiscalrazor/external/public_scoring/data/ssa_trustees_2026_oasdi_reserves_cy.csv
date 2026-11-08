@@ -1,0 +1,10 @@
+calendar_year,noninterest_income_billion,interest_income_billion,total_income_billion,cost_billion,end_reserves_billion,projection,source_table,source_url,note
+2025,1380.4,68.9,1449.3,1609.5,2561.3,actual,VI.G2,https://www.ssa.gov/oact/TR/2026/lr6g2.html,combined OASDI reserve series ends before projected 2034 depletion
+2026,1426.2,67.0,1493.2,1696.8,2357.7,intermediate,VI.G2,https://www.ssa.gov/oact/TR/2026/lr6g2.html,combined OASDI reserve series ends before projected 2034 depletion
+2027,1479.9,63.4,1543.2,1798.7,2102.2,intermediate,VI.G2,https://www.ssa.gov/oact/TR/2026/lr6g2.html,combined OASDI reserve series ends before projected 2034 depletion
+2028,1569.6,57.9,1627.5,1894.4,1835.3,intermediate,VI.G2,https://www.ssa.gov/oact/TR/2026/lr6g2.html,combined OASDI reserve series ends before projected 2034 depletion
+2029,1651.4,51.8,1703.1,1990.0,1548.5,intermediate,VI.G2,https://www.ssa.gov/oact/TR/2026/lr6g2.html,combined OASDI reserve series ends before projected 2034 depletion
+2030,1733.2,45.1,1778.3,2086.5,1240.2,intermediate,VI.G2,https://www.ssa.gov/oact/TR/2026/lr6g2.html,combined OASDI reserve series ends before projected 2034 depletion
+2031,1817.7,37.9,1855.6,2183.8,912.0,intermediate,VI.G2,https://www.ssa.gov/oact/TR/2026/lr6g2.html,combined OASDI reserve series ends before projected 2034 depletion
+2032,1903.9,29.1,1933.0,2285.6,559.4,intermediate,VI.G2,https://www.ssa.gov/oact/TR/2026/lr6g2.html,combined OASDI reserve series ends before projected 2034 depletion
+2033,1995.3,16.9,2012.2,2388.7,182.9,intermediate,VI.G2,https://www.ssa.gov/oact/TR/2026/lr6g2.html,combined OASDI reserve series ends before projected 2034 depletion

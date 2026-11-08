@@ -1,0 +1,20 @@
+{
+  "document_status":"OFFICIAL_CBO_2024_SINGLE_POLICY_OPTION_ESTIMATES__NOT_THE_12_PROVISION_LAW__NOT_ADDITIVE",
+  "published":"2024-12-12",
+  "fiscal_year":2034,
+  "units":"billions of nominal US dollars, reduction in federal deficit vs option report baseline unless noted",
+  "rows":[
+    {"section":101,"policy_id":"vat_5_percent_with_rebates","comparator":"5 percent narrow-base VAT, effective 2026, no identical refundable credit","deficit_improvement_bn":"290.0","source":"https://www.cbo.gov/budget-options/60961","status":"ANALOGUE_ONLY_DIFFERENT_VAT_BASE_AND_CREDIT"},
+    {"section":102,"policy_id":"high_income_surtax","comparator":"2 percent AGI surtax above 100k single/200k joint, much lower threshold","deficit_improvement_bn":"133.9","source":"https://www.cbo.gov/budget-options/60938","status":"ANALOGUE_ONLY_DIFFERENT_THRESHOLD"},
+    {"section":103,"policy_id":"itemized_deduction_limits","comparator":"15 percent itemized-deduction tax-benefit cap, broad coverage; not 28 percent high-income cap","deficit_improvement_bn":"249.5","source":"https://www.cbo.gov/budget-options/60939","status":"ANALOGUE_ONLY_DIFFERENT_BENEFIT_CAP_AND_TAX_LAW"},
+    {"section":104,"policy_id":"employer_health_exclusion_cap","comparator":"75th-percentile employer health exclusion cap, including health accounts; different indexed thresholds","deficit_improvement_bn":"100.0","source":"https://www.cbo.gov/budget-options/60953","status":"ANALOGUE_ONLY_SIMILAR_PREMIUM_LIMITS_BUT_DIFFERENT_BASE"},
+    {"section":105,"policy_id":"corporate_tax_rate","comparator":"21 to 22 percent statutory corporate income tax, effective 2025","deficit_improvement_bn":"15.7","source":"https://www.cbo.gov/budget-options/60956","status":"CLOSE_POLICY_ANALOGUE_DIFFERENT_VINTAGE_AND_EFFECTIVE_DATE"},
+    {"section":106,"policy_id":"oasdi_high_earnings_250k","comparator":"12.4 percent above a fixed nominal 250k, effective 2025; proposed law indexes the threshold and starts 2028","deficit_improvement_bn":"192.0","source":"https://www.cbo.gov/budget-options/60955","status":"ANALOGUE_ONLY_FIXED_THRESHOLD_VS_INDEXED"},
+    {"section":107,"policy_id":"oasdi_base_rate_phaseup","comparator":"new 1 percent payroll tax on all earnings, employee-only general receipts, effective 2025; proposed law uses OASDI capped plus high band","deficit_improvement_bn":"155.0","source":"https://www.cbo.gov/budget-options/60954","status":"ANALOGUE_ONLY_DIFFERENT_BASE_AND_FUND"},
+    {"section":108,"policy_id":"oasdi_progressive_price_index","comparator":null,"deficit_improvement_bn":null,"source":"https://www.ssa.gov/oact/solvency/provisions/tables/table_run153.html","status":"NO_MATCHED_2034_FY_BUDGET_OPTION"},
+    {"section":109,"policy_id":"medicare_advantage","comparator":"10 percent reduction in all Medicare Advantage county benchmarks effective 2027, not 105 percent of FFS cap plus coding adjustment","deficit_improvement_bn":"85.0","source":"https://www.cbo.gov/budget-options/60900","status":"ANALOGUE_ONLY_DIFFERENT_MA_FORMULA"},
+    {"section":110,"policy_id":"medicare_site_neutral","comparator":"site-neutral payments for most HOPD services on and off campus, more services than the proposed visit-code-only rule","deficit_improvement_bn":"26.4","source":"https://www.cbo.gov/budget-options/60908","status":"ANALOGUE_ONLY_BROADER_SERVICE_BUNDLE"},
+    {"section":111,"policy_id":"defense_budget","comparator":null,"deficit_improvement_bn":null,"source":"https://www.cbo.gov/budget-options/60920","status":"NO_MATCHED_5_PERCENT_BA_CAP_CASH_OUTLAY_ESTIMATE"},
+    {"section":112,"policy_id":"medicare_hi_financing","comparator":null,"deficit_improvement_bn":null,"source":"https://www.cms.gov/oact/tr/2026","status":"NO_MATCHED_HI_2034_FY_RECEIPT_ESTIMATE"}
+  ]
+}

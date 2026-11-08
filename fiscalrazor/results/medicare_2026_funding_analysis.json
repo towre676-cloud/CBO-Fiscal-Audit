@@ -1,0 +1,60 @@
+{
+  "2025_2035_expenditure_growth_factor": "2.101735537190082644628099174",
+  "2025_medicare_gross_trustfund_expenditure_bn": "1210.0",
+  "2035_medicare_gross_trustfund_expenditure_bn": "2543.1",
+  "actuarial_75_year_cms": {
+    "if_delayed_to_2033_pct_of_uncapped_HI_taxable_payroll": "0.65",
+    "immediate_income_increase_pct_of_uncapped_HI_taxable_payroll": "0.56",
+    "period": "CY2026_2100",
+    "source": "CMS_2026_TR_III_B_printed_page_69",
+    "status": "PUBLISHED_ACTUARIAL_EQUIVALENCE_NOT_A_LEGISLATIVE_SCORE"
+  },
+  "cbo_medicare_comparison_caution": {
+    "accounting_status": "NONCOMPARABLE_UNRECONCILED_CY_GROSS_VS_FY_NET; DO_NOT_SUBTRACT_AS_SAVINGS",
+    "cbo_fy2035_net_medicare_budget_outlay_bn": "2154.893",
+    "cms_cy2035_hi_plus_smi_gross_expenditure_bn": "2543.1",
+    "numeric_gap_bn": "388.207"
+  },
+  "hi_2033_quarter_of_depletion": "Q2 per CMS text; not inferred from annual rows",
+  "hi_uniform_income_floor_2027_2035": {
+    "annual_increment_bn": "32.94444444444444444444444444",
+    "binding_calendar_year": 2035,
+    "cash_timing": "ASSUMED_AVAILABLE_BEFORE_YEAR_END_NO_QUARTERLY_GUARANTEE",
+    "interpretation": "FIXED_BASELINE_ALGEBRA_ONLY_NOT_ACTUARIAL_OR_BUDGET_SCORE",
+    "requirements_by_year_bn": {
+      "2027": "0",
+      "2028": "0",
+      "2029": "0",
+      "2030": "0",
+      "2031": "0",
+      "2032": "0",
+      "2033": "8.128571428571428571428571429",
+      "2034": "21.0625",
+      "2035": "32.94444444444444444444444444"
+    },
+    "target_reserves_bn": "0",
+    "year_end_path_bn": {
+      "2027": "284.3444444444444444444444444",
+      "2028": "295.9888888888888888888888889",
+      "2029": "296.2333333333333333333333333",
+      "2030": "285.2777777777777777777777778",
+      "2031": "262.0222222222222222222222222",
+      "2032": "225.7666666666666666666666666",
+      "2033": "173.7111111111111111111111111",
+      "2034": "95.0555555555555555555555555",
+      "2035": "0E-25"
+    }
+  },
+  "metadata": {
+    "as_of": "2026-11-06",
+    "cms_full_zip_materialized": false,
+    "fiscal_effect_status": "NONE_POLICY_NOT_SCORED",
+    "source": "https://www.cms.gov/oact/tr/2026",
+    "tables": [
+      "II.E1",
+      "II.F1"
+    ],
+    "time_basis": "CALENDAR_YEAR"
+  },
+  "uniform_2027_2034_income_for_100percent_beginning_2035_target_bn_per_year": "130.725"
+}

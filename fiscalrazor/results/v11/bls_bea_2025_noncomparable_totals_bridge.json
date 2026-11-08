@@ -1,0 +1,10 @@
+{
+  "year": 2025,
+  "BLS_quintile_mean_times_consumer_units_bn": "11303.542001",
+  "BEA_annual_PCE_bn": "20870.15",
+  "ratio_BLS_expanded_survey_to_BEA_PCE": "0.5416128777704041418006099621",
+  "different_concepts_NOT_a_missing_tax_base_bn": "9566.607999",
+  "BLS_source": "https://www.bls.gov/news.release/archives/cesan_10292026.htm",
+  "BEA_source": "https://fred.stlouisfed.org/release/tables?eid=43861&rid=53",
+  "measurement": "RATIO_OF_DIFFERENT_STATISTICAL_CONCEPTS;NO_DIRECT_VAT_CALIBRATION;PUB_ROUNDING"
+}

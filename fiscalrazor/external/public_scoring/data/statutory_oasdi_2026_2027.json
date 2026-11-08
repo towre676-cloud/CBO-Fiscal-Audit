@@ -1,0 +1,10 @@
+{
+  "yearly_maximum_taxable_earnings_dollars": {
+    "2026": 184500,
+    "2027": 192300
+  },
+  "combined_employer_employee_rate": 0.124,
+  "source_url": "https://www.ssa.gov/news/en/cola/factsheets/2027.html",
+  "published_status": "official_SSA_CY_statutory_parameters_not_2027_2036_forecast",
+  "hi_tax_max": "NO_LIMIT"
+}

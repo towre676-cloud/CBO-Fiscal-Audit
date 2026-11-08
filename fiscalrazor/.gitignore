@@ -1,0 +1,9 @@
+# Do not commit large/restricted microdata, acquisition logs with machine paths, or local environments.
+data/raw/
+data/acquisition_receipts.json
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.download
+.DS_Store

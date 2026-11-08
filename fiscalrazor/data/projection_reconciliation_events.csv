@@ -1,0 +1,3 @@
+event_date,source,period_affected,measured_effect,total_bn,primary_bn,interest_bn,model_treatment,source_url
+2026-08-20,CBO_tariff_budget_update,FY2027-FY2036,additional_deficits_relative_to_Feb2026,900,700,200,TRACK_SEPARATELY_NO_ANNUAL_PROFILE_AVAILABLE,https://www.cbo.gov/publication/62704
+2026-10-22,Treasury_FY2026_actual_vs_Feb2026_CBO,FY2026,actual_deficit_minus_Feb2026_projection,139.770,,,ACTUAL_DIAGNOSTIC_ONLY_NOT_FUTURE_BASELINE_REVISION,https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/

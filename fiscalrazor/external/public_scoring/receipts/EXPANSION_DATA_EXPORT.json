@@ -1,0 +1,23 @@
+{
+  "expanded_source_records": 56,
+  "ssa_provision_year_derived": 33,
+  "cms_hi_year_rows": 11,
+  "internal_math_validation": {
+    "verified_internal_arithmetic": true,
+    "issues": [],
+    "source_byte_validation": false,
+    "unit": "nominal billions USD, specified calendar years",
+    "primary_tables_excerpts": "SSA VI.G1/G2/G3, CMS II.E1, BEA NIPA 2.3.5",
+    "official_combined_policy_score": "NOT_ESTABLISHED"
+  },
+  "pce_baseline_reference": {
+    "pce_billion": "20870.15",
+    "vat_rate": "0.05",
+    "all_pce_times_rate_billion_NOT_SCORE": "1043.5075",
+    "taxable_consumption_base": "UNKNOWN",
+    "net_vat_revenue": "NOT_ESTABLISHED",
+    "reason": "Real tax-base treatment, household rebates, pricing, compliance and economic responses not specified"
+  },
+  "combined_package_score": "NOT_ESTABLISHED",
+  "external_agency_raw_files_locally_revalidated": false
+}

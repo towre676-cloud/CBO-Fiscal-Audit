@@ -1,0 +1,33 @@
+{
+  "status_date": "2026-11-06",
+  "accounting": {
+    "status": "CHECKED_INCLUDED_CBO_DATA",
+    "years": 11,
+    "selected_source_cells": 231
+  },
+  "ssa": {
+    "status": "CHECKED_TRANSCRIBED_2026_SINGLE_YEAR_TABLE_IVB1",
+    "years": 11,
+    "single_provision_option_points": 33,
+    "joint_reform_status": "UNSCORED"
+  },
+  "jct": {
+    "status": "CHECKED_PUBLISHED_TEACHING_EXAMPLE_NOT_OFFICIAL_SCORE",
+    "illustrative_net_bn": "180"
+  },
+  "cms_2026": {
+    "status": "PUBLISHED_HI_SMI_ANNUAL_TABLES_TRANSCRIBED_AND_ACCOUNTING_CHECKED_NOT_FULL_ORIGINAL_ZIP",
+    "hi_calendar_years": 11,
+    "smi_account_years": 33,
+    "combined_reform_score": "NOT_AVAILABLE"
+  },
+  "raw_dataset_acquisition": {
+    "fully_downloaded": 0,
+    "registered": 51,
+    "note": "The materialized CBO/SSA tables are selected extracts, not the complete raw data releases."
+  },
+  "official_combined_score": "NOT_AVAILABLE",
+  "household_reform_incidence": "NOT_COMPUTABLE_NO_RAW_HOUSEHOLD_AND_REFORM_RECORDS",
+  "new_annual_baseline_after_tariff_update": "NOT_AVAILABLE",
+  "fy2026_actual_difference_bn": "139.770"
+}

@@ -1,0 +1,1090 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "relative_path": ".github/workflows/acquire-official-data.yml",
+      "size_bytes": 3881,
+      "sha256": "402476ea45586999c643997352c88e43227c1e9ceaa8b2ed7a35ba776b42da88"
+    },
+    {
+      "relative_path": ".gitignore",
+      "size_bytes": 207,
+      "sha256": "6ce66528b12481de07c9ae04db23b3d9ab65e768faf7105d4adb93e31dee73d6"
+    },
+    {
+      "relative_path": "README.md",
+      "size_bytes": 12986,
+      "sha256": "42a237afe55954c4b4aa729c77c738c2c791079273a18a645f3d5a3d2d088d53"
+    },
+    {
+      "relative_path": "README_V06.md",
+      "size_bytes": 6910,
+      "sha256": "1ea43ff7b6d936222c57a2a00dd668156fd28a5d918f7b7c3616bd77b3197790"
+    },
+    {
+      "relative_path": "README_V07.md",
+      "size_bytes": 1823,
+      "sha256": "905a8a9672e30352db10b465f6cf4e05655b9eb2921215a710d02b4904f4a983"
+    },
+    {
+      "relative_path": "README_V08.md",
+      "size_bytes": 6579,
+      "sha256": "8d51e6152df4f7b95f88711786bce657bdd000caa69b1de7b8d51276549454d9"
+    },
+    {
+      "relative_path": "README_V09.md",
+      "size_bytes": 8198,
+      "sha256": "4417e936aaf05e546ba5546379f788b5a7512284f12ce28fc4c7123ddd040ea2"
+    },
+    {
+      "relative_path": "RUN_ACQUIRE_REAL_V08_GIT_BASH.sh",
+      "size_bytes": 602,
+      "sha256": "3a6fa5f49fc9814b820264f3ae40cdf5569774a9d9ab0ffe7a0114860c11d4ff"
+    },
+    {
+      "relative_path": "RUN_ACQUIRE_REAL_V08_POWERSHELL.ps1",
+      "size_bytes": 881,
+      "sha256": "90898c9f7b95ebfa6578bb2cb4b90bd386036697e5bbb4662806b7a35f4cba13"
+    },
+    {
+      "relative_path": "RUN_ACQUIRE_REAL_V09_GIT_BASH.sh",
+      "size_bytes": 476,
+      "sha256": "22c4991be2d7cedc396715a8f31267eacf394f6d0a2c0ba66f05a95cbaf5f80a"
+    },
+    {
+      "relative_path": "RUN_ACQUIRE_REAL_V09_POWERSHELL.ps1",
+      "size_bytes": 869,
+      "sha256": "e75b7f12010c3e53609846f37b80adb0b4cc07c95c14b363e0ad6d9227857104"
+    },
+    {
+      "relative_path": "RUN_GIT_BASH.sh",
+      "size_bytes": 319,
+      "sha256": "b29e13400d0facbf692777ee72c0a29d89ad9895d59eeb10c331876247c0715b"
+    },
+    {
+      "relative_path": "RUN_WINDOWS_POWERSHELL.ps1",
+      "size_bytes": 620,
+      "sha256": "f4a58da8482d7c819239554870ff14af3849f968d069788a30df08649c6414ba"
+    },
+    {
+      "relative_path": "calibration/tests/test_v07.py",
+      "size_bytes": 4935,
+      "sha256": "17f54a3b46d7eac4f359aa3cad7d2ab4c34eeca67b35266b2b6eca64eff4aff4"
+    },
+    {
+      "relative_path": "calibration/tests/test_v07_source_account_receipt.py",
+      "size_bytes": 1474,
+      "sha256": "510bdde5da03625bd10a57e807b02bcaac2af4f59635ce6c5ec9ce7ce50fb5dd"
+    },
+    {
+      "relative_path": "dashboard.html",
+      "size_bytes": 26091,
+      "sha256": "fd5c1933b66be3ad1b3e52d1112d90312f5d3d7a94c013e61a368dc6452ee585"
+    },
+    {
+      "relative_path": "data/official_score_admission_template.json",
+      "size_bytes": 995,
+      "sha256": "4a55f9ba97a6512cda1eda1fb2ceb0636452bdc0382b04c8f08b6649ec7908b8"
+    },
+    {
+      "relative_path": "data/projection_reconciliation_events.csv",
+      "size_bytes": 521,
+      "sha256": "e20b9ed2a83f427a81e44d6babaf228add4e80d87a7263f9780b03be46abdffe"
+    },
+    {
+      "relative_path": "data/source_catalog.json",
+      "size_bytes": 31726,
+      "sha256": "f67f352a98f66726f15b52bb5872f23a72eab0ee69f087957a4280b9c8376d6f"
+    },
+    {
+      "relative_path": "data/v06/all_policy_pairs_66.csv",
+      "size_bytes": 5248,
+      "sha256": "3d185ac9f4bbe9e731f4d30f5737474033b2b987bd71c0ed0b56cc0fe4800d30"
+    },
+    {
+      "relative_path": "data/v06/defense_ba_cap_locked.csv",
+      "size_bytes": 1015,
+      "sha256": "e171a0a1da0abaa8a83f986d921a73e3393f7c909aa2bdb3565e628b9e0ff8c4"
+    },
+    {
+      "relative_path": "data/v06/interaction_year_90_UNSCORED_TEMPLATE.csv",
+      "size_bytes": 7943,
+      "sha256": "ba2af94d4038c15f6ec60e169af7236e3386ce7623622dfd2e438f6a401cc38f"
+    },
+    {
+      "relative_path": "data/v06/provision_cash_and_fund_ownership.csv",
+      "size_bytes": 3359,
+      "sha256": "adf4f1b0a0a7ad3b10d60f0cfae210bc68062788540924fe8193bdb8f11fae3e"
+    },
+    {
+      "relative_path": "data/v06/provision_year_120_UNSCORED_TEMPLATE.csv",
+      "size_bytes": 8042,
+      "sha256": "f917a448bb87f076ef8f4b313341be9342a0520a97a94062e1584928ede293a2"
+    },
+    {
+      "relative_path": "data/v07/cbo_2026_02_git_pins.json",
+      "size_bytes": 7588,
+      "sha256": "b02d8623f4063325eb08e79dd5b2cd32352eb0fbca7d1c58beeac761aa415dae"
+    },
+    {
+      "relative_path": "data/v07/cbo_2036_agi_rank_margins_aggregate_only.csv",
+      "size_bytes": 443,
+      "sha256": "3dd8f04a44086e02d2ee5a130f14f4a9cdf9d21fdbf90bd1ecce85fd70d9cb84"
+    },
+    {
+      "relative_path": "data/v09/cbo_fy_pce_2027_2036_source_excerpt.csv",
+      "size_bytes": 728,
+      "sha256": "7a34ace8a220a526326cf9efb4f27e14db716d66234baa7325b9d8ed35309764"
+    },
+    {
+      "relative_path": "data/v09/source_receipts.json",
+      "size_bytes": 586,
+      "sha256": "5b9d15a76943aef1e4de5ad834883c904f91142e8bfc8079a852750b39ee6928"
+    },
+    {
+      "relative_path": "data/verified_tables/2026_trustee_report_key_results.csv",
+      "size_bytes": 656,
+      "sha256": "dbec6f038ec33264ac0510fc6561b1434ad5ee6671fa5afb4734a2a69a614a3b"
+    },
+    {
+      "relative_path": "data/verified_tables/cbo_budget_fy2026_2036_21_series.csv",
+      "size_bytes": 2568,
+      "sha256": "4bdd15c4efe59329cca5d7a93f42e068aa0700dec48d2bd2ff5328bbc85a7372"
+    },
+    {
+      "relative_path": "data/verified_tables/cbo_gdp_fy2026_2036_official.csv",
+      "size_bytes": 259,
+      "sha256": "b742977e17521e45ee5be1823ad793bf7ae50f00e34250676b3c1ef9fe98a2ec"
+    },
+    {
+      "relative_path": "data/verified_tables/cms_2026_hi_operations_cy2025_2035.csv",
+      "size_bytes": 621,
+      "sha256": "ba706724079d5202047a47e0766513b973feb2329918664817d6592149d7c764"
+    },
+    {
+      "relative_path": "data/verified_tables/cms_2026_smi_operations_cy2025_2035.csv",
+      "size_bytes": 1427,
+      "sha256": "297b01c7a41e02334118b3b9b885ae9d9cd076983895b4495877cdc78f1f51f2"
+    },
+    {
+      "relative_path": "data/verified_tables/cms_2026_table_provenance.json",
+      "size_bytes": 1083,
+      "sha256": "0c856ad9451f1f1e0ef43eca65da7708d5009e6bbb4f1475d8af4bb3e3949687"
+    },
+    {
+      "relative_path": "data/verified_tables/jct_2026_corporate_rate_teaching_example.csv",
+      "size_bytes": 303,
+      "sha256": "74baf46e348b1a53c062a4e667ec04b2e261cc1d39604a926e6885571e82a2ff"
+    },
+    {
+      "relative_path": "data/verified_tables/source_extract_provenance.json",
+      "size_bytes": 4084,
+      "sha256": "63b628dab9d5df21bf92cb27d2fc29b88369341a08e5510f8318d30433e55543"
+    },
+    {
+      "relative_path": "data/verified_tables/ssa_individual_provision_annual_balance_2026_2036.csv",
+      "size_bytes": 361,
+      "sha256": "1274223b7c0635fe25bf7eff8c83dee6c05992f8dd9a217b93ebcf2a52cc1b67"
+    },
+    {
+      "relative_path": "data/verified_tables/ssa_ivb1_rates_2026_2036.csv",
+      "size_bytes": 786,
+      "sha256": "0f28ac8dfed4ea2eeb2abb57e76e2cd8a9d327c785a2108e7bb29abb66063a73"
+    },
+    {
+      "relative_path": "data/verified_tables/treasury_fy2026_reported_actuals.csv",
+      "size_bytes": 152,
+      "sha256": "f05e178ce94e44c37a49f17b1854f49d195eef1a7dd911f6857f2d3f515c2718"
+    },
+    {
+      "relative_path": "docs/ARCHITECTURE.md",
+      "size_bytes": 3801,
+      "sha256": "0b0c445511b390ee69c82ccae49d567a9314f500458882d02d5d2843ebe6a1c9"
+    },
+    {
+      "relative_path": "docs/EXECUTION_AND_EVIDENCE_BOUNDARY.md",
+      "size_bytes": 4538,
+      "sha256": "154917c8e8726b6acba61cacad1fec1167e4a781f95bd8cced3bc620da5ff7e5"
+    },
+    {
+      "relative_path": "docs/HOUSEHOLD_CPS_CE_READY_NOT_SCORED.md",
+      "size_bytes": 2863,
+      "sha256": "6635af62be2c635fec017097cb42ddb59c40d50a417b632ffd8e6e65cc6a5646"
+    },
+    {
+      "relative_path": "docs/LATEST_SESSION_RECONCILIATION_2026_11_06.md",
+      "size_bytes": 8373,
+      "sha256": "bf3c9952524aaa8c9b2d1c297e21310d06358663054c43552e66ba275e6b07bf"
+    },
+    {
+      "relative_path": "docs/MEDICARE_ACTUARIAL_FIRST_PASS.md",
+      "size_bytes": 4413,
+      "sha256": "b2342a530adf376d115bedbf3ef1fa08047978da6af0b130d58bea395ddb2635"
+    },
+    {
+      "relative_path": "docs/OPERATING_PLAN.md",
+      "size_bytes": 4375,
+      "sha256": "ce79be01bc13472dce7e7c28c1fe59d4a68cf3b0eaa9ed8e9bf77ef49b3c5de9"
+    },
+    {
+      "relative_path": "docs/OTHER_SESSION_README.md",
+      "size_bytes": 309,
+      "sha256": "f571849d0e6eb69a6f3a920e4cbc7696178c97814a6079953d5c3817571bb5f1"
+    },
+    {
+      "relative_path": "docs/RECONCILIATION_2026_11_06.md",
+      "size_bytes": 7663,
+      "sha256": "e18b29f2f0d3fe55be3d6054634dbdb777198b22516d6d3230deb09a646bbbd9"
+    },
+    {
+      "relative_path": "docs/RECONCILIATION_WITH_PUBLIC_SCORING.md",
+      "size_bytes": 4490,
+      "sha256": "762d44efba7f7ffe088ea996c82c535327c5144e36bf3bc9bd6d66389003708d"
+    },
+    {
+      "relative_path": "docs/SCORING_AND_DATA_COMPLETENESS.md",
+      "size_bytes": 4352,
+      "sha256": "72b06fdd32808277a2a78eff45f8c15f0724bfc4e345107f534f3b291fedca6e"
+    },
+    {
+      "relative_path": "docs/SOURCE_PACKAGE_PROVENANCE.json",
+      "size_bytes": 548,
+      "sha256": "cd2f3ea2775b3fa0607bbea7a5150ef6b0b50bfd7b2063a0368eae845fd8f308"
+    },
+    {
+      "relative_path": "docs/SURVEY_UNCERTAINTY.md",
+      "size_bytes": 2495,
+      "sha256": "e0f45d0b58505bd1803b8499ce87a3c0fc270638efe5dc25b9d0206fd77845e9"
+    },
+    {
+      "relative_path": "docs/V06_DATA_ACQUISITION_AND_CALIBRATION.md",
+      "size_bytes": 7367,
+      "sha256": "db00f21e7dcf691a8c7f94566e56a8827b2faef891d1eec1c8d125673c840595"
+    },
+    {
+      "relative_path": "external/public_scoring/README.md",
+      "size_bytes": 8700,
+      "sha256": "06dbe39828cc52325e3791558ac6aae980dbc80140cc0b8abea0475162b318a1"
+    },
+    {
+      "relative_path": "external/public_scoring/SHA256SUMS.txt",
+      "size_bytes": 4638,
+      "sha256": "62c9a302e698be18bac27d7ac831883d781d20fd88c4727b3bfe98d40eafce71"
+    },
+    {
+      "relative_path": "external/public_scoring/data/bea_2025_pce_major_types.csv",
+      "size_bytes": 2981,
+      "sha256": "98018ad492d6a228c4e8a0fbf6145754fb03ff05e77318098f53b7fb2154a69e"
+    },
+    {
+      "relative_path": "external/public_scoring/data/cbo_2026_02_3pct_target_gap.csv",
+      "size_bytes": 1193,
+      "sha256": "dabb8b81eda09bc0e3803e3532b3a9ab39e00a5a7bdf03e3ba2ba35059a620c9"
+    },
+    {
+      "relative_path": "external/public_scoring/data/cbo_2026_02_baseline_excerpt.csv",
+      "size_bytes": 901,
+      "sha256": "555da05aa6e5fe1163e0c421d38d58b6600e3f9a29864d884c9b0fd662e43e8f"
+    },
+    {
+      "relative_path": "external/public_scoring/data/cbo_2026_02_fy_nominal_gdp_excerpt.csv",
+      "size_bytes": 2112,
+      "sha256": "91a104f483bb1ffaac7d941eefc883cb54f34cacd05b216884209d753d19a752"
+    },
+    {
+      "relative_path": "external/public_scoring/data/cms_trustees_2026_hi_operations_cy.csv",
+      "size_bytes": 1176,
+      "sha256": "60ef6d94228d77dfd961f695beb0be5a113421e086ecb090b401f6649c75f1c3"
+    },
+    {
+      "relative_path": "external/public_scoring/data/derived_cms_2026_hi_annual_operations.csv",
+      "size_bytes": 2097,
+      "sha256": "cc7f470dd5d7824eb0ac53a63c43c25dd13c05b0adff5b2ca4b25124c13ccd8d"
+    },
+    {
+      "relative_path": "external/public_scoring/data/derived_ssa_2026_actuarial_annual_balance_dollar_equivalents.csv",
+      "size_bytes": 9072,
+      "sha256": "b6f37730d69c98c961041e493f093c1ff260cbe8872ecdfc69afbe761fb4748c"
+    },
+    {
+      "relative_path": "external/public_scoring/data/interaction_registry.json",
+      "size_bytes": 492,
+      "sha256": "4b7f3fffc52a67a91bf6f1528cf383713c1c82b3514010d21df156cf7134c031"
+    },
+    {
+      "relative_path": "external/public_scoring/data/jct_2026_corporate_illustration.csv",
+      "size_bytes": 1705,
+      "sha256": "9809659b525f921f6995d9fff626a145a194cf301eb5ccd771ac95ee8701931a"
+    },
+    {
+      "relative_path": "external/public_scoring/data/joint_interactions_TEMPLATE.csv",
+      "size_bytes": 129,
+      "sha256": "4ff5f62d5d3e9b707c5812cf83ba3778f4c38cf060e28ee4e57e55c825220d2b"
+    },
+    {
+      "relative_path": "external/public_scoring/data/medpac_2026_ma_calibration.json",
+      "size_bytes": 1202,
+      "sha256": "61aded12d83146978ae9e38d4a88e5bcdd88737fea9eaf23a52a0c32010bf02e"
+    },
+    {
+      "relative_path": "external/public_scoring/data/policy_effects_TEMPLATE.csv",
+      "size_bytes": 178,
+      "sha256": "88f68cf223c1819e2b3315f8349dbbbf843a36a86f17e22b2bd4c34a0bd8a819"
+    },
+    {
+      "relative_path": "external/public_scoring/data/provisions.json",
+      "size_bytes": 3735,
+      "sha256": "0731dd0911c286891aed3c242e77a657593c02785492b5264704bbede146b611"
+    },
+    {
+      "relative_path": "external/public_scoring/data/public_source_registry.json",
+      "size_bytes": 18390,
+      "sha256": "c32fe85450922b0d85c8f3c64ddcfeed2a04b63bab2ba08d0ca2d34e12bc9e2f"
+    },
+    {
+      "relative_path": "external/public_scoring/data/ssa_2026_option_benchmarks.csv",
+      "size_bytes": 6238,
+      "sha256": "8af390e2b0be33525f24b6637c7c27aea78873e6b9c3ff50f5a6f9fa469d9dee"
+    },
+    {
+      "relative_path": "external/public_scoring/data/ssa_trustees_2026_economic_cy.csv",
+      "size_bytes": 1281,
+      "sha256": "3d7b8505ca30b2a717221a3bcdedfa1b5e2e28bc6c13a13664bcc05e3270a921"
+    },
+    {
+      "relative_path": "external/public_scoring/data/ssa_trustees_2026_oasdi_noninterest_cy.csv",
+      "size_bytes": 1506,
+      "sha256": "104ffdb3bc4c08fefa390bbdf87aaea6728123f3db3931ba9e0af3cfee98240d"
+    },
+    {
+      "relative_path": "external/public_scoring/data/ssa_trustees_2026_oasdi_reserves_cy.csv",
+      "size_bytes": 1673,
+      "sha256": "6ba4e1a0fa9d9182e9b2f95c28880cef839b13625a0d238022674fd519a9da9f"
+    },
+    {
+      "relative_path": "external/public_scoring/data/statutory_oasdi_2026_2027.json",
+      "size_bytes": 324,
+      "sha256": "ba71824285334b78ea295b5445c2c5454a753f15217c511880a221441f235691"
+    },
+    {
+      "relative_path": "external/public_scoring/docs/EXPANSION_RESULTS.md",
+      "size_bytes": 7178,
+      "sha256": "09d2a00a04b0e9059468a56d32cabd5e987f7b7750effc1e5527eb59a646a73a"
+    },
+    {
+      "relative_path": "external/public_scoring/docs/FRONTIER_AND_EVIDENCE_MATRIX.md",
+      "size_bytes": 4948,
+      "sha256": "6640863b75eec8cdaffcc5f488fb8dc6c6ecfaba119f9108ac59a6749a7c5584"
+    },
+    {
+      "relative_path": "external/public_scoring/docs/PROOF_GATES.md",
+      "size_bytes": 6656,
+      "sha256": "e0152b30378fb5e43ba7cad7a342ddf26086809fb571aa003e2bf1a824e57bea"
+    },
+    {
+      "relative_path": "external/public_scoring/docs/RECEIPT_SCHEMA.md",
+      "size_bytes": 2268,
+      "sha256": "e2fe38d4c76f81c872c28bc793170184550557097104a10c97462b68372e6597"
+    },
+    {
+      "relative_path": "external/public_scoring/docs/RESEARCH_STATUS.md",
+      "size_bytes": 4750,
+      "sha256": "d98cbc25413f10e83eb431a839b61020e65bf6227c872bd388c3e991061f1e9d"
+    },
+    {
+      "relative_path": "external/public_scoring/docs/SCORING_ARCHITECTURE.md",
+      "size_bytes": 12368,
+      "sha256": "82de7041b3f479f24b8fedd3194544c56c43b2eb94ce4d0f24570812f21583b4"
+    },
+    {
+      "relative_path": "external/public_scoring/docs/SOURCE_INTEGRITY_AND_REPLAY.md",
+      "size_bytes": 3447,
+      "sha256": "b21c4a98be22dd3a3a27f5b12edccbcadb81c6bfeb12c817c8b0a2cff6f790a6"
+    },
+    {
+      "relative_path": "external/public_scoring/docs/SOURCE_REGISTER.md",
+      "size_bytes": 13269,
+      "sha256": "61b41dd81f48213a0fe88c5dd19a27b20976e07d8cca94107440ec82c3c9af73"
+    },
+    {
+      "relative_path": "external/public_scoring/receipts/EXPANSION_DATA_EXPORT.json",
+      "size_bytes": 881,
+      "sha256": "4be75b3fd62983370f0cca5725ea73bdd00ee62572864670c9804d97075292a9"
+    },
+    {
+      "relative_path": "external/public_scoring/run.py",
+      "size_bytes": 71,
+      "sha256": "52971f4b9953234215d06c287ce2907a3e34aaddece769810b5d3ebd3380e61e"
+    },
+    {
+      "relative_path": "external/public_scoring/scripts/check_candidate_score.py",
+      "size_bytes": 583,
+      "sha256": "c635ef0e3feb24deb7581a3f5e2f54c6987f78a93537d6a323cae49fa17a1c50"
+    },
+    {
+      "relative_path": "external/public_scoring/scripts/check_ssa_live.py",
+      "size_bytes": 4330,
+      "sha256": "b6ccc3b44b53bd515f23f2b4839926aa26b9da3bb60eada2bdedf22605a1bc2a"
+    },
+    {
+      "relative_path": "external/public_scoring/scripts/expansion_summary.py",
+      "size_bytes": 2248,
+      "sha256": "84cba48161d58cf286eb75006f54d7085a347b70df74d217f43f2e981543bc0e"
+    },
+    {
+      "relative_path": "external/public_scoring/scripts/export_research_tables.py",
+      "size_bytes": 2747,
+      "sha256": "f679811e6b17d138badfb10acbd4be5d9a90d2151aab588bf51dc7c6ffd127e7"
+    },
+    {
+      "relative_path": "external/public_scoring/scripts/fetch_cbo_catalog_all.py",
+      "size_bytes": 3649,
+      "sha256": "15a4d4cc83ea540d8c90e146bbf4844066a4359c7259f530f3b72be9c0712994"
+    },
+    {
+      "relative_path": "external/public_scoring/scripts/fetch_sources.py",
+      "size_bytes": 3750,
+      "sha256": "6c751d6a683046715839583dd36b711bb70d9d515b56219da0a149366b8eeba1"
+    },
+    {
+      "relative_path": "external/public_scoring/src/cross_account.py",
+      "size_bytes": 4623,
+      "sha256": "2029eb90659230400402b2157202114d9054940683d0132d314a7730e30671be"
+    },
+    {
+      "relative_path": "external/public_scoring/src/distribution.py",
+      "size_bytes": 4066,
+      "sha256": "8a914bf5848bb3e230335e803efe0057bae7e3fd7bbeea2d0efa8ab46041eae5"
+    },
+    {
+      "relative_path": "external/public_scoring/src/fiscalization.py",
+      "size_bytes": 2398,
+      "sha256": "2707990ed6128dd441fede5e789911a73749e5dda0bd2c7bf44a94cf1489b4f1"
+    },
+    {
+      "relative_path": "external/public_scoring/src/fiscalrazor.py",
+      "size_bytes": 11230,
+      "sha256": "ea4ec3b002816fdfa0bf04654b07d3d9968941bc160691422ac04f56b686ddad"
+    },
+    {
+      "relative_path": "external/public_scoring/src/payroll_interactions.py",
+      "size_bytes": 1720,
+      "sha256": "4a96bcb0f3328d77d155a5ca962d9e37a28e58c3a2f0743c7c162f528a7a944e"
+    },
+    {
+      "relative_path": "external/public_scoring/src/primary_bridges.py",
+      "size_bytes": 10779,
+      "sha256": "a5a67fa2b8f739c7eadc4724c1e5e04640cc8bd7e6dc53ac7d6078b4537da4bb"
+    },
+    {
+      "relative_path": "external/public_scoring/src/receipt_validation.py",
+      "size_bytes": 2648,
+      "sha256": "ce33a67270d7d360f3956eff914d9e7a2fc01bdd3841af552f88d08893a600c7"
+    },
+    {
+      "relative_path": "external/public_scoring/src/score_gate.py",
+      "size_bytes": 5947,
+      "sha256": "d567615e2c9f945dbb4784635397b7e531c3d91d49d6784f39fc3dbbfb97f7e0"
+    },
+    {
+      "relative_path": "external/public_scoring/src/spendout.py",
+      "size_bytes": 1898,
+      "sha256": "e5f26527891502db9a7320d2cfc6b538ad4e9bdd5dd6a6105655fa98f8c99427"
+    },
+    {
+      "relative_path": "external/public_scoring/src/ssa_derived.py",
+      "size_bytes": 1543,
+      "sha256": "98b5218ca70eada55f27a20d98e32ae966f79f3c68860bd2775f98f08459fb4b"
+    },
+    {
+      "relative_path": "external/public_scoring/tests/test_fiscalrazor.py",
+      "size_bytes": 5688,
+      "sha256": "bb3c855f6b4eebcb04adb0afd1c764b0c46c6554615bd71ff9c128065e8e00aa"
+    },
+    {
+      "relative_path": "external/public_scoring/tests/test_primary_bridges.py",
+      "size_bytes": 11726,
+      "sha256": "2060a4cc5965e5003802b4e1b880276ec961f1bb7d2c536b2f2948c8074eaf46"
+    },
+    {
+      "relative_path": "legislation/ILLUSTRATIVE_FISCAL_REFORM_ACT_2027.md",
+      "size_bytes": 20227,
+      "sha256": "63649ed9d2da6fc9953b3648b153cb7137e0e3a7187926c96c9250e62124918a"
+    },
+    {
+      "relative_path": "legislation/scenario_v06.json",
+      "size_bytes": 19116,
+      "sha256": "5fc87246b0289b9813de915633e2bf9422052aeb1f91d8122a2454c2ea26ea00"
+    },
+    {
+      "relative_path": "policy_workbench_v06.html",
+      "size_bytes": 15954,
+      "sha256": "9f871951f271717b035d3321e52982d21638df79603571990eeda5f61b7aeb80"
+    },
+    {
+      "relative_path": "pyproject.toml",
+      "size_bytes": 404,
+      "sha256": "af194f8a3a3b136acf84c58c202ea164334aec792ec96ef63a68927bf66921e9"
+    },
+    {
+      "relative_path": "research/OUR_RESEARCH_PROGRAM.md",
+      "size_bytes": 7536,
+      "sha256": "638370b7c9ecbd2bc7a878ef547f166d4f79ca66bc413a8281893f04c2af14f5"
+    },
+    {
+      "relative_path": "research/VERIFIED_FIRST_RESULTS.md",
+      "size_bytes": 8812,
+      "sha256": "38fccd1378556fa7f9d16d5b9db7bca92f3dd56fbd134fbf68944d7d2f27bc7e"
+    },
+    {
+      "relative_path": "results/checks.json",
+      "size_bytes": 383,
+      "sha256": "f8c521d7ff83fb05d34707276f83013efb3dbe91c19e87cc39b57e39ae12445d"
+    },
+    {
+      "relative_path": "results/cms_medicare_2026_annual_operations_verified.csv",
+      "size_bytes": 768,
+      "sha256": "90d7646c572fee9a81d12d08aad355b32085432d70bd15382eef6f5492e10fa9"
+    },
+    {
+      "relative_path": "results/cross_source_alignment_176.csv",
+      "size_bytes": 20077,
+      "sha256": "66878372475221207e3798ba9607323d4763759a89737d7a21a4441a6ce9d331"
+    },
+    {
+      "relative_path": "results/full_replay.log",
+      "size_bytes": 902,
+      "sha256": "f3330cb7f5b9e86c1545b50641103084a9d96d4db57d3ce282ca80134409d574"
+    },
+    {
+      "relative_path": "results/medicare_2026_funding_analysis.json",
+      "size_bytes": 2314,
+      "sha256": "2d9fb2c6ef0ab482b1ed02a04435665988da39e97ba343ae77a228d535d01e51"
+    },
+    {
+      "relative_path": "results/objective_2036.json",
+      "size_bytes": 240,
+      "sha256": "3db2f798e0d2800cc4f2847cc8e8679dd23b97a611dcb40e2c91889a8d5c93a4"
+    },
+    {
+      "relative_path": "results/source_acquisition_inventory.csv",
+      "size_bytes": 6936,
+      "sha256": "151f7a4f2aa43cb02dbff6bec2ab210d6d154147af3942c31da6400ff53fbc3f"
+    },
+    {
+      "relative_path": "results/v05_reconciliation.json",
+      "size_bytes": 1644,
+      "sha256": "a172c9dbc257c4ee309793fd244e8a220a8698ca8c007744a1699b98e061dcd4"
+    },
+    {
+      "relative_path": "results/v06/one_year_debt_ratio_frozen_diagnostics_2027_2036.csv",
+      "size_bytes": 2217,
+      "sha256": "f29c8ed7bda431ba3f6ec2abf39fd28aea994da213428f0880513147a569d479"
+    },
+    {
+      "relative_path": "results/v06/research_status.json",
+      "size_bytes": 1048,
+      "sha256": "4fac4288c275490923c82f1cd363cb64cf1167e4e36adae91c52dbc986c2fe0e"
+    },
+    {
+      "relative_path": "results/v06/source_acquisition_status_2026_11_06.csv",
+      "size_bytes": 6936,
+      "sha256": "151f7a4f2aa43cb02dbff6bec2ab210d6d154147af3942c31da6400ff53fbc3f"
+    },
+    {
+      "relative_path": "results/v06/source_gate.json",
+      "size_bytes": 397,
+      "sha256": "62edcbd4e9f848a7963ca0ac72a6db33f1baffc932d2ec67b1c453350f39fe78"
+    },
+    {
+      "relative_path": "results/v06/static_fiscal_target_2027_2036.csv",
+      "size_bytes": 1894,
+      "sha256": "0ba96ca5b65595a743b16325b2db3bcaccafced648f81297418e3de4d659412f"
+    },
+    {
+      "relative_path": "results/v06/synthetic_fixtures_NOT_NATIONAL_ESTIMATES.json",
+      "size_bytes": 779,
+      "sha256": "936f5e6f623024c5744a30df2a6c02afcb814131b5f6f60231928890fe192fc3"
+    },
+    {
+      "relative_path": "results/v06/v06_complete_replay_stdout.json",
+      "size_bytes": 1655,
+      "sha256": "51d7a9a4e549b8cebc91ae7c4db74b5c088dd1f43ca062ffeb0cedfed77c3172"
+    },
+    {
+      "relative_path": "results/v06/v06_reconciliation.json",
+      "size_bytes": 1655,
+      "sha256": "51d7a9a4e549b8cebc91ae7c4db74b5c088dd1f43ca062ffeb0cedfed77c3172"
+    },
+    {
+      "relative_path": "results/v07/calibration_partial_identification.json",
+      "size_bytes": 969,
+      "sha256": "98f272479f02306cfde9539bada1642dfeabd7b975dadc7fb2b50dc18e05c1e8"
+    },
+    {
+      "relative_path": "results/v07/cbo_spending_connector_verified_2026_2036.csv",
+      "size_bytes": 1345,
+      "sha256": "2054684e567d6046f7ea1ddb30763c13c5631bdfbf1bcec01d0b8fbe8e48cfee"
+    },
+    {
+      "relative_path": "results/v07/reconciliation_receipt.json",
+      "size_bytes": 909,
+      "sha256": "b8629f0aed2ad14e0c0429e900b9920086106805979055ab4b6d3b0732ce6bb4"
+    },
+    {
+      "relative_path": "results/v08/cbo_18_original_receipts_required.csv",
+      "size_bytes": 4562,
+      "sha256": "bd12742b7a5ffd23ae7e6e471d4c28b8e28ee5c26368b980973d718800d680d5"
+    },
+    {
+      "relative_path": "results/v08/download_attempt_stderr.txt",
+      "size_bytes": 393,
+      "sha256": "cfeddd8286481d46408714032427ba4dc1a724b250ccbbdaaf6d66f928f37f04"
+    },
+    {
+      "relative_path": "results/v08/download_attempt_stdout.txt",
+      "size_bytes": 38,
+      "sha256": "9abe58dddfb61d2f38712187001208c939ecda78c3abb5a2a18b28ab8074a15d"
+    },
+    {
+      "relative_path": "results/v08/fiscal_objectives_2027_2036.csv",
+      "size_bytes": 2176,
+      "sha256": "a36d46873b053e601cc13bdfc08fb79796ccff24148e48f31d903f4d71125c2b"
+    },
+    {
+      "relative_path": "results/v08/original_sources_status.json",
+      "size_bytes": 9202,
+      "sha256": "82def4b28cd9b9fc278e4d5795ac5395bb31cb33e46e533ef98abbff9d6148e6"
+    },
+    {
+      "relative_path": "results/v08/public_microdata_replay.json",
+      "size_bytes": 257,
+      "sha256": "613c6d6eda9ae8c6614e9c97e622df368ccaa8b2740b65cfd7582dc494f68726"
+    },
+    {
+      "relative_path": "results/v08/raw_cbo_replay.json",
+      "size_bytes": 408,
+      "sha256": "660a738889a0e7b202d90693eee9d19310531a863886de7e408c65ca0e29a3da"
+    },
+    {
+      "relative_path": "results/v08/source_download_attempt.json",
+      "size_bytes": 9202,
+      "sha256": "baed992f29241e78fbdb54de9e44d7bc220d62c8f188d8acd75b7298fdbc606e"
+    },
+    {
+      "relative_path": "results/v08/twelve_provision_source_gates.json",
+      "size_bytes": 5213,
+      "sha256": "2122d9b4a3c6f1e452c53540da649eaed1e21b41a5b4c8f76edee9e56e2da85d"
+    },
+    {
+      "relative_path": "results/v08/verification_receipt_v08.json",
+      "size_bytes": 1034,
+      "sha256": "78c4cb119b6aaa78dad75ca8eea8a61a48ab35260b529b5cb31e37a8f9c391c8"
+    },
+    {
+      "relative_path": "results/v09/cbo_fy_pce_all_base_vat_capacity_2027_2036.csv",
+      "size_bytes": 3222,
+      "sha256": "bbe1929f75b29dbfc1b8cf9794838273e672fcbb82c35aee00ee64ec6504176a"
+    },
+    {
+      "relative_path": "results/v09/evidence_status.json",
+      "size_bytes": 1315,
+      "sha256": "d28e3819c26489ff79dd9a49a314749acf17c263dcba288ca8d05eee26366a70"
+    },
+    {
+      "relative_path": "results/v09/hypothetical_vat_base_fraction_sensitivity.csv",
+      "size_bytes": 10398,
+      "sha256": "c7d019bdc030baefa4f5cdf5f3082c6d195c406d991354835b1ee2815e9fc58c"
+    },
+    {
+      "relative_path": "results/v09/provision_admission_status.json",
+      "size_bytes": 5213,
+      "sha256": "2122d9b4a3c6f1e452c53540da649eaed1e21b41a5b4c8f76edee9e56e2da85d"
+    },
+    {
+      "relative_path": "results/v09/run_receipt_v09.json",
+      "size_bytes": 1315,
+      "sha256": "d28e3819c26489ff79dd9a49a314749acf17c263dcba288ca8d05eee26366a70"
+    },
+    {
+      "relative_path": "results/v09/source_admission_status.json",
+      "size_bytes": 9039,
+      "sha256": "09af2097eb285b76aa7110ecb1f95d969077b0b5c80a205b1446ac220145d52e"
+    },
+    {
+      "relative_path": "results/v09/transport_admission_probe.json",
+      "size_bytes": 1048,
+      "sha256": "8b9883d4d0f443a1d7208cf6054b49bd0d7e285b7f1190c2249d053332850192"
+    },
+    {
+      "relative_path": "results/verification_status.json",
+      "size_bytes": 1105,
+      "sha256": "f44df8ae8e672fd5f55e22b93f594e22a5951476b450df66594911b7a161320b"
+    },
+    {
+      "relative_path": "results/verified_baseline_2026_2036.csv",
+      "size_bytes": 619,
+      "sha256": "a482410f957278adb091a2eb933b5ac15697b082ccb2d59d405d7359af0f671c"
+    },
+    {
+      "relative_path": "schemas/household_incidence_input.md",
+      "size_bytes": 2312,
+      "sha256": "d91d56499f6782b195bdae4860cb2bebb593cf5b7b7ede07b690d25e00925b50"
+    },
+    {
+      "relative_path": "schemas/survey_replicate_estimates.md",
+      "size_bytes": 1091,
+      "sha256": "90cf4d750d0ae1b2b7a8d9c863155f53d3223df9a89aba3ecc538ce0930d9d95"
+    },
+    {
+      "relative_path": "scripts/acquire_priority_v06.py",
+      "size_bytes": 2227,
+      "sha256": "08e44a98e72f85cadb81871ab073b3b454c6c9be0507924540a4c0f3d0e6b912"
+    },
+    {
+      "relative_path": "scripts/acquire_real_federal_v08.py",
+      "size_bytes": 3103,
+      "sha256": "ff815cb6a60bc781f1cc088e60a800dea8708d746fe1384c9b475598e81602f7"
+    },
+    {
+      "relative_path": "scripts/analyze_medicare_2026.py",
+      "size_bytes": 4172,
+      "sha256": "bd4f7483e5cc20d0ceadf5d01149c04db9b7b4aa6912a35a63545a32853afca7"
+    },
+    {
+      "relative_path": "scripts/build_catalog.py",
+      "size_bytes": 10506,
+      "sha256": "a209bdea6c1b55bd8d1f8a163770d9956cba2626d03752bfeedc37208f32b0a1"
+    },
+    {
+      "relative_path": "scripts/build_reports.py",
+      "size_bytes": 174,
+      "sha256": "7b50183fffedcd2db604f095a16a56503d4a2533a25b9cf1170f243fd86aa0ec"
+    },
+    {
+      "relative_path": "scripts/build_v06_ownership.py",
+      "size_bytes": 3412,
+      "sha256": "2ec54f1ddc1e5bc8b70baf342d5f24d357a7b0c036f16f9bf25d7821b4f85f8c"
+    },
+    {
+      "relative_path": "scripts/build_v06_score_templates.py",
+      "size_bytes": 1603,
+      "sha256": "9f6be58f669fab416187b76e7980d0501f2dae8297c2f804f944338b1888ea03"
+    },
+    {
+      "relative_path": "scripts/build_workbench_v06.py",
+      "size_bytes": 10969,
+      "sha256": "b2ea355f00f6bde24ecea72dc08b3cdcbc4a34e2cc481a376ca838f3baa7cea6"
+    },
+    {
+      "relative_path": "scripts/check_everything.py",
+      "size_bytes": 1660,
+      "sha256": "b455cb2b26be734ad19b5769f29a5deae0ad006930278a128256daf8ca1e537f"
+    },
+    {
+      "relative_path": "scripts/check_survey_uncertainty.py",
+      "size_bytes": 1904,
+      "sha256": "6feeadb783e685b818d6fc114df3a14115381180cb245ebafab5e3483390d8a0"
+    },
+    {
+      "relative_path": "scripts/estimate_cps_2026_sdr_v09.py",
+      "size_bytes": 3013,
+      "sha256": "56f43d47261d1a82f69f896cb079ff563fb41e120a1adbacf4abf0d78e288755"
+    },
+    {
+      "relative_path": "scripts/export_cross_matrix.py",
+      "size_bytes": 3247,
+      "sha256": "e652fd773adf9aa1963307491d1a73264b482a84069aaff712efbc4b86032d67"
+    },
+    {
+      "relative_path": "scripts/fetch_sources.py",
+      "size_bytes": 2255,
+      "sha256": "79534f11f5d967d9a5191ea4f624a603a0e1533b9dab0052230ebd27b6d47a14"
+    },
+    {
+      "relative_path": "scripts/inspect_cps_asec_2026_schema_v09.py",
+      "size_bytes": 2681,
+      "sha256": "73e4f4f68e892a171a6035261b7fc542f7e80e899593c985700c853247f23700"
+    },
+    {
+      "relative_path": "scripts/inspect_households.py",
+      "size_bytes": 1442,
+      "sha256": "5e06b14395006086fc97bd9a573af86577b6dd53ad725c947ebda0a8db79205e"
+    },
+    {
+      "relative_path": "scripts/make_release.py",
+      "size_bytes": 1930,
+      "sha256": "9d66e74ec5b9cc1bf99e94bb1b7c673d1c94068b8460691cc3f948231a4fb76a"
+    },
+    {
+      "relative_path": "scripts/make_release_v06.py",
+      "size_bytes": 1596,
+      "sha256": "0f8180fe4a8665887e59e753ff4e399e50420541a34be39f40849037b4f448bb"
+    },
+    {
+      "relative_path": "scripts/preflight_cps_2026.py",
+      "size_bytes": 1059,
+      "sha256": "d8775cf35a749d1d71dffc780b32dff3c988d7a3969e2b072d50596c6df8d08d"
+    },
+    {
+      "relative_path": "scripts/replay_all_v05.py",
+      "size_bytes": 1904,
+      "sha256": "a61b85fe7710f477ddba8f2f49d57faeb17d37f339e9c621467a514b07c0fc7d"
+    },
+    {
+      "relative_path": "scripts/replay_all_v06.py",
+      "size_bytes": 1916,
+      "sha256": "feae0638615bc4a37b57931a84f8e68e011d57e12ad71b31899d29b4e4f30761"
+    },
+    {
+      "relative_path": "scripts/replay_real_v08.py",
+      "size_bytes": 7673,
+      "sha256": "893cd47f4abecd2b0b98e742f93fcafd8e8512696da8201d31551483287effc9"
+    },
+    {
+      "relative_path": "scripts/replay_v09.py",
+      "size_bytes": 4281,
+      "sha256": "462051bf7074791e5a9ee0f152a4b45cbd8e636ca844d837a66893d1b011a2b5"
+    },
+    {
+      "relative_path": "scripts/run_household_incidence.py",
+      "size_bytes": 2376,
+      "sha256": "8bd8c06cd9a317e4e121fc749c53c4757b2310f992eeacd2e27cbe52f182ab61"
+    },
+    {
+      "relative_path": "scripts/run_v06.py",
+      "size_bytes": 3075,
+      "sha256": "5aeca8054851e9d9302033e177b9a57f780a9dd899e2105381af2923063952c7"
+    },
+    {
+      "relative_path": "scripts/source_gate_v06.py",
+      "size_bytes": 1491,
+      "sha256": "d4c05c83d3fbe99573606a0a2cd9b3cf45de97b73ccb55d7e6fe509918f9a728"
+    },
+    {
+      "relative_path": "scripts/verify_cbo_original_v07.py",
+      "size_bytes": 1616,
+      "sha256": "491467e7008f3dcca45bbac1598db3e2a62c1fc08662c77adcd2af8733a99787"
+    },
+    {
+      "relative_path": "scripts/verify_package.py",
+      "size_bytes": 928,
+      "sha256": "8011786fd6e70bc22cb3ea6cac5c86b458512983fdd8e257deb6ea35887bf6e4"
+    },
+    {
+      "relative_path": "src/fiscal_data/__init__.py",
+      "size_bytes": 100,
+      "sha256": "2e5cfd433d6917b653cf4e184062874b91d714a18e395ea16cabd34b467d6190"
+    },
+    {
+      "relative_path": "src/fiscal_data/accounting.py",
+      "size_bytes": 4710,
+      "sha256": "d79463d347a0bfa5e63d569cf00e15dece50e5d86d150842e396be089eba339c"
+    },
+    {
+      "relative_path": "src/fiscal_data/acquisition.py",
+      "size_bytes": 5786,
+      "sha256": "482a745e8733d54f4529cab482b5770781b8b0e72d72b6dab52b491ba3e5c797"
+    },
+    {
+      "relative_path": "src/fiscal_data/actuarial.py",
+      "size_bytes": 2037,
+      "sha256": "8ccbaad6a7fbcff41905ad675640e9419c0c28a6b671ab6940e954609958adb1"
+    },
+    {
+      "relative_path": "src/fiscal_data/cbo_source.py",
+      "size_bytes": 1477,
+      "sha256": "b03ec9408e41e0f656a6c765a5d6068d595292b1c1161d76d9b186510e9bd8a0"
+    },
+    {
+      "relative_path": "src/fiscal_data/ce_2025_adjustments.py",
+      "size_bytes": 2140,
+      "sha256": "33af57a28138bda625d5499df813fca935024613ef4fa9911faf707c81a59f30"
+    },
+    {
+      "relative_path": "src/fiscal_data/cps_preflight.py",
+      "size_bytes": 3358,
+      "sha256": "08fe0d7e0bb9a207c9e63dec1d68fcb206e65e61eacd4e817842477aa3a30eb1"
+    },
+    {
+      "relative_path": "src/fiscal_data/distribution.py",
+      "size_bytes": 4493,
+      "sha256": "7bba17a17a5bf1a6fe3d677bb5bb9e4b801b45e2aaf57ebe54d141c419412017"
+    },
+    {
+      "relative_path": "src/fiscal_data/fiscalization.py",
+      "size_bytes": 4310,
+      "sha256": "bb9a5525c6e0f23ed4854ed33ac95835b8c575c845cb50ef386ebf8a3888a93a"
+    },
+    {
+      "relative_path": "src/fiscal_data/gates.py",
+      "size_bytes": 1385,
+      "sha256": "877a2758959967ab569b797c0a8a045e1b6082ad791bb1fb4a53d78026f7e610"
+    },
+    {
+      "relative_path": "src/fiscal_data/medicare_cash.py",
+      "size_bytes": 5824,
+      "sha256": "0d553c0e1384d7b3d9b5860f491d77482e4ae04b25e066dc87870b04b2d8e5ae"
+    },
+    {
+      "relative_path": "src/fiscal_data/official_examples.py",
+      "size_bytes": 2766,
+      "sha256": "39a622a6535e2a6a2f221ff8fb23373c8e876cf5ae02ad8f4d60e347604199ac"
+    },
+    {
+      "relative_path": "src/fiscal_data/primary_ingest_v08.py",
+      "size_bytes": 17701,
+      "sha256": "fe0e63107e4f920fafb3a7442681a2b6eeb0756a609fa6aae634c4f0a730e1cc"
+    },
+    {
+      "relative_path": "src/fiscal_data/reconcile_public.py",
+      "size_bytes": 5836,
+      "sha256": "9a381678b1fdc09019e7a431b48e300917cfaa15ceba262d727da5c3a188555b"
+    },
+    {
+      "relative_path": "src/fiscal_data/reconciliation.py",
+      "size_bytes": 811,
+      "sha256": "e1dd512a8122edcb4631b7b4cf6e5e315fab46ee997a6d3b19c1675e263a79b8"
+    },
+    {
+      "relative_path": "src/fiscal_data/report.py",
+      "size_bytes": 9717,
+      "sha256": "dd5d6a516d93c3ababae3a3b14a4c7354850f35cc316a4de2b374d2240e2f476"
+    },
+    {
+      "relative_path": "src/fiscal_data/report_v04.py",
+      "size_bytes": 6184,
+      "sha256": "36d6a11b244c3b7133ceb17be51213f52833a43ca6283da0ec67c974703c49a4"
+    },
+    {
+      "relative_path": "src/fiscal_data/research_v08.py",
+      "size_bytes": 5484,
+      "sha256": "271b568b9259a01741ebbb3bdcc3cc612b42c8b50ca7e5422bfa7f1f3d4d32c8"
+    },
+    {
+      "relative_path": "src/fiscal_data/survey.py",
+      "size_bytes": 2835,
+      "sha256": "9def8572c562c7f61a0c504daa91cb0414cc345847a8cc5d5ede6476fdb088ba"
+    },
+    {
+      "relative_path": "src/fiscal_data/v06_frontier.py",
+      "size_bytes": 4510,
+      "sha256": "e72f02908c7e4ebf260e3fdb96f96041f1360558e18807323849c42d2f6232ef"
+    },
+    {
+      "relative_path": "src/fiscal_data/v06_law.py",
+      "size_bytes": 12195,
+      "sha256": "96f15575095a65a6dfca4869735e5d4620b6e732b6af9d727afc39c994ee6fe0"
+    },
+    {
+      "relative_path": "src/fiscal_data/v07_calibration.py",
+      "size_bytes": 7293,
+      "sha256": "9e2e116b1673aae81223ab2fcf284a1ebf5a202da66f129b2aa7561fc2219700"
+    },
+    {
+      "relative_path": "src/fiscal_data/v09_capacity.py",
+      "size_bytes": 5772,
+      "sha256": "1524511428c7bfe79f4f9ba0d5bc8da5fb0ca5e9b6186b926db9d78c316655af"
+    },
+    {
+      "relative_path": "src/fiscal_data/v09_survey.py",
+      "size_bytes": 8333,
+      "sha256": "d753d56747251805f00a25ab39a072c6d407d746273fe9e86fed1b4f21e87c0a"
+    },
+    {
+      "relative_path": "tests/test_accounting.py",
+      "size_bytes": 2317,
+      "sha256": "38456da2f5a35e5f779654d02a69e43ca68885038dc2c3a61a93752ec158b38a"
+    },
+    {
+      "relative_path": "tests/test_acquisition.py",
+      "size_bytes": 2069,
+      "sha256": "6962cb45851c0b8641df51cd93f29c26b19df8251c9cfc32030763f7a351e834"
+    },
+    {
+      "relative_path": "tests/test_actuarial.py",
+      "size_bytes": 1791,
+      "sha256": "93996abe58846d7255918cd6830d757fb2779f9ef1e32c63ac4bfabe52257e11"
+    },
+    {
+      "relative_path": "tests/test_ce_2025_adjustments.py",
+      "size_bytes": 1924,
+      "sha256": "3afd4c1a6cda465d57fa4808acac3988a91103f249ddc0c74e23e1e263d492e3"
+    },
+    {
+      "relative_path": "tests/test_cps_preflight.py",
+      "size_bytes": 1752,
+      "sha256": "cdb8d73a2f70cc1149a57b189bc7c8c2fc35e9a338b04cafea221b27f67477c3"
+    },
+    {
+      "relative_path": "tests/test_distribution.py",
+      "size_bytes": 2266,
+      "sha256": "d6e2f3925bd642154b92ee51f12543761fa5a1efa962f89b13d34fb86fe3d921"
+    },
+    {
+      "relative_path": "tests/test_fiscalization.py",
+      "size_bytes": 3576,
+      "sha256": "d07c04227243143c7d7427b4a926aca1fb5e3b9cb259809d06efcde48ffb288f"
+    },
+    {
+      "relative_path": "tests/test_medicare_cash.py",
+      "size_bytes": 2705,
+      "sha256": "251cbfa9089f3feef5470145a00a864a7c1b15b7a83e10f31128b4c5ccd69930"
+    },
+    {
+      "relative_path": "tests/test_medicare_derived_outputs.py",
+      "size_bytes": 2075,
+      "sha256": "defc48964507ce55d993b82973efe00401e1d42baf8960c7e04f616dd9a9b2b5"
+    },
+    {
+      "relative_path": "tests/test_official_examples.py",
+      "size_bytes": 1747,
+      "sha256": "a6d224154aee932ee88bf3dc507ea498fca83cd502ad6aabe2b03fdb7270611a"
+    },
+    {
+      "relative_path": "tests/test_primary_ingest_v08.py",
+      "size_bytes": 10227,
+      "sha256": "624cb4dd3369c9e69feb2477c35edfcae7f717e20c070fd215ec29fe1f88b4da"
+    },
+    {
+      "relative_path": "tests/test_public_reconcile_v05.py",
+      "size_bytes": 1615,
+      "sha256": "35c11649986d6402df78a3221b00e522640193718f0024eeda81e1da490289be"
+    },
+    {
+      "relative_path": "tests/test_reconciliation.py",
+      "size_bytes": 586,
+      "sha256": "8743406aa2eeb762dbcb8bcf8d18ba96d52a40c1e4b2c8004bd64630896f8109"
+    },
+    {
+      "relative_path": "tests/test_replay_v08_contract.py",
+      "size_bytes": 2432,
+      "sha256": "712b6c5fc7daed07b0d4a58b3f677303cf12330852a00c984c57bd7294764a1e"
+    },
+    {
+      "relative_path": "tests/test_research_v08.py",
+      "size_bytes": 2872,
+      "sha256": "b2e2b928cb269133ea23848b33aa1cdf3b916de62ebeaa55a1a03feaa08563e7"
+    },
+    {
+      "relative_path": "tests/test_survey.py",
+      "size_bytes": 2239,
+      "sha256": "cc2db6922ac34a17732c42f9325bd315d94c22834bd2c5d31525bd4e5063a7f8"
+    },
+    {
+      "relative_path": "tests/test_v06_artifacts.py",
+      "size_bytes": 2565,
+      "sha256": "e344faed42c3ae32ae71e0eb383920fc363659ca164aae8925cb753401869973"
+    },
+    {
+      "relative_path": "tests/test_v06_law.py",
+      "size_bytes": 7995,
+      "sha256": "b5b5076cc1154ab87e7975f7df174775f8cadb89e6e2a234dc28350521d96be7"
+    },
+    {
+      "relative_path": "tests/test_v09_capacity_and_survey.py",
+      "size_bytes": 6826,
+      "sha256": "44ccd9061aa57764a75105d7bfc3dc62d4f74452594b7dbf21e939872d36038f"
+    }
+  ]
+}

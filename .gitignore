@@ -1,0 +1,12 @@
+# Local government originals / any research records must not be committed.
+**/data/raw/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+*.download
+*.pem
+*.key
+*.p12
+# Publicly released source excerpts, tests, and deterministic research CSVs are committed.

@@ -1,0 +1,6 @@
+trust_fund,year_of_reserve_depletion,quarter_of_reserve_depletion,share_payable_at_depletion_pct,actuarial_balance_75yr_pct_of_respective_taxable_payroll,projection_end,legal_status,source_url
+OASI,2032,Q4,78,-4.55,2100,SEPARATE_LEGAL_TRUST_FUND,https://www.ssa.gov/oact/trsum/
+DI,,,,0.13,2100,SEPARATE_LEGAL_TRUST_FUND,https://www.ssa.gov/oact/trsum/
+OASDI_illustrative_combined,2034,Q3,83,-4.42,2100,NOT_LEGALLY_COMBINED,https://www.ssa.gov/oact/trsum/
+HI,2033,Q2,89,-0.56,2100,SEPARATE_LEGAL_TRUST_FUND_DIFFERENT_PAYROLL_BASE,https://www.ssa.gov/oact/trsum/
+SMI,,,,,2100,ANNUALLY_FINANCED_PROGRAM_NOT_SAME_FINANCING_TEST,https://www.ssa.gov/oact/trsum/

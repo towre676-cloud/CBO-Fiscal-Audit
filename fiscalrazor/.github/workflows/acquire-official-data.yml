@@ -1,0 +1,93 @@
+name: FiscalRazor official public-data verification
+on:
+  workflow_dispatch:
+    inputs:
+      include_microdata:
+        description: 'Download Census 2026 ASEC and replicate-weight public-use files (large)'
+        required: true
+        type: boolean
+        default: false
+      include_cms:
+        description: 'Download CMS 2026 Trustees supplementary tables'
+        required: true
+        type: boolean
+        default: true
+      include_irs:
+        description: 'Download IRS 2023 ZIP-AGI public aggregates (not tax-return microdata)'
+        required: true
+        type: boolean
+        default: true
+permissions:
+  contents: read
+concurrency:
+  group: fiscalrazor-official-public-data-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  get-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify 18 CBO original CSVs against official Git blob SHA-1 and row counts
+        run: python scripts/acquire_real_federal_v08.py --fetch-all-cbo
+      - name: Reconcile 18 raw originals with 11 CBO annual budgets and Treasury accounts
+        run: python scripts/replay_real_v08.py --require-originals
+      - name: Acquire Census 2026 household/person public data and replicate weights
+        if: ${{ inputs.include_microdata }}
+        run: >-
+          python scripts/acquire_real_federal_v08.py
+          --id cps_asec_2026_csv --id cps_asec_2026_replicates
+      - name: Acquire CMS 2026 expanded actuarial tables
+        if: ${{ inputs.include_cms }}
+        run: python scripts/acquire_real_federal_v08.py --id cms_medicare_2026_expanded
+      - name: Acquire public IRS ZIP-code AGI aggregates
+        if: ${{ inputs.include_irs }}
+        run: python scripts/acquire_real_federal_v08.py --id irs_soi_2023_zip_agi
+      - name: Replay household-income distribution if genuine CPS data present
+        run: python scripts/replay_real_v08.py --require-originals
+      - name: Produce source-gated v0.9 fiscal-capacity and policy-readiness reports
+        run: python scripts/replay_v09.py --require-originals
+      - name: Execute independent regression tests
+        run: PYTHONPATH=src python -m unittest discover -s tests -q
+      - name: Publish checksummed CBO source evidence and replay outputs (public data only)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fiscalrazor-cbo-vintage-2026-02
+          path: |
+            data/raw/v08_official_origins/cbo_*.csv
+            data/raw/v08_official_origins/cbo_*.origin.json
+            results/v08/*.csv
+            results/v08/*.json
+            results/v09/*.csv
+            results/v09/*.json
+          if-no-files-found: warn
+          retention-days: 7
+          compression-level: 6
+      - name: Publish CMS and IRS source receipts when downloaded
+        if: ${{ inputs.include_cms || inputs.include_irs }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: fiscalrazor-public-cms-irs-receipts
+          path: |
+            data/raw/v08_official_origins/cms_*.zip
+            data/raw/v08_official_origins/cms_*.origin.json
+            data/raw/v08_official_origins/irs_*.csv
+            data/raw/v08_official_origins/irs_*.origin.json
+          if-no-files-found: warn
+          retention-days: 5
+          compression-level: 6
+      - name: Publish acquired public-use data separately only when requested
+        if: ${{ inputs.include_microdata }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: fiscalrazor-public-use-census-2026
+          path: |
+            data/raw/v08_official_origins/cps_*.zip
+            data/raw/v08_official_origins/cps_*.origin.json
+          if-no-files-found: warn
+          retention-days: 3
+          compression-level: 0

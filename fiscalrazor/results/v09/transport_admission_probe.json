@@ -1,0 +1,33 @@
+{
+  "dataset_local_status": "ZERO_LOCAL_ORIGINAL_GOVERNMENT_DATA_FILES",
+  "host_checks": {
+    "raw.githubusercontent.com": {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "error_type": "gaierror",
+      "state": "DNS_UNAVAILABLE"
+    },
+    "www.bls.gov": {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "error_type": "gaierror",
+      "state": "DNS_UNAVAILABLE"
+    },
+    "www.cms.gov": {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "error_type": "gaierror",
+      "state": "DNS_UNAVAILABLE"
+    },
+    "www.irs.gov": {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "error_type": "gaierror",
+      "state": "DNS_UNAVAILABLE"
+    },
+    "www2.census.gov": {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "error_type": "gaierror",
+      "state": "DNS_UNAVAILABLE"
+    }
+  },
+  "method": "socket.getaddrinfo",
+  "tested_utc": "2026-11-07T18:59:39.935658+00:00",
+  "transport_test_only_not_dataset_download": true
+}

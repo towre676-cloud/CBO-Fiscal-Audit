@@ -1,0 +1,142 @@
+{
+  "source_repo": "https://github.com/US-CBO/cbo-data",
+  "vintage": "2026-02",
+  "source_type": "US-CBO original Git blob references and fully read connector source text; raw bytes not locally bundled",
+  "local_originals_acquired": 0,
+  "reported_row_count_total": 97459,
+  "base_path": "data/",
+  "files": [
+    {
+      "path": "data/economic/historical_economic/annual_cy_2026-02.csv",
+      "git_blob_sha1": "b7b36ba55a1fba10df547b90a30da20808173c44",
+      "expected_csv_rows": 7075,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/historical_economic/annual_cy_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/economic/historical_economic/annual_fy_2026-02.csv",
+      "git_blob_sha1": "e0799d7972696a65823e5d90cf36486d21903520",
+      "expected_csv_rows": 6993,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/historical_economic/annual_fy_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/economic/historical_economic/quarterly_2026-02.csv",
+      "git_blob_sha1": "c2df8394b5234b4aa831e1b61ce37a45ac5671e9",
+      "expected_csv_rows": 28305,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/historical_economic/quarterly_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/economic/economic_projections/calendar_2026-02.csv",
+      "git_blob_sha1": "6d5cd08bb44b4dcda5d9a7f7db31b220cfa15ded",
+      "expected_csv_rows": 2044,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/economic_projections/calendar_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/economic/economic_projections/fiscal_2026-02.csv",
+      "git_blob_sha1": "64318ea37595af4edacee81691256d711fb63707",
+      "expected_csv_rows": 2044,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/economic_projections/fiscal_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/economic/economic_projections/quarterly_2026-02.csv",
+      "git_blob_sha1": "c4f63ddda98f23070b704f55e0ac87a776117c8f",
+      "expected_csv_rows": 8176,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/economic_projections/quarterly_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/economic/long_term_economic/levels_2026-02.csv",
+      "git_blob_sha1": "3b0d13b1fff5f3250fd7d670b5367c1ba96abdde",
+      "expected_csv_rows": 793,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/long_term_economic/levels_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/economic/long_term_economic/lfp_rates_2026-02.csv",
+      "git_blob_sha1": "45bb06e63748ebd376cc8f0c6081be5938df49ef",
+      "expected_csv_rows": 4725,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/long_term_economic/lfp_rates_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/economic/long_term_economic/rates_2026-02.csv",
+      "git_blob_sha1": "6718440bb25f9afb261412dc5ea6b908a7170f03",
+      "expected_csv_rows": 1464,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/long_term_economic/rates_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/budget/historical_budget/annual_fy_2026-02.csv",
+      "git_blob_sha1": "a93887a03724caaf45fee10fc17d618cee9d8b0e",
+      "expected_csv_rows": 4194,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/historical_budget/annual_fy_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/budget/ten_year_budget/annual_fy_2026-02.csv",
+      "git_blob_sha1": "99f55b63bb8db8c214e2ee08de5ce0c216358fac",
+      "expected_csv_rows": 3333,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/ten_year_budget/annual_fy_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/budget/long_term_budget/annual_fy_2026-02.csv",
+      "git_blob_sha1": "d783ad369ea86b9d2fbf2b26776b462ee4756662",
+      "expected_csv_rows": 884,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/long_term_budget/annual_fy_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/budget/trust_fund/annual_fy_2026-02.csv",
+      "git_blob_sha1": "e3d8035b59a85be3ea039a1e22a1491574426eb6",
+      "expected_csv_rows": 728,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/trust_fund/annual_fy_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/budget/revenue_detail/annual_cy_2026-02.csv",
+      "git_blob_sha1": "cbab2149f26eb453b7172eb304b2c93d2dd84d53",
+      "expected_csv_rows": 404,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/revenue_detail/annual_cy_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/budget/revenue_detail/annual_cy_iit_2026-02.csv",
+      "git_blob_sha1": "2507f312912b0ff6475690c20a1a56d175772276",
+      "expected_csv_rows": 795,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/revenue_detail/annual_cy_iit_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/budget/revenue_detail/annual_fy_2026-02.csv",
+      "git_blob_sha1": "73b65c16e72c84ec67ef4838242727db19683d5a",
+      "expected_csv_rows": 1700,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/revenue_detail/annual_fy_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/budget/spending_detail/annual_fy_2026-02.csv",
+      "git_blob_sha1": "1022b8c75fee56293df2e1911d25cf99d75a3c99",
+      "expected_csv_rows": 21769,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/spending_detail/annual_fy_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    },
+    {
+      "path": "data/budget/tax_parameters/annual_cy_2026-02.csv",
+      "git_blob_sha1": "f404f6bd2e6868370f5fa0ff1b39be033b0a2432",
+      "expected_csv_rows": 2033,
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/tax_parameters/annual_cy_2026-02.csv",
+      "checked_this_turn_against_official_connector": true
+    }
+  ],
+  "warnings": [
+    "All 18 Git blob SHA-1 identities and original row counts were independently rechecked this turn against official US-CBO/cbo-data via the GitHub connector.",
+    "The full 21,769-row spending table was read as CSV text via GitHub contents endpoint and separately aggregated by fiscal year.",
+    "Connector source-text access is not an original file-byte download; raw local source files acquired remains 0.",
+    "Observed connector string lengths are not blindly interpreted as raw byte counts; exact local Git SHA-1 validation requires original file bytes."
+  ]
+}

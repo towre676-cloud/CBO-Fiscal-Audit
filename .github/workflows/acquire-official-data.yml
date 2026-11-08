@@ -1,0 +1,57 @@
+name: Acquire and validate official public-source data (manual)
+on:
+  workflow_dispatch:
+    inputs:
+      acquire_cps:
+        type: boolean
+        description: 'Also attempt large Census 2026 CPS ASEC public datasets'
+        default: false
+      acquire_cms:
+        type: boolean
+        description: 'Also attempt CMS Medicare trustees expanded ZIP'
+        default: false
+      acquire_irs:
+        type: boolean
+        description: 'Also attempt large public IRS geographic AGI aggregates'
+        default: false
+permissions:
+  contents: read
+jobs:
+  official-public-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    defaults:
+      run:
+        working-directory: fiscalrazor
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch original February 2026 CBO files and validate Git blob SHA-1
+        run: python scripts/acquire_real_federal_v08.py --fetch-all-cbo
+      - name: Reconcile CBO original rows and budget accounts
+        run: python scripts/replay_real_v08.py --require-originals
+      - name: Fetch Census public ASEC/replicate weights
+        if: ${{ inputs.acquire_cps }}
+        run: python scripts/acquire_real_federal_v08.py --id cps_asec_2026_csv --id cps_asec_2026_replicates
+      - name: Fetch CMS public tables
+        if: ${{ inputs.acquire_cms }}
+        run: python scripts/acquire_real_federal_v08.py --id cms_medicare_2026_expanded
+      - name: Fetch IRS aggregate public file
+        if: ${{ inputs.acquire_irs }}
+        run: python scripts/acquire_real_federal_v08.py --id irs_soi_2023_zip_agi
+      - name: Check admissions; do not manufacture missing joint score
+        run: python scripts/replay_v09.py --require-originals
+      - name: Upload available public-source receipts and CBO-derived results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fiscalrazor-cbo-public-evidence
+          path: |
+            fiscalrazor/data/raw/v08_official_origins/cbo_*.origin.json
+            fiscalrazor/results/v08/*.json
+            fiscalrazor/results/v09/*.json
+            fiscalrazor/results/v09/*.csv
+          retention-days: 7
+          if-no-files-found: warn

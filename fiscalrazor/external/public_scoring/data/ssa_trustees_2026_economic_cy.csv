@@ -1,0 +1,12 @@
+calendar_year,oasdi_taxable_payroll_billion,nominal_gdp_billion,projection,source_table,source_url,data_precision
+2026,11043,32289,intermediate,VI.G1,https://www.ssa.gov/oact/TR/2026/lr6g1.html,whole_billions_published
+2027,11516,33495,intermediate,VI.G1,https://www.ssa.gov/oact/TR/2026/lr6g1.html,whole_billions_published
+2028,12066,34730,intermediate,VI.G1,https://www.ssa.gov/oact/TR/2026/lr6g1.html,whole_billions_published
+2029,12643,36049,intermediate,VI.G1,https://www.ssa.gov/oact/TR/2026/lr6g1.html,whole_billions_published
+2030,13258,37466,intermediate,VI.G1,https://www.ssa.gov/oact/TR/2026/lr6g1.html,whole_billions_published
+2031,13891,38956,intermediate,VI.G1,https://www.ssa.gov/oact/TR/2026/lr6g1.html,whole_billions_published
+2032,14541,40519,intermediate,VI.G1,https://www.ssa.gov/oact/TR/2026/lr6g1.html,whole_billions_published
+2033,15197,42151,intermediate,VI.G1,https://www.ssa.gov/oact/TR/2026/lr6g1.html,whole_billions_published
+2034,15841,43845,intermediate,VI.G1,https://www.ssa.gov/oact/TR/2026/lr6g1.html,whole_billions_published
+2035,16486,45582,intermediate,VI.G1,https://www.ssa.gov/oact/TR/2026/lr6g1.html,whole_billions_published
+2036,17125,47386,intermediate,VI.G1,https://www.ssa.gov/oact/TR/2026/lr6g1.html,whole_billions_published

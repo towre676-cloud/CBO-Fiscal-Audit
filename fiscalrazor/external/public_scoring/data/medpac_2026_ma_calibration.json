@@ -1,0 +1,19 @@
+{
+  "year": 2026,
+  "report_date": "2026-03-12",
+  "basis": "MedPAC estimated MA payment difference versus similar FFS beneficiaries in CY2026; not budgetary recoverable savings",
+  "units": "billion_usd",
+  "excess_ma_payments": 76,
+  "favorable_selection_contribution": 57,
+  "coding_intensity_contribution": 22,
+  "offset_other_effects_approx": -3,
+  "coding_intensity_perc_after_adjustment": 4,
+  "statutory_adjustment_perc": 5.9,
+  "source": "https://www.medpac.gov/wp-content/uploads/2026/03/Mar26_ExecutiveSummary_MedPAC_Report_To_Congress_SEC.pdf",
+  "status": "MEDPAC_ESTIMATE_NOT_CBO_REFORM_SCORE",
+  "projected_ma_payments_billion": 615,
+  "higher_part_b_premium_contributions_associated_with_ma_billion": 11,
+  "quality_bonus_payments_billion": 16,
+  "projections_not_additive": "The $11B beneficiary-premium effect and $16B quality bonuses are mechanisms/impacts within the overall Medicare financing picture; they are NOT additional recoverable savings on top of the $76B comparison.",
+  "caveat": "Not equivalent to recoverable MA spending or unified federal deficit reduction for any policy. Plan selection, bids, bonus structure, beneficiaries and premium offsets require modeling."
+}

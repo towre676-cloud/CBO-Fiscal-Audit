@@ -1,0 +1,506 @@
+[
+  {
+    "id": "CBO_2026_BASELINE",
+    "org": "CBO",
+    "kind": "official_report",
+    "url": "https://www.cbo.gov/publication/61882",
+    "vintage": "2026-02",
+    "role": "budget baseline 2026–2036; use only for matched-vintage scoring",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_DATA_REPO",
+    "org": "CBO",
+    "kind": "official_source_and_data",
+    "url": "https://github.com/US-CBO/cbo-data",
+    "vintage": "2026-05_catalog",
+    "role": "versioned CSV 2026-02 vintages; read catalog and schemas",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_CATALOG",
+    "org": "CBO",
+    "kind": "machine_readable_catalog",
+    "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/catalog.json",
+    "vintage": "2026-05",
+    "role": "machine-readable dataset inventory, actual paths and vintages",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_TEN_YEAR_FY",
+    "org": "CBO",
+    "kind": "direct_csv",
+    "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/ten_year_budget/annual_fy_2026-02.csv",
+    "vintage": "2026-02",
+    "role": "official annual FY budget aggregates, amounts billions nominal",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_REVENUE_DETAIL_FY",
+    "org": "CBO",
+    "kind": "direct_csv",
+    "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/revenue_detail/annual_fy_2026-02.csv",
+    "vintage": "2026-02",
+    "role": "revenues by category FY, billions nominal",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_SPENDING_DETAIL_FY",
+    "org": "CBO",
+    "kind": "direct_csv",
+    "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/spending_detail/annual_fy_2026-02.csv",
+    "vintage": "2026-02",
+    "role": "budget account-level detail, amounts millions, obligations != outlays",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_TRUST_FUND_FY",
+    "org": "CBO",
+    "kind": "direct_csv",
+    "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/trust_fund/annual_fy_2026-02.csv",
+    "vintage": "2026-02",
+    "role": "OASI DI HI official CBO FY projection, do not equate to SSA/CMS model vintage",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_BFM",
+    "org": "CBO",
+    "kind": "executable_public_model",
+    "url": "https://github.com/US-CBO/budgetary-feedback-model",
+    "vintage": "2026",
+    "role": "economic-to-budget feedback, small deviations; NOT legislation scoring",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_DEBT_SERVICE",
+    "org": "CBO",
+    "kind": "public_interactive_model",
+    "url": "https://www.cbo.gov/publication/61912",
+    "vintage": "2026",
+    "role": "simplified debt service, changes less than $1T per year, rates fixed, not official",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_CAPTAX",
+    "org": "CBO",
+    "kind": "executable_public_model",
+    "url": "https://github.com/US-CBO/captax",
+    "vintage": "2026",
+    "role": "capital income tax burdens; not a complete corporate revenue engine",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_RULES_OF_THUMB",
+    "org": "CBO",
+    "kind": "executable_public_model",
+    "url": "https://github.com/US-CBO/rules-of-thumb-model",
+    "vintage": "2026",
+    "role": "macro factors and debt feedback rules of thumb",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_IO_PRICE",
+    "org": "CBO",
+    "kind": "executable_public_model",
+    "url": "https://github.com/US-CBO/IO-price-model",
+    "vintage": "2026",
+    "role": "cost shocks and consumer price pass-through",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_METHODS",
+    "org": "CBO",
+    "kind": "methods",
+    "url": "https://www.cbo.gov/topics/economy/methods-analyzing-economic-effects-fiscal-policy-changes",
+    "vintage": "current",
+    "role": "dynamic and conventional policy scoring",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_NIPA_2026",
+    "org": "CBO",
+    "kind": "official_report",
+    "url": "https://www.cbo.gov/publication/62876",
+    "vintage": "2026-10-26",
+    "role": "separate NIPA accounting; NOT additive to budget baseline",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "JCT_REVENUE_ESTIMATING",
+    "org": "JCT",
+    "kind": "methods",
+    "url": "https://www.jct.gov/operations/revenue-estimating/",
+    "vintage": "current",
+    "role": "description JCT model, inputs, confidential IRS data, fiscalization",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "JCT_2026_MICRO_PAPER",
+    "org": "JCT",
+    "kind": "official_worked_illustration",
+    "url": "https://www.jct.gov/publications/2026/revenue-estimating-process-and-microeconomic-research-2026/",
+    "vintage": "2026-03-31",
+    "role": "corporate rate example $350B mechanical, $180B illustrative net",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "JCT_2026_MICRO_PDF",
+    "org": "JCT",
+    "kind": "official_pdf",
+    "url": "https://www.jct.gov/getattachment/c9ab0cfe-71ce-4912-b0c2-75c9a569ead8/Revenue-Estimating-Process-And-Microeconomic-Research-2026.pdf",
+    "vintage": "2026-03",
+    "role": "sample descriptions, tax response and 10-year example; 19 pages",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "JCT_INDIVIDUAL_MODEL",
+    "org": "JCT",
+    "kind": "official_methods",
+    "url": "https://www.jct.gov/publications/2023/jcx-48-23/",
+    "vintage": "2023-10-30",
+    "role": "individual tax model methods; newer 2026 paper complements",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "SSA_TRUSTEES_2026",
+    "org": "SSA",
+    "kind": "official_report",
+    "url": "https://www.ssa.gov/oact/TR/2026/",
+    "vintage": "2026-06-09",
+    "role": "trust funds, demographic and econ assumptions, single year tables",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "SSA_LONG_MODEL",
+    "org": "SSA",
+    "kind": "official_model_documentation",
+    "url": "https://www.ssa.gov/oact/TR/2026/2026_LR_Model_Documentation.pdf",
+    "vintage": "2026-06",
+    "role": "public projection modules, not full executable in source form",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "SSA_METHOD_HTML",
+    "org": "SSA",
+    "kind": "official_method",
+    "url": "https://www.ssa.gov/OACT/TR/2026/V_C_prog.html",
+    "vintage": "2026",
+    "role": "program assumptions, automatically indexed parameters",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "SSA_PROVISIONS",
+    "org": "SSA",
+    "kind": "official_option_index",
+    "url": "https://www.ssa.gov/oact/solvency/provisions/summary.html",
+    "vintage": "2026",
+    "role": "pre-scored menu; option definitions need precise matching",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "SSA_E2_5",
+    "org": "SSA",
+    "kind": "annual_official_option",
+    "url": "https://www.ssa.gov/oact/solvency/provisions/tables/table_run214.html",
+    "vintage": "2026",
+    "role": "12.4% tax earnings >$250k from 2027 no benefit credit, CY annual balance",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "SSA_E1_10",
+    "org": "SSA",
+    "kind": "annual_official_option",
+    "url": "https://www.ssa.gov/OACT/solvency/provisions/tables/table_run201.html",
+    "vintage": "2026",
+    "role": "OASDI rate +0.1pp yearly 2028–37; not FiscalRazor exact schedule",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "SSA_B1_2",
+    "org": "SSA",
+    "kind": "annual_official_option",
+    "url": "https://www.ssa.gov/OACT/solvency/provisions/tables/table_run153.html",
+    "vintage": "2026",
+    "role": "price indexing at 30th percentile effective 2033; not FiscalRazor exact schedule",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CMS_TRUSTEES_2026",
+    "org": "CMS",
+    "kind": "official_report_pdf",
+    "url": "https://www.cms.gov/oact/tr/2026",
+    "vintage": "2026-06-09",
+    "role": "Medicare HI Part B Part D projections; CY 2026–2035 10-year tables",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CMS_TRUSTEE_TABLES",
+    "org": "CMS",
+    "kind": "official_download_index",
+    "url": "https://www.cms.gov/data-research/statistics-trends-and-reports/trustees-report-trust-funds",
+    "vintage": "2026-06",
+    "role": "historical and 2026 expanded annual actuarial tables",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CMS_2026_SUPPLEMENTARY_ZIP",
+    "org": "CMS",
+    "kind": "download_zip",
+    "url": "https://www.cms.gov/files/zip/2026-expanded-supplementary-tables-figures.zip",
+    "vintage": "2026",
+    "role": "tables ZIP published as official download; file contents NOT reviewed locally",
+    "access_status": "link_on_official_portal"
+  },
+  {
+    "id": "CMS_NHE",
+    "org": "CMS",
+    "kind": "public_forecasts",
+    "url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/projected",
+    "vintage": "2026",
+    "role": "2026 NHE projections through 2034, not automatically 2035-36",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "MEDPAC_MARCH_2026",
+    "org": "MedPAC",
+    "kind": "policy_evidence",
+    "url": "https://www.medpac.gov/document/march-2026-report-to-the-congress-medicare-payment-policy/",
+    "vintage": "2026-03",
+    "role": "MA coding, selection, FFS, access, provider payments",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "IRS_INDIVIDUAL_SOI",
+    "org": "IRS",
+    "kind": "official_aggregate_tax_data",
+    "url": "https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-returns",
+    "vintage": "2026_available",
+    "role": "tax tables, not JCT confidential micro returns",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "IRS_FORMS_DICTIONARY",
+    "org": "IRS",
+    "kind": "official_aggregate_tax_data",
+    "url": "https://www.irs.gov/statistics/soi-tax-stats-program-documentation-data-items-by-forms-and-schedules",
+    "vintage": "various",
+    "role": "definitions of tax return SOI fields",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CENSUS_2026_CPS_ASEC",
+    "org": "Census",
+    "kind": "public_microdata",
+    "url": "https://www.census.gov/data/datasets/2026/demo/cps/cps-asec-2026.html",
+    "vintage": "2026",
+    "role": "income and demographic distribution, complex sampling",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "BLS_CEX_PUMD",
+    "org": "BLS",
+    "kind": "public_microdata",
+    "url": "https://www.bls.gov/cex/pumd_data.htm",
+    "vintage": "2025",
+    "role": "expenditure and household characteristics; Oct–Nov 2025 data absent, special handling",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "BLS_CEX_PUMD_DISRUPTION",
+    "org": "BLS",
+    "kind": "methodological_warning",
+    "url": "https://www.bls.gov/cex/ce-pumd-2025-shutdown-impact.htm",
+    "vintage": "2026-10",
+    "role": "2025 PUMD lacks published-table weight corrections",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "BEA_PCE",
+    "org": "BEA",
+    "kind": "official_expenditure_data",
+    "url": "https://www.bea.gov/data/consumer-spending/main",
+    "vintage": "2026-10-29",
+    "role": "VAT taxable consumption base must be separated from total PCE",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "BEA_DETAILED_PCE",
+    "org": "BEA",
+    "kind": "official_expenditure_table",
+    "url": "https://apps.bea.gov/iTable/?categories=underlying&isuri=1&nipa_table_list=2017&reqid=19&step=3",
+    "vintage": "2026-09",
+    "role": "PCE by product with units millions and seasonality",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "TAX_CALCULATOR",
+    "org": "Policy Simulation Library",
+    "kind": "open_source_research_model",
+    "url": "https://github.com/PSLmodels/Tax-Calculator",
+    "vintage": "2026",
+    "role": "public microsimulation replacement baseline, not JCT engine",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "POLICYENGINE_US",
+    "org": "PolicyEngine",
+    "kind": "open_source_research_model",
+    "url": "https://www.policyengine.org/us/model",
+    "vintage": "2026",
+    "role": "cross-program household tax and benefit outcomes, needs validation",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_ECON_NOMINAL_GDP_FY",
+    "org": "CBO",
+    "kind": "direct_csv",
+    "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/historical_economic/annual_fy_2026-02.csv",
+    "vintage": "2026-02",
+    "role": "Official fiscal-year nominal GDP variable gdp, 2026-2036, in billions; exact denominator for FY target",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "SSA_TR_2026_ECONOMIC_VIG1",
+    "org": "SSA",
+    "kind": "official_actuarial_table",
+    "url": "https://www.ssa.gov/oact/TR/2026/lr6g1.html",
+    "vintage": "2026",
+    "role": "CY 2026–2036 taxable payroll and nominal GDP, manually transcribed excerpt",
+    "access_status": "web_verified_excerpt_only_no_source_byte_hash"
+  },
+  {
+    "id": "SSA_TR_2026_OASDI_FLOW_VIG3",
+    "org": "SSA",
+    "kind": "official_actuarial_table",
+    "url": "https://www.ssa.gov/oact/TR/2026/lr6g3.html",
+    "vintage": "2026",
+    "role": "CY 2026–2036 OASI DI combined noninterest income-cost changes, manually transcribed",
+    "access_status": "web_verified_excerpt_only_no_source_byte_hash"
+  },
+  {
+    "id": "SSA_TR_2026_OASDI_RESERVES_VIG2",
+    "org": "SSA",
+    "kind": "official_actuarial_table",
+    "url": "https://www.ssa.gov/oact/TR/2026/lr6g2.html",
+    "vintage": "2026",
+    "role": "CY 2025–2033 reserve-flow stock identities, manually transcribed",
+    "access_status": "web_verified_excerpt_only_no_source_byte_hash"
+  },
+  {
+    "id": "SSA_2027_COLA_MAX_EARNINGS",
+    "org": "SSA",
+    "kind": "official_statutory_params",
+    "url": "https://www.ssa.gov/news/en/cola/factsheets/2027.html",
+    "vintage": "2027",
+    "role": "OASDI max taxable earnings $192,300 in CY2027, $184,500 CY2026",
+    "access_status": "web_verified_index_only"
+  },
+  {
+    "id": "CMS_TRUSTEES_2026_HI_IIE1",
+    "org": "CMS",
+    "kind": "official_actuarial_table",
+    "url": "https://www.cms.gov/oact/tr/2026",
+    "vintage": "2026",
+    "role": "CY 2025–2035 HI income expenditures and reserves, manually transcribed",
+    "access_status": "web_verified_excerpt_only_no_source_byte_hash"
+  },
+  {
+    "id": "MEDPAC_MAR26_EXEC_PDF",
+    "org": "MedPAC",
+    "kind": "official_method_calibration",
+    "url": "https://www.medpac.gov/wp-content/uploads/2026/03/Mar26_ExecutiveSummary_MedPAC_Report_To_Congress_SEC.pdf",
+    "vintage": "2026-03",
+    "role": "2026 MA $76B relative-FSS estimate; $11B Part B premium-associated increase, not cost savings",
+    "access_status": "web_verified_index_only"
+  },
+  {
+    "id": "IRS_SOI_2023_AGI_TABLES",
+    "org": "IRS",
+    "kind": "public_aggregate_tables",
+    "url": "https://www.irs.gov/statistics/soi-tax-stats-individual-statistical-tables-by-size-of-adjusted-gross-income",
+    "vintage": "2023",
+    "role": "Tax year 2023 IRS SOI Table 1.1/1.2/1.4/3.1/3.3 for future micro-model calibration",
+    "access_status": "web_verified_index_only"
+  },
+  {
+    "id": "IRS_SOI_2023_FILING",
+    "org": "IRS",
+    "kind": "public_aggregate_tables",
+    "url": "https://www.irs.gov/statistics/soi-tax-stats-individual-statistical-tables-by-filing-status",
+    "vintage": "2023",
+    "role": "Tax year 2023 IRS tables by filing status and AGI",
+    "access_status": "web_verified_index_only"
+  },
+  {
+    "id": "IRS_SOI_TOP_SHARE",
+    "org": "IRS",
+    "kind": "public_aggregate_tables",
+    "url": "https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-rates-and-tax-shares",
+    "vintage": "current",
+    "role": "Income percentile/400 highest reported taxable incomes for distribution calibration",
+    "access_status": "web_verified_index_only"
+  },
+  {
+    "id": "BEA_FRED_NIPA_2025",
+    "org": "BEA/FRED",
+    "kind": "official_national_accounts_table",
+    "url": "https://fred.stlouisfed.org/release/tables?eid=43861&rid=53",
+    "vintage": "2025",
+    "role": "2025 calendar-year PCE major product categories, NOT taxable VAT receipts",
+    "access_status": "web_verified_index_only"
+  },
+  {
+    "id": "TAXCALCULATOR_API",
+    "org": "Policy Simulation Library",
+    "kind": "open_source_model_documentation",
+    "url": "https://taxcalc.pslmodels.org/api/public_api.html",
+    "vintage": "current",
+    "role": "Open-source tax microsim interface for reproducible user-supplied public or private sampling",
+    "access_status": "web_verified_index_only"
+  },
+  {
+    "id": "POLICYENGINE_US_DOCUMENTATION",
+    "org": "PolicyEngine",
+    "kind": "open_source_model_documentation",
+    "url": "https://policyengine.org/us/model",
+    "vintage": "current",
+    "role": "Public tax and transfer model; requires independently validated calibration",
+    "access_status": "web_verified_index_only"
+  },
+  {
+    "id": "CBO_INCOME_2023_DISTRIBUTION",
+    "org": "CBO",
+    "kind": "official_distribution_report",
+    "url": "https://www.cbo.gov/publication/62761",
+    "vintage": "2026-09-24",
+    "role": "Household income distribution calibration candidate; verify vintage and URL before ingesting",
+    "access_status": "web_verified"
+  },
+  {
+    "id": "CBO_INCOME_2023_ADDITIONAL_RESEARCHER_DATA",
+    "org": "CBO",
+    "kind": "official_research_data_zip",
+    "url": "https://www.cbo.gov/system/files/2026-09/62761-additional-data-for-researchers.zip",
+    "vintage": "2026-09",
+    "role": "CBO released supplemental files for household income distribution, not yet locally downloaded",
+    "access_status": "official_webpage_link_verified_bytes_not_downloaded"
+  },
+  {
+    "id": "CBO_INCOME_2023_SUPPLEMENTAL_XLSX",
+    "org": "CBO",
+    "kind": "official_supplement_xlsx",
+    "url": "https://www.cbo.gov/system/files/2026-09/62761-supp-data.xlsx",
+    "vintage": "2026-09",
+    "role": "Supplemental 2023 household distribution tables; not locally downloaded",
+    "access_status": "official_webpage_link_verified_bytes_not_downloaded"
+  },
+  {
+    "id": "CBO_TRANSFER_UNDERREPORTING_REPO",
+    "org": "CBO",
+    "kind": "executable_public_method",
+    "url": "https://github.com/US-CBO/means_tested_transfer_imputations",
+    "vintage": "current",
+    "role": "Stata code, inputs and outputs correcting CPS ASEC underreporting of SSI, SNAP, Medicaid/CHIP, housing; explicitly NOT designed for policy simulation",
+    "access_status": "web_verified"
+  }
+]

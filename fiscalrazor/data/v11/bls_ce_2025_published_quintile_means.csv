@@ -1,0 +1,6 @@
+quintile,consumer_units_thousands,mean_pretax_income_usd,mean_total_expenditures_usd,official_release_year,official_release_url,source_table,source_precision
+1,27770,18125,37935,2025,https://www.bls.gov/news.release/archives/cesan_10292026.htm,Table 3,rounded_whole_dollars_and_1000_consumer_units
+2,27543,46080,51405,2025,https://www.bls.gov/news.release/archives/cesan_10292026.htm,Table 3,rounded_whole_dollars_and_1000_consumer_units
+3,27778,78584,68983,2025,https://www.bls.gov/news.release/archives/cesan_10292026.htm,Table 3,rounded_whole_dollars_and_1000_consumer_units
+4,27353,126349,92250,2025,https://www.bls.gov/news.release/archives/cesan_10292026.htm,Table 3,rounded_whole_dollars_and_1000_consumer_units
+5,27551,286188,159512,2025,https://www.bls.gov/news.release/archives/cesan_10292026.htm,Table 3,rounded_whole_dollars_and_1000_consumer_units

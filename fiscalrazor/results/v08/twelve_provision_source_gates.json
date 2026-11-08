@@ -1,0 +1,178 @@
+[
+  {
+    "missing_required_sources": [
+      "cbo_11",
+      "cps_asec_2026_csv",
+      "bls_ce_2025_interview_csv"
+    ],
+    "national_policy_score": "NOT_ESTABLISHED",
+    "notes": "Raw inputs alone do not establish model calibration, interactions, or official scoring.",
+    "policy_id": "vat_5_percent_with_rebates",
+    "primary_required_sources": [
+      "cbo_11",
+      "cps_asec_2026_csv",
+      "bls_ce_2025_interview_csv"
+    ],
+    "raw_input_gate": "BLOCKED_ORIGINAL_DATA"
+  },
+  {
+    "missing_required_sources": [
+      "cbo_11",
+      "cbo_15",
+      "irs_soi_2023_zip_agi"
+    ],
+    "national_policy_score": "NOT_ESTABLISHED",
+    "notes": "Raw inputs alone do not establish model calibration, interactions, or official scoring.",
+    "policy_id": "high_income_surtax",
+    "primary_required_sources": [
+      "cbo_11",
+      "cbo_15",
+      "irs_soi_2023_zip_agi"
+    ],
+    "raw_input_gate": "BLOCKED_ORIGINAL_DATA"
+  },
+  {
+    "missing_required_sources": [
+      "cbo_11",
+      "cbo_15",
+      "irs_soi_2023_zip_agi"
+    ],
+    "national_policy_score": "NOT_ESTABLISHED",
+    "notes": "Raw inputs alone do not establish model calibration, interactions, or official scoring.",
+    "policy_id": "itemized_deduction_limits",
+    "primary_required_sources": [
+      "cbo_11",
+      "cbo_15",
+      "irs_soi_2023_zip_agi"
+    ],
+    "raw_input_gate": "BLOCKED_ORIGINAL_DATA"
+  },
+  {
+    "missing_required_sources": [
+      "cbo_11",
+      "irs_soi_2023_zip_agi",
+      "cps_asec_2026_csv"
+    ],
+    "national_policy_score": "NOT_ESTABLISHED",
+    "notes": "Raw inputs alone do not establish model calibration, interactions, or official scoring.",
+    "policy_id": "employer_health_exclusion_cap",
+    "primary_required_sources": [
+      "cbo_11",
+      "irs_soi_2023_zip_agi",
+      "cps_asec_2026_csv"
+    ],
+    "raw_input_gate": "BLOCKED_ORIGINAL_DATA"
+  },
+  {
+    "missing_required_sources": [
+      "cbo_11",
+      "cbo_16"
+    ],
+    "national_policy_score": "NOT_ESTABLISHED",
+    "notes": "Raw inputs alone do not establish model calibration, interactions, or official scoring.",
+    "policy_id": "corporate_tax_rate",
+    "primary_required_sources": [
+      "cbo_11",
+      "cbo_16"
+    ],
+    "raw_input_gate": "BLOCKED_ORIGINAL_DATA"
+  },
+  {
+    "missing_required_sources": [
+      "cbo_11",
+      "cps_asec_2026_csv"
+    ],
+    "national_policy_score": "NOT_ESTABLISHED",
+    "notes": "Raw inputs alone do not establish model calibration, interactions, or official scoring.",
+    "policy_id": "oasdi_high_earnings_250k",
+    "primary_required_sources": [
+      "cbo_11",
+      "cps_asec_2026_csv"
+    ],
+    "raw_input_gate": "BLOCKED_ORIGINAL_DATA"
+  },
+  {
+    "missing_required_sources": [
+      "cbo_11",
+      "cps_asec_2026_csv"
+    ],
+    "national_policy_score": "NOT_ESTABLISHED",
+    "notes": "Raw inputs alone do not establish model calibration, interactions, or official scoring.",
+    "policy_id": "oasdi_base_rate_phaseup",
+    "primary_required_sources": [
+      "cbo_11",
+      "cps_asec_2026_csv"
+    ],
+    "raw_input_gate": "BLOCKED_ORIGINAL_DATA"
+  },
+  {
+    "missing_required_sources": [
+      "cbo_13",
+      "cps_asec_2026_csv"
+    ],
+    "national_policy_score": "NOT_ESTABLISHED",
+    "notes": "Raw inputs alone do not establish model calibration, interactions, or official scoring.",
+    "policy_id": "oasdi_progressive_price_index",
+    "primary_required_sources": [
+      "cbo_13",
+      "cps_asec_2026_csv"
+    ],
+    "raw_input_gate": "BLOCKED_ORIGINAL_DATA"
+  },
+  {
+    "missing_required_sources": [
+      "cbo_13",
+      "cms_medicare_2026_expanded"
+    ],
+    "national_policy_score": "NOT_ESTABLISHED",
+    "notes": "Raw inputs alone do not establish model calibration, interactions, or official scoring.",
+    "policy_id": "medicare_advantage",
+    "primary_required_sources": [
+      "cbo_13",
+      "cms_medicare_2026_expanded"
+    ],
+    "raw_input_gate": "BLOCKED_ORIGINAL_DATA"
+  },
+  {
+    "missing_required_sources": [
+      "cbo_13",
+      "cms_medicare_2026_expanded"
+    ],
+    "national_policy_score": "NOT_ESTABLISHED",
+    "notes": "Raw inputs alone do not establish model calibration, interactions, or official scoring.",
+    "policy_id": "medicare_site_neutral",
+    "primary_required_sources": [
+      "cbo_13",
+      "cms_medicare_2026_expanded"
+    ],
+    "raw_input_gate": "BLOCKED_ORIGINAL_DATA"
+  },
+  {
+    "missing_required_sources": [
+      "cbo_17",
+      "cbo_11"
+    ],
+    "national_policy_score": "NOT_ESTABLISHED",
+    "notes": "Raw inputs alone do not establish model calibration, interactions, or official scoring.",
+    "policy_id": "defense_budget",
+    "primary_required_sources": [
+      "cbo_17",
+      "cbo_11"
+    ],
+    "raw_input_gate": "BLOCKED_ORIGINAL_DATA"
+  },
+  {
+    "missing_required_sources": [
+      "cbo_13",
+      "cms_medicare_2026_expanded"
+    ],
+    "national_policy_score": "NOT_ESTABLISHED",
+    "notes": "Raw inputs alone do not establish model calibration, interactions, or official scoring.",
+    "policy_id": "medicare_hi_financing",
+    "primary_required_sources": [
+      "cbo_13",
+      "cms_medicare_2026_expanded"
+    ],
+    "raw_input_gate": "BLOCKED_ORIGINAL_DATA"
+  }
+]

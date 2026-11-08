@@ -1,0 +1,21 @@
+{
+  "release": "FiscalRazor v0.7.0",
+  "v06_inherited_executed_tests": 227,
+  "new_bridge_tests": 24,
+  "total_executed_tests": 251,
+  "inherited_status": "PASSED",
+  "new_bridge_status": "PASSED",
+  "raw_source_admission_expected_failure": "CONFIRMED_EXIT_2",
+  "other_session_full_zip_code_replay": "NOT_PERFORMED_CANNOT_MOUNT_THIS_TURN",
+  "other_14_source_pins": "INDEPENDENTLY_CHECKED_IN_THIS_TURN",
+  "cbo_files_locally_acquired": 0,
+  "original_source_rows_reported": 97459,
+  "source_files_referenced": 18,
+  "reform_policy_score": "NOT_ESTABLISHED",
+  "household_policy_incidence": "NOT_ESTABLISHED",
+  "18_source_blob_and_rowcount_rechecks": "PASS_ALL_18_SOURCE_GIT_METADATA_AND_ROW_COUNTS",
+  "source_spending_rows_recomputed_from_full_connector_text": 21769,
+  "spending_years_reconciled_to_CBO": 11,
+  "spending_distinct_tin": 1712,
+  "spending_connector_full_source_character_length": 3659443
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "fixture_name": "ONE_EMPLOYER_ONE_WORKER_2028_350K_USD_AND_HYPOTHETICAL_192300_WAGE_BASE",
+    "source": "SYNTHETIC_HAND_EXAMPLE_NOT_2028_SSA_WAGE_BASE_OR_REAL_PERSON",
+    "oasdi": {
+      "baseline_tax": "23845.200",
+      "high_band": "12400.000",
+      "base_rate": "384.600",
+      "interaction": "200.000",
+      "increment": "12984.600",
+      "taxable_low": "192300",
+      "taxable_high": "100000"
+    },
+    "additional_hi_statutory_tax_dollars": "875.00000"
+  },
+  {
+    "fixture_name": "SYNTHETIC_HOUSEHOLD_NOT_NATIONAL_INCIDENCE",
+    "source": "SYNTHETIC_POVERTY_GUIDELINE_AND_CONSUMPTION",
+    "vat": {
+      "gross_vat": "1000.00",
+      "refundable_credit": "1000.00",
+      "net_before_behavior": "0.00",
+      "eligibility_fraction": "1"
+    }
+  }
+]

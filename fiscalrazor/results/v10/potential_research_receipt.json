@@ -1,0 +1,52 @@
+{
+  "baseline_gap_2034_bn": "1517.30031742275",
+  "baseline_gap_2036_bn": "1714.022728075",
+  "analogue_count": 12,
+  "analogue_nonnull_count": 9,
+  "hi_rows": 33,
+  "ssa_years": 11,
+  "options_are_not_additive": true,
+  "policy_score_status": "NONE_ESTABLISHED",
+  "household_incidence_status": "NONE_ESTABLISHED_ORIGINAL_CPS_MICRODATA_NOT_INGESTED",
+  "original_data_status": "NO_BYTE_COMPLETE_NEW_ORIGINALS_PRODUCED_BY_THIS_MODULE",
+  "HI_thresholds": [
+    {
+      "scenario": "low_cost",
+      "year_end_assets_2035_with_draft_bn": "1821.702509928165228419214099",
+      "year_end_2035_reserve_ratio_pct": "224.2923553223547437108118812",
+      "years_after_policy_start": "8",
+      "min_scalar_for_nonnegative_yearend_assets_2028_2035": "0",
+      "min_scalar_for_100pct_yearend_reserve_each_year_2028_2035": "5.393656387665198237885462556",
+      "min_scalar_for_100pct_yearend_reserve_in_2035_only": "0.05193451319318424962427230038",
+      "funding_rate_full_phase_pp_if_scaled_to_2035_100pct": "0.03895088489488818721820422528",
+      "status": "MATHEMATICAL_SCALAR_ONLY_DOES_NOT_GUARANTEE_WITHIN_YEAR_LIQUIDITY_OR_75Y_SOLVENCY"
+    },
+    {
+      "scenario": "intermediate",
+      "year_end_assets_2035_with_draft_bn": "655.4449959642600832320590801",
+      "year_end_2035_reserve_ratio_pct": "74.71161472292945209529910864",
+      "years_after_policy_start": "8",
+      "min_scalar_for_nonnegative_yearend_assets_2028_2035": "0.3114675756025843169913030452",
+      "min_scalar_for_100pct_yearend_reserve_each_year_2028_2035": "8.852306600425833924769339956",
+      "min_scalar_for_100pct_yearend_reserve_in_2035_only": "1.233054435893131437721387907",
+      "funding_rate_full_phase_pp_if_scaled_to_2035_100pct": "0.9247908269198485782910409302",
+      "status": "MATHEMATICAL_SCALAR_ONLY_DOES_NOT_GUARANTEE_WITHIN_YEAR_LIQUIDITY_OR_75Y_SOLVENCY"
+    },
+    {
+      "scenario": "high_cost",
+      "year_end_assets_2035_with_draft_bn": "-381.4639343984894332069032412",
+      "year_end_2035_reserve_ratio_pct": "-40.22184040473317515888899633",
+      "years_after_policy_start": "8",
+      "min_scalar_for_nonnegative_yearend_assets_2028_2035": "1.452971853338239441109910590",
+      "min_scalar_for_100pct_yearend_reserve_each_year_2028_2035": "12.58423002293173399188569413",
+      "min_scalar_for_100pct_yearend_reserve_in_2035_only": "2.579155659897561348554042009",
+      "funding_rate_full_phase_pp_if_scaled_to_2035_100pct": "1.934366744923171011415531507",
+      "status": "MATHEMATICAL_SCALAR_ONLY_DOES_NOT_GUARANTEE_WITHIN_YEAR_LIQUIDITY_OR_75Y_SOLVENCY"
+    }
+  ],
+  "first_year_2028_surtax_mechanical_lower_bound_top1_bn": "57.522584",
+  "2034_defense_mechanical_BA_delta_bn": "54.267",
+  "vat_fixed_base_upper_2034_bn": "1478.588170085",
+  "vat_fixed_base_uncovered_gap_2036_bn": "114.5411668725",
+  "CMS_frozen_model_notice": "Models payroll proceeds against Trustees baseline; not official OACT rescore. Annual cost rate rounded to 2 decimal percentage points."
+}

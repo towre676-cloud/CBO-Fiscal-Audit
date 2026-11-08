@@ -1,0 +1,14 @@
+{
+  "report_title": "2026 Annual Report of the Boards of Trustees of the Federal Hospital Insurance and Federal Supplementary Medical Insurance Trust Funds",
+  "published": "2026-06-09",
+  "official_source": "https://www.cms.gov/oact/tr/2026",
+  "HI_table": "II.E1, printed page 28; PDF zero-index screenshot page 33",
+  "SMI_table": "II.F1, printed page 35; PDF zero-index screenshot page 40",
+  "units": "billions of nominal USD, calendar year",
+  "precision": "Published one decimal; expect rounding discrepancies up to about $0.2 billion in multi-row calculations",
+  "reproduction": "Independently transcribed from the published tables; NOT the complete 2026 CMS Expanded Supplementary Tables ZIP",
+  "hi_2033_depletion": "second quarter 2033 per text; annual results after depletion are hypothetical continuation, not executable borrowing authority",
+  "SMI_accounting": "Part B and Part D account cash accounts are NOT HI and are not directly transferable to HI",
+  "source_sha256": null,
+  "status": "OFFICIAL_PUBLISHED_TABLE_TRANSCRIPTION_WITH_EXPLICIT_PAGE_AND_ROUNDING"
+}

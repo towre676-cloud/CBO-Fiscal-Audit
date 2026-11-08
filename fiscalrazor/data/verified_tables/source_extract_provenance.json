@@ -1,0 +1,56 @@
+{
+  "2026_trustee_report_key_results.csv": {
+    "acquisition_note": "Directly transcribed from SSA trustees summary, not policy scores. Empty year means no projected depletion in horizon.",
+    "extent": "Five separate legal/illustrative categories; principal reserve depletion and 75-year actuarial balances",
+    "source": "2026 SSA/CMS trustee summary key results",
+    "source_url": "https://www.ssa.gov/oact/trsum/",
+    "units": "year/quarter, percentage of scheduled benefits, percent of corresponding taxable payroll"
+  },
+  "cbo_budget_fy2026_2036_21_series.csv": {
+    "acquisition_note": "Copied from earlier CBO source-linked vetted extract; independently checked against CBO GitHub 2026-02 reported source blob and representative 2036 values. Complete upstream-bytes check requires full raw source.",
+    "extent": "21 variables each FY2026-FY2036; 231 cells; selected extract, not full raw CBO release",
+    "source": "CBO GitHub machine-readable 2026-02 budget projections",
+    "source_blob_sha1": "99f55b63bb8db8c214e2ee08de5ce0c216358fac",
+    "source_url": "https://github.com/US-CBO/cbo-data/blob/main/data/budget/ten_year_budget/annual_fy_2026-02.csv",
+    "units": "billions current USD except debt/GDP percentage"
+  },
+  "cbo_gdp_fy2026_2036_official.csv": {
+    "extent": "11 exact selected GDP rows FY2026..FY2036, not the full CSV",
+    "source": "CBO official machine-readable FY economic data, February 2026 vintage",
+    "source_blob_sha1": "e0799d7972696a65823e5d90cf36486d21903520",
+    "source_url": "https://github.com/US-CBO/cbo-data/blob/main/data/economic/historical_economic/annual_fy_2026-02.csv",
+    "units": "billions of nominal dollars by federal fiscal year",
+    "verified": "Fetched exact GitHub content through connected GitHub tool; byte-for-byte full CSV not bundled"
+  },
+  "jct_2026_corporate_rate_teaching_example.csv": {
+    "extent": "10 components of illustrative 21 percent to 22 percent corporate-rate case, 10-year",
+    "source": "JCT Revenue Estimating Process And Microeconomic Research 2026; slide 7 PDF page 8",
+    "source_url": "https://www.jct.gov/getattachment/c9ab0cfe-71ce-4912-b0c2-75c9a569ead8/Revenue-Estimating-Process-And-Microeconomic-Research-2026.pdf",
+    "units": "billions nominal USD, illustrative and explicitly not a JCT official estimate"
+  },
+  "ssa_individual_provision_annual_balance_2026_2036.csv": {
+    "extent": "11 CY annual-balance changes per provision, selected from published single-year tables",
+    "not": "Federal fiscal-year tax cash score or jointly scored legislative package",
+    "source": "SSA Office of the Chief Actuary 2026 solvency provisions tables E2.5 E1.10 B1.2",
+    "source_urls": {
+      "B1.2": "https://www.ssa.gov/OACT/solvency/provisions/tables/table_run153.html",
+      "E1.10": "https://www.ssa.gov/OACT/solvency/provisions/tables/table_run201.html",
+      "E2.5": "https://www.ssa.gov/oact/solvency/provisions/tables/table_run214.html"
+    },
+    "units": "percentage points of current-law OASDI taxable payroll; separate uncombined provisions"
+  },
+  "ssa_ivb1_rates_2026_2036.csv": {
+    "acquisition_note": "Transcribed against publicly rendered SSA 2026 table IV.B1, lines 126-136, with arithmetic and cross-account tolerance checks. Full 1970-2100 XLSX is in download catalog.",
+    "extent": "2026-2036 11 annual rows, 9 columns of OASI/DI/illustrative OASDI income, cost, balances",
+    "source": "SSA 2026 Trustees Report single-year table IV.B1, intermediate assumptions",
+    "source_url": "https://www.ssa.gov/oact/tr/2026/lr4b1.html",
+    "units": "percent of OASDI taxable payroll, calendar years; NOT dollars, NOT Medicare HI payroll"
+  },
+  "treasury_fy2026_reported_actuals.csv": {
+    "acquisition_note": "Existing verified aggregate snapshot; not complete Treasury MTS Table 1-6c",
+    "extent": "FY2026 totals only; selected extract",
+    "source": "FY2026 September MTS actual reported through Congress JEC",
+    "source_url": "https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/",
+    "units": "billions current USD"
+  }
+}

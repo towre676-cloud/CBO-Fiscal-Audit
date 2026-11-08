@@ -1,0 +1,12 @@
+calendar_year,oasi_noninterest_income_billion,oasi_cost_billion,oasi_noninterest_balance_billion,di_noninterest_income_billion,di_cost_billion,di_noninterest_balance_billion,oasdi_noninterest_income_billion,oasdi_cost_billion,oasdi_noninterest_balance_billion,projection,source_table,source_url
+2026,1227,1528,-301,199,169,31,1426,1697,-271,intermediate,VI.G3,https://www.ssa.gov/oact/TR/2026/lr6g3.html
+2027,1274,1620,-346,206,179,27,1480,1799,-319,intermediate,VI.G3,https://www.ssa.gov/oact/TR/2026/lr6g3.html
+2028,1351,1711,-360,219,184,35,1570,1894,-325,intermediate,VI.G3,https://www.ssa.gov/oact/TR/2026/lr6g3.html
+2029,1422,1803,-381,229,187,42,1651,1990,-339,intermediate,VI.G3,https://www.ssa.gov/oact/TR/2026/lr6g3.html
+2030,1493,1896,-403,240,190,50,1733,2087,-353,intermediate,VI.G3,https://www.ssa.gov/oact/TR/2026/lr6g3.html
+2031,1566,1990,-424,252,194,58,1818,2184,-366,intermediate,VI.G3,https://www.ssa.gov/oact/TR/2026/lr6g3.html
+2032,1641,2084,-444,263,201,62,1904,2286,-382,intermediate,VI.G3,https://www.ssa.gov/oact/TR/2026/lr6g3.html
+2033,1720,2178,-459,275,210,65,1995,2389,-393,intermediate,VI.G3,https://www.ssa.gov/oact/TR/2026/lr6g3.html
+2034,1794,2273,-479,287,220,67,2081,2493,-412,intermediate,VI.G3,https://www.ssa.gov/oact/TR/2026/lr6g3.html
+2035,1871,2369,-498,299,231,68,2170,2600,-430,intermediate,VI.G3,https://www.ssa.gov/oact/TR/2026/lr6g3.html
+2036,1945,2473,-528,311,243,68,2256,2715,-459,intermediate,VI.G3,https://www.ssa.gov/oact/TR/2026/lr6g3.html

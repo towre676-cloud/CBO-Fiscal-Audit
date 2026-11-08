@@ -1,0 +1,262 @@
+{
+  "national_household_incidence": "NOT_CALCULATED",
+  "official_joint_score": "NOT_AVAILABLE",
+  "reported_utc": "2026-11-07T01:48:37.830641+00:00",
+  "source_origins": 25,
+  "source_root": "/mnt/data/FiscalRazor_v0.8.0/data/raw/v08_official_origins",
+  "sources": [
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_01",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/historical_economic/annual_cy_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_02",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/historical_economic/annual_fy_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_03",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/historical_economic/quarterly_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_04",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/economic_projections/calendar_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_05",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/economic_projections/fiscal_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_06",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/economic_projections/quarterly_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_07",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/long_term_economic/levels_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_08",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/long_term_economic/lfp_rates_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_09",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/long_term_economic/rates_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_10",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/historical_budget/annual_fy_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_11",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/ten_year_budget/annual_fy_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_12",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/long_term_budget/annual_fy_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_13",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/trust_fund/annual_fy_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_14",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/revenue_detail/annual_cy_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_15",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/revenue_detail/annual_cy_iit_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_16",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/revenue_detail/annual_fy_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_17",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/spending_detail/annual_fy_2026-02.csv"
+    },
+    {
+      "agency": "CBO",
+      "bytes": 0,
+      "id": "cbo_18",
+      "landing_page": "https://github.com/US-CBO/cbo-data",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/tax_parameters/annual_cy_2026-02.csv"
+    },
+    {
+      "agency": "Census",
+      "bytes": 0,
+      "id": "cps_asec_2026_csv",
+      "landing_page": "https://www.census.gov/data/datasets/2026/demo/cps/cps-asec-2026.html",
+      "sha256": null,
+      "source_class": "public-use microdata",
+      "state": "NOT_ACQUIRED",
+      "url": "https://www2.census.gov/programs-surveys/cps/datasets/2026/march/asecpub26csv.zip"
+    },
+    {
+      "agency": "Census",
+      "bytes": 0,
+      "id": "cps_asec_2026_replicates",
+      "landing_page": "https://www.census.gov/data/datasets/2026/demo/cps/cps-asec-2026.html",
+      "sha256": null,
+      "source_class": "public-use microdata",
+      "state": "NOT_ACQUIRED",
+      "url": "https://www2.census.gov/programs-surveys/cps/datasets/2026/march/CPS_ASEC_ASCII_REPWGT_2026.ZIP"
+    },
+    {
+      "agency": "CMS",
+      "bytes": 0,
+      "id": "cms_medicare_2026_expanded",
+      "landing_page": "https://www.cms.gov/data-research/statistics-trends-and-reports/trustees-report-trust-funds",
+      "sha256": null,
+      "source_class": "public actuarial supplementary",
+      "state": "NOT_ACQUIRED",
+      "url": "https://www.cms.gov/files/zip/2026-expanded-supplementary-tables-figures.zip"
+    },
+    {
+      "agency": "IRS",
+      "bytes": 0,
+      "id": "irs_soi_2023_zip_agi",
+      "landing_page": "https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-returns",
+      "sha256": null,
+      "source_class": "public aggregate, not individual microdata",
+      "state": "NOT_ACQUIRED",
+      "url": "https://www.irs.gov/pub/irs-soi/23zpallagi.csv"
+    },
+    {
+      "agency": "IRS",
+      "bytes": 0,
+      "id": "irs_soi_2023_state_shares",
+      "landing_page": "https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-returns",
+      "sha256": null,
+      "source_class": "public aggregate",
+      "state": "NOT_ACQUIRED",
+      "url": "https://www.irs.gov/pub/irs-soi/23instateshares.csv"
+    },
+    {
+      "agency": "BLS",
+      "bytes": 0,
+      "id": "bls_ce_2025_interview_csv",
+      "landing_page": "https://www.bls.gov/cex/pumd_data.htm",
+      "sha256": null,
+      "source_class": "public-use microdata",
+      "state": "DIRECT_LINK_UNRESOLVED",
+      "url": null
+    },
+    {
+      "agency": "BLS",
+      "bytes": 0,
+      "id": "bls_ce_2025_diary_csv",
+      "landing_page": "https://www.bls.gov/cex/pumd_data.htm",
+      "sha256": null,
+      "source_class": "public-use microdata",
+      "state": "DIRECT_LINK_UNRESOLVED",
+      "url": null
+    }
+  ],
+  "total_cbo_required": 18,
+  "verified_cbo": 0,
+  "verified_originals": 0
+}

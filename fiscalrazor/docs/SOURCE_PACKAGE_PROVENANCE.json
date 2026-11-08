@@ -1,0 +1,14 @@
+{
+  "fiscalrazor_v0_4": {
+    "filename": "FiscalRazor_Federal_Actuarial_v0.4.0_2026-11-06.zip",
+    "size_bytes": 110872,
+    "sha256": "53e021899206be45098cdf80ec0d98bf037d456fed9ae1708f5ed7302ebbcd68",
+    "originals": "source zip checked with zipfile.testzip()"
+  },
+  "public_scoring_expansion": {
+    "filename": "FiscalRazor_Public_Scoring_Expansion_2026-11-06.zip",
+    "size_bytes": 88729,
+    "sha256": "c7089a3ffcd5dd8a2f376ba5299b9583a2da501e40fdaa5d20353f2247f44e51",
+    "originals": "source zip checked with zipfile.testzip()"
+  }
+}

@@ -1,0 +1,2 @@
+calendar_year,returns_total_million,total_agi_bn,top1_agi_share_pct,cbo_git_blob_sha1,source_url,source_fields
+2028,172.1,20074.8,22.9,2507f312912b0ff6475690c20a1a56d175772276,https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/revenue_detail/annual_cy_iit_2026-02.csv,rev_iit_returns_total|rev_iit_agi|rev_iit_agi_share_top1_pct

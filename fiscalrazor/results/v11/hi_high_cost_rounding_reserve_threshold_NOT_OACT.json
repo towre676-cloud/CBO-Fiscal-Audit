@@ -1,0 +1,7 @@
+{
+  "min_scalar_for_nonnegative_2028_2035_yearend_high_cost_optimistic_rounding": "1.451298063995628590660856318",
+  "min_scalar_for_nonnegative_2028_2035_yearend_high_cost_conservative_rounding": "1.454645963407546765536175034",
+  "implied_full_phase_combined_HI_extra_rate_pp_optimistic": "1.088473547996721442995642238",
+  "implied_full_phase_combined_HI_extra_rate_pp_conservative": "1.090984472555660074152131276",
+  "qualification": "FROZEN_BASELINE_ROUNDING_ONLY_NOT_75_YEAR_ACTUARIAL_SOLVENCY_OR_FULL_RESERVE"
+}

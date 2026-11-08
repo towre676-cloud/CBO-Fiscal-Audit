@@ -1,0 +1,12 @@
+{
+  "pce": {
+    "source": "https://github.com/US-CBO/cbo-data/blob/main/data/economic/historical_economic/annual_fy_2026-02.csv",
+    "variable": "pce",
+    "observation_unit": "FY nominal billions USD",
+    "git_blob_sha1": "e0799d7972696a65823e5d90cf36486d21903520",
+    "state": "OFFICIAL_GIT_TEXT_EXCERPT_RETAINED_NOT_LOCAL_ORIGINAL_BYTES",
+    "n_fiscal_years": 10,
+    "confirmed_by": "US-CBO GitHub connected file fetch in current session",
+    "limitations": "This file retains selected observations only. Download and verify complete original for raw-source admission."
+  }
+}

@@ -1,0 +1,150 @@
+[
+  {
+    "calendar_year": 2028,
+    "filing_status": "single",
+    "tax_unit_magi_before_usd": "498000",
+    "tax_unit_magi_after_health_usd": "502000",
+    "people": [
+      {
+        "person_id": "toy_P1",
+        "old_wages_usd": "498000",
+        "new_wages_usd": "502000",
+        "health_inclusion_usd": "4000",
+        "new_high_band_usd": "252000",
+        "employer_high_band_allocations_usd": [
+          "252000"
+        ],
+        "oasdi_statutory_decomposition_usd": {
+          "old_rate_new_low_band_coverage_increment_usd": "0.000",
+          "old_rate_new_high_band_tax_usd": "31248.000",
+          "phaseup_on_existing_low_band_usd": "380.000",
+          "phaseup_on_new_high_band_interaction_usd": "504.000"
+        },
+        "new_high_band_threshold_usd": "250000",
+        "oasdi_employee_increment_usd": "16066.000",
+        "oasdi_employer_increment_usd": "16066.000",
+        "hi_employee_increment_usd": "685.50000",
+        "hi_employer_increment_usd": "685.50000",
+        "old_total_wages_usd": "498000",
+        "new_total_wages_usd": "502000"
+      }
+    ],
+    "components": {
+      "102_income_surtax_usd": "40.00",
+      "102_surtax_health_interaction_usd": "40.00",
+      "103_itemized_limitation_usd": "1900.00",
+      "104_health_wage_inclusion_usd": "4000",
+      "104_income_tax_change_usd": "1300",
+      "106_107_oasdi_employee_increment_usd": "16066.000",
+      "106_107_oasdi_employer_increment_usd": "16066.000",
+      "112_hi_employee_increment_usd": "685.50000",
+      "112_hi_employer_increment_usd": "685.50000",
+      "additional_medicare_existing_0_9pct_delta_usd": "36.000",
+      "101_vat_gross_usd": "0",
+      "101_refundable_vat_credit_usd": "0",
+      "101_vat_net_usd": "0"
+    },
+    "identified_statutory_liability_subtotal_usd": "36779.00000",
+    "full_12_provision_result": null,
+    "unresolved": [
+      "105_CORPORATE_TAX_BENEFICIAL_INCIDENCE",
+      "108_PROGRESSIVE_BENEFIT_COHORTS",
+      "109_MEDICARE_ADVANTAGE_PAYMENT_AND_PREMIUM",
+      "110_SITE_NEUTRAL_PROVIDER_AND_PREMIUM",
+      "111_DEFENSE_OUTLAY_AND_HOUSEHOLD_EFFECTS",
+      "MACRO_RESPONSES",
+      "FISCAL_YEAR_CASH_TIMING",
+      "ALL_OTHER_LEGAL_CREDIT_TAX_AND_COMPLIANCE_INTERACTIONS"
+    ],
+    "evidence_status": "RECORD_LEVEL_STATIC_MECHANICAL_NEVER_NATIONAL_SCORE",
+    "statutory_payer_not_economic_burden": true,
+    "fiscal_cash_timing": null,
+    "source_record_provenance": "SYNTHETIC_FIXTURE_NOT_US_POPULATION"
+  },
+  {
+    "calendar_year": 2029,
+    "filing_status": "mfj",
+    "tax_unit_magi_before_usd": "52000",
+    "tax_unit_magi_after_health_usd": "52000",
+    "people": [
+      {
+        "person_id": "toy_P1",
+        "old_wages_usd": "50000",
+        "new_wages_usd": "50000",
+        "health_inclusion_usd": "0",
+        "new_high_band_usd": "0",
+        "employer_high_band_allocations_usd": [
+          "0"
+        ],
+        "oasdi_statutory_decomposition_usd": {
+          "old_rate_new_low_band_coverage_increment_usd": "0.000",
+          "old_rate_new_high_band_tax_usd": "0.000",
+          "phaseup_on_existing_low_band_usd": "200.000",
+          "phaseup_on_new_high_band_interaction_usd": "0.000"
+        },
+        "new_high_band_threshold_usd": "255000",
+        "oasdi_employee_increment_usd": "100.000",
+        "oasdi_employer_increment_usd": "100.000",
+        "hi_employee_increment_usd": "125.0000",
+        "hi_employer_increment_usd": "125.0000",
+        "old_total_wages_usd": "50000",
+        "new_total_wages_usd": "50000"
+      },
+      {
+        "person_id": "toy_P2",
+        "old_wages_usd": "0",
+        "new_wages_usd": "0",
+        "health_inclusion_usd": "0",
+        "new_high_band_usd": "0",
+        "employer_high_band_allocations_usd": [
+          "0"
+        ],
+        "oasdi_statutory_decomposition_usd": {
+          "old_rate_new_low_band_coverage_increment_usd": "0.000",
+          "old_rate_new_high_band_tax_usd": "0.000",
+          "phaseup_on_existing_low_band_usd": "0.000",
+          "phaseup_on_new_high_band_interaction_usd": "0.000"
+        },
+        "new_high_band_threshold_usd": "255000",
+        "oasdi_employee_increment_usd": "0.000",
+        "oasdi_employer_increment_usd": "0.000",
+        "hi_employee_increment_usd": "0.0000",
+        "hi_employer_increment_usd": "0.0000",
+        "old_total_wages_usd": "0",
+        "new_total_wages_usd": "0"
+      }
+    ],
+    "components": {
+      "102_income_surtax_usd": "0.00",
+      "102_surtax_health_interaction_usd": "0.00",
+      "103_itemized_limitation_usd": "0",
+      "104_health_wage_inclusion_usd": "0",
+      "104_income_tax_change_usd": null,
+      "106_107_oasdi_employee_increment_usd": "100.000",
+      "106_107_oasdi_employer_increment_usd": "100.000",
+      "112_hi_employee_increment_usd": "125.0000",
+      "112_hi_employer_increment_usd": "125.0000",
+      "additional_medicare_existing_0_9pct_delta_usd": "0.000",
+      "101_vat_gross_usd": "1500.00",
+      "101_refundable_vat_credit_usd": "400.000",
+      "101_vat_net_usd": "1100.000"
+    },
+    "identified_statutory_liability_subtotal_usd": null,
+    "full_12_provision_result": null,
+    "unresolved": [
+      "104_FEDERAL_INCOME_TAX_AFTER_HEALTH_INCLUSION",
+      "105_CORPORATE_TAX_BENEFICIAL_INCIDENCE",
+      "108_PROGRESSIVE_BENEFIT_COHORTS",
+      "109_MEDICARE_ADVANTAGE_PAYMENT_AND_PREMIUM",
+      "110_SITE_NEUTRAL_PROVIDER_AND_PREMIUM",
+      "111_DEFENSE_OUTLAY_AND_HOUSEHOLD_EFFECTS",
+      "MACRO_RESPONSES",
+      "FISCAL_YEAR_CASH_TIMING",
+      "ALL_OTHER_LEGAL_CREDIT_TAX_AND_COMPLIANCE_INTERACTIONS"
+    ],
+    "evidence_status": "RECORD_LEVEL_STATIC_MECHANICAL_NEVER_NATIONAL_SCORE",
+    "statutory_payer_not_economic_burden": true,
+    "fiscal_cash_timing": null,
+    "source_record_provenance": "SYNTHETIC_FIXTURE_ALL_THRESHOLDS_HYPOTHETICAL_NOT_2029_LAW"
+  }
+]

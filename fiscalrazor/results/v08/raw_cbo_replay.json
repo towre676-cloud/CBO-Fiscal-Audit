@@ -1,0 +1,25 @@
+{
+  "classification": "FULL_CBO_RAW_REPLAY_BLOCKED",
+  "full_account_reconciliation": null,
+  "missing_cbo_ids": [
+    "cbo_01",
+    "cbo_02",
+    "cbo_03",
+    "cbo_04",
+    "cbo_05",
+    "cbo_06",
+    "cbo_07",
+    "cbo_08",
+    "cbo_09",
+    "cbo_10",
+    "cbo_11",
+    "cbo_12",
+    "cbo_13",
+    "cbo_14",
+    "cbo_15",
+    "cbo_16",
+    "cbo_17",
+    "cbo_18"
+  ],
+  "verified_original_cbo_count": 0
+}

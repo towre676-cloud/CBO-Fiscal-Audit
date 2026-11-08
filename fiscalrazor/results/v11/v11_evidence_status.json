@@ -1,0 +1,12 @@
+{
+  "status": "INDEPENDENT_RESEARCH_NO_NATIONAL_COMBINED_SCORE",
+  "full_CBO_original_files_physically_admitted_in_this_archive": 0,
+  "real_CPS_2026_ASEC_person_household_microdata_analysed": false,
+  "real_BLS_2025_CE_PUMD_analysed": false,
+  "real_IRS_individual_return_microdata_analysed": false,
+  "real_CMS_claims_beneficiary_microdata_analysed": false,
+  "published_aggregate_inputs": "CBO 2026-02, SSA 2026, CMS 2026, BLS CE 2025, BEA PCE 2025",
+  "record_level_model": "mechanical employee/employer wage/VAT/income surtax with strict inputs",
+  "unpriced": "full individual income-tax response without taxcalc, corporate shifts, OASI+DI cohort benefits, MA, site-neutral, defense cash, macro, interactions, FY cash timing",
+  "no_original_data_fabricated": true
+}

@@ -1,0 +1,21 @@
+{
+  "cohort": "CBO projected CY2036 tax returns, not US households",
+  "agi_source": "US-CBO/cbo-data data/budget/revenue_detail/annual_cy_iit_2026-02.csv",
+  "individual_returns_millions": "180.5",
+  "agi_bn": "26787.8",
+  "partial_identification_example": {
+    "mechanical_lower_base_bn": "4356.194",
+    "unadjusted_lower_product_bn": "217.80970",
+    "mechanical_upper_product_bn_nonnegative_agi": "308.05970",
+    "status": "PARTIAL_IDENTIFICATION_NOT_A_POLICY_SCORE",
+    "exclusions": "No filing status, MAGI, behavioral response, tax payment timing, returns weights, deductions or cross taxes"
+  },
+  "fiscal_2036_static_target": {
+    "fiscal_year": 2036,
+    "gdp_bn": "46712.1423975",
+    "deficit_signed_bn": "-3115.387",
+    "gap_to_3pct_bn": "1714.022728075",
+    "classification": "EXACT_FROZEN_BASELINE_ARITHMETIC_NOT_REFORM_SCORE"
+  },
+  "note": "This is a hypothetical 5% AGI mechanical benchmark and not the MAGI surtax in the legislative draft."
+}

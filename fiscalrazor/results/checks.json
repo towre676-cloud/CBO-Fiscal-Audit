@@ -1,0 +1,15 @@
+{
+  "cbo_fy": 11,
+  "ssa_calendar_years": 11,
+  "trustfund_categories": 5,
+  "registered_sources": 51,
+  "direct_gdp_years": 11,
+  "ssa_single_option_points": 33,
+  "jct_teaching_net_bn": "180",
+  "cms_hi_calendar_years": 11,
+  "cms_smi_account_years": 33,
+  "raw_sources_materialized": 0,
+  "unit_tests": 101,
+  "passed_tests": 101,
+  "state": "PASSED_INCLUDED_DATA_AND_SOFTWARE"
+}

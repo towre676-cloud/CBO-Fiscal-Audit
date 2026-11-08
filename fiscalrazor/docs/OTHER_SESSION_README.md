@@ -1,0 +1,1 @@
+The source package under `external/public_scoring` is preserved from the separately authored November 6 public-scoring expansion for independent replay. This is **not** an official agency score. Do not deduce policy savings from its independent benchmark examples. Original source-archive bytes not acquired.

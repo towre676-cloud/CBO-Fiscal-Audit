@@ -1,0 +1,9 @@
+{
+  "sources": 51,
+  "materialized_originals": 0,
+  "not_acquired_direct": 37,
+  "landing_or_API_only": 14,
+  "fail_closed": "NO_ACQUIRED_SOURCE_MAY_BE_CLAIMED_FROM_EXCERPTS_OR_WEB_PAGE_METADATA",
+  "acquisition_script": "python scripts/acquire_priority_v06.py --group cbo_core",
+  "source_of_truth": "data/source_catalog.json; data/acquisition_receipts.json if original byte download succeeds"
+}
