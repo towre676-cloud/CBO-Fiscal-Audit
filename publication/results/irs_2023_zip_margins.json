@@ -1,0 +1,86 @@
+{
+  "by_irs_agi_stub": {
+    "1": {
+      "named_zip_agi_thousands_usd": 506136810,
+      "named_zip_cells": 27689,
+      "named_zip_returns": 39897580,
+      "other_agi_thousands_usd": 6377947,
+      "other_cells": 51,
+      "other_returns": 509140,
+      "state_total_agi_thousands_usd": 512514757,
+      "state_total_cells": 51,
+      "state_total_returns": 40392770
+    },
+    "2": {
+      "named_zip_agi_thousands_usd": 1311387662,
+      "named_zip_cells": 27689,
+      "named_zip_returns": 35442530,
+      "other_agi_thousands_usd": 16526777,
+      "other_cells": 51,
+      "other_returns": 448490,
+      "state_total_agi_thousands_usd": 1327914439,
+      "state_total_cells": 51,
+      "state_total_returns": 35877820
+    },
+    "3": {
+      "named_zip_agi_thousands_usd": 1465650887,
+      "named_zip_cells": 27689,
+      "named_zip_returns": 23826290,
+      "other_agi_thousands_usd": 17942010,
+      "other_cells": 51,
+      "other_returns": 291920,
+      "state_total_agi_thousands_usd": 1483592897,
+      "state_total_cells": 51,
+      "state_total_returns": 24105050
+    },
+    "4": {
+      "named_zip_agi_thousands_usd": 1338976196,
+      "named_zip_cells": 27677,
+      "named_zip_returns": 15479200,
+      "other_agi_thousands_usd": 15450180,
+      "other_cells": 51,
+      "other_returns": 178550,
+      "state_total_agi_thousands_usd": 1354426376,
+      "state_total_cells": 51,
+      "state_total_returns": 15646000
+    },
+    "5": {
+      "named_zip_agi_thousands_usd": 3775186600,
+      "named_zip_cells": 27687,
+      "named_zip_returns": 27224610,
+      "other_agi_thousands_usd": 38163729,
+      "other_cells": 51,
+      "other_returns": 279070,
+      "state_total_agi_thousands_usd": 3813350329,
+      "state_total_cells": 51,
+      "state_total_returns": 27489510
+    },
+    "6": {
+      "named_zip_agi_thousands_usd": 6573736354,
+      "named_zip_cells": 27689,
+      "named_zip_returns": 13239700,
+      "other_agi_thousands_usd": 107569119,
+      "other_cells": 51,
+      "other_returns": 139910,
+      "state_total_agi_thousands_usd": 6681305473,
+      "state_total_cells": 51,
+      "state_total_returns": 13370480
+    }
+  },
+  "classification": "2023_IRS_SOI_GEOGRAPHIC_BASELINE",
+  "csv_rows": 166732,
+  "source_sha256": "e312d7b865f0761527697611a35bfff036c20b27e173bd4253821f99b24ad8d7",
+  "source_url": "https://www.irs.gov/pub/irs-soi/23zpallagi.csv",
+  "state_and_dc_count": 51,
+  "totals": {
+    "named_zip_agi_thousands_usd": 14971074509,
+    "named_zip_cells": 166120,
+    "named_zip_returns": 155109910,
+    "other_agi_thousands_usd": 202029762,
+    "other_cells": 306,
+    "other_returns": 1847080,
+    "state_total_agi_thousands_usd": 15173104271,
+    "state_total_cells": 306,
+    "state_total_returns": 156881630
+  }
+}

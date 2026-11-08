@@ -2,7 +2,7 @@
 
 **Independent, source-auditable research on the United States federal budget, tax law, Social Security, Medicare, and proposed fiscal reform.**
 
-[Research findings](docs/RESEARCH_BRIEF.md) · [Evidence register](docs/EVIDENCE_REGISTER.md) · [Legislative scenario](fiscalrazor/legislation/ILLUSTRATIVE_FISCAL_REFORM_ACT_2027.md) · [Methodology](docs/METHODS_AND_LIMITATIONS.md) · [Reproduce](docs/REPRODUCIBILITY.md) · [CBO source replay](docs/CBO_SOURCE_REPLAY.md)
+[Research findings](docs/RESEARCH_BRIEF.md) · [Evidence register](docs/EVIDENCE_REGISTER.md) · [Legislative scenario](fiscalrazor/legislation/ILLUSTRATIVE_FISCAL_REFORM_ACT_2027.md) · [Methodology](docs/METHODS_AND_LIMITATIONS.md) · [Reproduce](docs/REPRODUCIBILITY.md) · [CBO source replay](docs/CBO_SOURCE_REPLAY.md) · [Scoring frontier](docs/SCORING_FRONTIER_REPLAY.md)
 
 > **Evidence status — 7 November 2026.** This project is **not** a Congressional Budget Office (CBO), Joint Committee on Taxation (JCT), Social Security Administration (SSA), Centers for Medicare & Medicaid Services (CMS), or Treasury publication or score. Its 12-provision bill is a **research draft, not introduced legislation**. Source-derived historical/projected values, mechanically derived bounds, sample-record statutory calculations, and unscored legislative proposals are separate classes of evidence. The original microdata and agency production models needed for a nationally calibrated, combined estimate have **not** been acquired or independently reproduced here.
 
