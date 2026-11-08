@@ -38,7 +38,7 @@ These are **two different objectives**. The second is conditional on holding FY2
 
 ## Run in three commands
 
-Python **3.11+** is supported; the project uses the Python standard library for its included reproducibility checks.
+Python **3.11+** is supported. Core and publication arithmetic use the standard library; the preserved public-scoring test suite additionally requires `beautifulsoup4` (`python -m pip install beautifulsoup4==4.14.3`).
 
 ```bash
 # 1. Preserve/verify the original v1.1 source distribution
