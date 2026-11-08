@@ -1,0 +1,182 @@
+{
+  "csv_records_verified": 95209,
+  "publication_input_cells_matched": 252,
+  "source_files_verified": 18,
+  "sources": [
+    {
+      "bytes": 235221,
+      "csv_records": 7075,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "b7b36ba55a1fba10df547b90a30da20808173c44",
+      "path": "data/economic/historical_economic/annual_cy_2026-02.csv",
+      "sha256": "b7a11ad35e5b1d9dc90f029ef21eca1eafe7834cf3ca92ac6b84d865076fb284",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/historical_economic/annual_cy_2026-02.csv"
+    },
+    {
+      "bytes": 246667,
+      "csv_records": 6993,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "e0799d7972696a65823e5d90cf36486d21903520",
+      "path": "data/economic/historical_economic/annual_fy_2026-02.csv",
+      "sha256": "4152f5de9232b81bace3fae8ee33d356eb632c6be7998a845d54886aaa21eb69",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/historical_economic/annual_fy_2026-02.csv"
+    },
+    {
+      "bytes": 1013425,
+      "csv_records": 28305,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "c2df8394b5234b4aa831e1b61ce37a45ac5671e9",
+      "path": "data/economic/historical_economic/quarterly_2026-02.csv",
+      "sha256": "e51170462dab40316574a38f691f302794aaa7500f7f89b97d79d4dfa4193934",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/historical_economic/quarterly_2026-02.csv"
+    },
+    {
+      "bytes": 88093,
+      "csv_records": 2044,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "6d5cd08bb44b4dcda5d9a7f7db31b220cfa15ded",
+      "path": "data/economic/economic_projections/calendar_2026-02.csv",
+      "sha256": "6b54df40058d206247e78fadfe5ebd11e02ae29efd2f0e1a4a86b6767c9ca559",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/economic_projections/calendar_2026-02.csv"
+    },
+    {
+      "bytes": 88078,
+      "csv_records": 2044,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "64318ea37595af4edacee81691256d711fb63707",
+      "path": "data/economic/economic_projections/fiscal_2026-02.csv",
+      "sha256": "b157c22a34225d153c4182e701163db837bc5129850b4375b2b01015a1833d87",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/economic_projections/fiscal_2026-02.csv"
+    },
+    {
+      "bytes": 367739,
+      "csv_records": 8176,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "c4f63ddda98f23070b704f55e0ac87a776117c8f",
+      "path": "data/economic/economic_projections/quarterly_2026-02.csv",
+      "sha256": "eda9f9eb6607461621504a973ff7609ef627ccfd02d8096219843efccf55ca7f",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/economic_projections/quarterly_2026-02.csv"
+    },
+    {
+      "bytes": 26313,
+      "csv_records": 793,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "3b0d13b1fff5f3250fd7d670b5367c1ba96abdde",
+      "path": "data/economic/long_term_economic/levels_2026-02.csv",
+      "sha256": "94f7ccc10117dd72407129b1a33e903ff0e9c0b8c78d81639dc53261ff7205fe",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/long_term_economic/levels_2026-02.csv"
+    },
+    {
+      "bytes": 83021,
+      "csv_records": 2475,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "45bb06e63748ebd376cc8f0c6081be5938df49ef",
+      "path": "data/economic/long_term_economic/lfp_rates_2026-02.csv",
+      "sha256": "c381ec96be54bb6278b709d43af0927561e5b4c992c2212f30efc946df5cea8d",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/long_term_economic/lfp_rates_2026-02.csv"
+    },
+    {
+      "bytes": 44429,
+      "csv_records": 1464,
+      "duplicate_date_variable_rows": 122,
+      "git_blob_sha1": "6718440bb25f9afb261412dc5ea6b908a7170f03",
+      "path": "data/economic/long_term_economic/rates_2026-02.csv",
+      "sha256": "780988645288d40dbb7d4e595f058f89b971cea86c60021be93f35c5257e92f8",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/economic/long_term_economic/rates_2026-02.csv"
+    },
+    {
+      "bytes": 152091,
+      "csv_records": 4194,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "a93887a03724caaf45fee10fc17d618cee9d8b0e",
+      "path": "data/budget/historical_budget/annual_fy_2026-02.csv",
+      "sha256": "8fee9c6ec249b8b1685a189edbb28cfa8233022f72fe4f65723eb886c7ac7309",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/historical_budget/annual_fy_2026-02.csv"
+    },
+    {
+      "bytes": 145228,
+      "csv_records": 3333,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "99f55b63bb8db8c214e2ee08de5ce0c216358fac",
+      "path": "data/budget/ten_year_budget/annual_fy_2026-02.csv",
+      "sha256": "6a2d727e70fb53512e45afdcc8d145f7dc952b2d4e87ca03591cb4e5bd63f0db",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/ten_year_budget/annual_fy_2026-02.csv"
+    },
+    {
+      "bytes": 38564,
+      "csv_records": 884,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "d783ad369ea86b9d2fbf2b26776b462ee4756662",
+      "path": "data/budget/long_term_budget/annual_fy_2026-02.csv",
+      "sha256": "61018d3f4334c26a1704438e28c3b523b641c45549c8bf04c3890fd463f7a5f5",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/long_term_budget/annual_fy_2026-02.csv"
+    },
+    {
+      "bytes": 25466,
+      "csv_records": 728,
+      "duplicate_date_variable_rows": 116,
+      "git_blob_sha1": "e3d8035b59a85be3ea039a1e22a1491574426eb6",
+      "path": "data/budget/trust_fund/annual_fy_2026-02.csv",
+      "sha256": "4fcc0f725e6ab002107bedf461e21dacbdc6ac49e85475b8ff3e8aa20c3cdaab",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/trust_fund/annual_fy_2026-02.csv"
+    },
+    {
+      "bytes": 20496,
+      "csv_records": 404,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "cbab2149f26eb453b7172eb304b2c93d2dd84d53",
+      "path": "data/budget/revenue_detail/annual_cy_2026-02.csv",
+      "sha256": "b05cc5d7db0421eba5102286cba745d666f9dd41fb785e447cd873d392da0416",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/revenue_detail/annual_cy_2026-02.csv"
+    },
+    {
+      "bytes": 60054,
+      "csv_records": 795,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "2507f312912b0ff6475690c20a1a56d175772276",
+      "path": "data/budget/revenue_detail/annual_cy_iit_2026-02.csv",
+      "sha256": "18fa9e57a67009f2c704659cae31eca382eb03a77a86eb7191bb9b313b2cccf6",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/revenue_detail/annual_cy_iit_2026-02.csv"
+    },
+    {
+      "bytes": 76738,
+      "csv_records": 1700,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "73b65c16e72c84ec67ef4838242727db19683d5a",
+      "path": "data/budget/revenue_detail/annual_fy_2026-02.csv",
+      "sha256": "86b5f5ec7142533875b2d69b69dfa5b259cb2b477c37c403a3414012fd04b241",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/revenue_detail/annual_fy_2026-02.csv"
+    },
+    {
+      "bytes": 3659443,
+      "csv_records": 21769,
+      "duplicate_date_variable_rows": 0,
+      "git_blob_sha1": "1022b8c75fee56293df2e1911d25cf99d75a3c99",
+      "path": "data/budget/spending_detail/annual_fy_2026-02.csv",
+      "sha256": "161e2432d955fe37815a761454299a0b61de06298aff9bf4fcd89bb88939e1db",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/spending_detail/annual_fy_2026-02.csv"
+    },
+    {
+      "bytes": 78362,
+      "csv_records": 2033,
+      "duplicate_date_variable_rows": 11,
+      "git_blob_sha1": "f404f6bd2e6868370f5fa0ff1b39be033b0a2432",
+      "path": "data/budget/tax_parameters/annual_cy_2026-02.csv",
+      "sha256": "5930c55948656b3ea3eaa83c6443937099a99765ef5fa4ef6e08f8c6a968a049",
+      "source_url": "https://raw.githubusercontent.com/US-CBO/cbo-data/main/data/budget/tax_parameters/annual_cy_2026-02.csv"
+    }
+  ],
+  "spending_account_replay": {
+    "FY2036_defense_budget_authority_bn": "1136.537",
+    "FY2036_defense_outlays_bn": "1100.0",
+    "classification": "ORIGINAL_ACCOUNT_RECONCILIATION_NOT_POLICY_SAVINGS",
+    "report": {
+      "classification": "SOURCE_AGGREGATE_ACCOUNT_RECONCILIATION_NOT_SPENDING_POLICY_SCORE",
+      "verified_fiscal_years": 11
+    },
+    "spending_records": 21769,
+    "unique_account_ids": 1712,
+    "years": 11
+  },
+  "vintage": "CBO_FEBRUARY_2026"
+}

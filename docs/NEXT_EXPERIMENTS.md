@@ -4,8 +4,8 @@ These are **falsifiable tasks**, not general aspirations or claimed completions.
 
 ## Stage A — Full original data and reproducible account bridges
 
-- Download the 18 February 2026 **original CBO CSVs**, verify every official Git blob SHA-1 and retained row count, and validate 11 budget/debt identities from raw files. The historical record has verified-source excerpts and catalog information but does **not** contain all original bytes.
-- Retrieve complete **Census 2026 CPS ASEC** household and person public-use records plus replicate weights, check sample sizes, data dictionary and 160 replicate columns, validate published weighted income distribution, and preserve the exact source hash and codebook version.
+- **Completed for CBO February 2026.** All 18 original CSVs passed publisher Git blob and record-count checks. All 252 published input values matched and spending-account outlays reconciled across 11 fiscal years. See the [source replay](CBO_SOURCE_REPLAY.md).
+- **CPS ASEC household benchmark completed.** The [public-use replay](CPS_HOUSEHOLD_REPLAY.md) joins all 160 replicate weights and reports its differences from Census Table 1. Extend calibration to held-out income moments and the tax-household definition required by §101.
 - Retrieve **BLS CE 2025** interview and diary PUMD, apply BLS's 2025 collection-gap adjustment rules to the appropriate units and 44 replicate weights, reproduce at least three independent published category totals within documented tolerances.
 - Retrieve public **IRS SOI** distributional totals and available **CMS MCBS** public-use records, preserving their different units, survey weights and limitations. These are not equivalent to nonpublic JCT return-level or Medicare claims data.
 

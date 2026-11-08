@@ -1,0 +1,17 @@
+{
+  "census_published_90_percent_margin_usd": 1040,
+  "census_published_households_thousands": 137100,
+  "census_published_median_usd": 87460,
+  "grouped_median_usd": 87439.85,
+  "household_file_records": 88026,
+  "households_in_income_universe": 53321,
+  "interviewed_records_including_group_quarters": 53344,
+  "median_difference_usd": -20.15,
+  "replicate_90_percent_margin_usd": 1022.33,
+  "replicate_standard_error_usd": 621.48,
+  "replicates_used": 160,
+  "source_archive_bytes": 139103894,
+  "source_sha256": "fe819d0d2fc4470c282e76c247b8aa8b6054811619730307e9f2fe6186707d93",
+  "source_url": "https://www2.census.gov/programs-surveys/cps/datasets/2026/march/asecpub26csv.zip",
+  "weighted_households": 137056386.24
+}

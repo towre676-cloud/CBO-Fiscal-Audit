@@ -2,7 +2,7 @@
 
 The original public-scoring test module imports `beautifulsoup4` for its SSA HTML parser; install it with `python -m pip install beautifulsoup4==4.14.3` before running that suite on a fresh environment. The root GitHub CI installs this optional test dependency.
 
-**This procedure is divided into two gates:** (A) reproduce the **included public source excerpts and independent formulas**, which needs no network or user data; (B) acquire and verify **complete original datasets**, which requires internet access and has **not** been executed to completion in this publication environment. Do not report gate B as complete because gate A passed.
+**This procedure is divided into two gates:** (A) reproduce the **included public source excerpts and independent formulas**, which needs no network or user data; (B) acquire and verify **complete original datasets**, which requires internet access on first acquisition. The February 2026 CBO replay has passed. Other agencies and model-calibration stages have separate evidence requirements.
 
 ## A. Included-data and software replay (Python 3.11+)
 
@@ -23,18 +23,23 @@ The deterministic output is [`publication/results/cbo_2026_frozen_fiscal_stabili
 
 ## B. Original government-source replay (network required)
 
-The retained v1.1 source includes multiple acquisition scripts and a GitHub Actions `workflow_dispatch` pipeline. In the source-code root:
+Run the publication-layer replay from the repository root:
 
 ```bash
-cd fiscalrazor
-python scripts/acquire_real_federal_v08.py --fetch-all-cbo
-python scripts/replay_real_v08.py --require-originals
-python scripts/replay_v09.py --require-originals
+python scripts/replay_cbo_originals.py --output cbo_replay.json
 ```
 
-The acquisition script must download the full **18 CBO February 2026** CSVs. Each must pass the upstream **Git blob SHA-1** in `data/v07/cbo_2026_02_git_pins.json`, along with row counts and the cross-source accounting identities. This is a **source-byte identity check**, not a general proof that the source values are current as of November or that a policy simulation is correct. The raw files are never included in the repository release.
+For an offline replay, add `--source-dir /path/to/source-root` with the original CSVs at the `data/…` paths recorded in the [checked-in receipt](../publication/results/cbo_2026_original_source_replay.json). Each file must match its publisher Git blob SHA-1, CSV shape and corrected record count. The replay also checks the budget and economic excerpts against those bytes and reconciles spending-account outlays and defense subtotals. Compare your JSON with the checked-in receipt. The raw files stay outside the repository.
 
-Optional large microdata acquisition for Census/IRS/CMS is supported by the existing scripts and the manual GitHub Actions workflow. Before reusing any importer on a newly released source, inspect the actual provider codebook. Census `HTOTVAL` and survey weights are not valid substitutes for the tax unit and IRS tax return fields; consumer-unit CE data are not BEA PCE and CMS public-use survey records are not complete claims data. Maintain confidential data off GitHub and record SHA digests for authorized datasets.
+The historical v1.1 CBO pin file incorrectly expects 4,725 labor-force participation records for the matching blob. The publication replay verifies all 2,475 records in that blob and leaves the historical archive intact. See [the source replay note](CBO_SOURCE_REPLAY.md) for the scope and findings.
+
+For the 2026 CPS ASEC household-income replay, acquire the CSV ZIP with embedded replicate weights from the [Census release page](https://www.census.gov/data/datasets/2026/demo/cps/cps-asec-2026.html). Then run:
+
+```bash
+python scripts/replay_cps_households.py /path/to/asecpub26csv.zip --output cps_replay.json
+```
+
+Compare it with the [checked-in household receipt](../publication/results/cps_asec_2026_household_income_replay.json). See [methods and benchmark deviations](CPS_HOUSEHOLD_REPLAY.md).
 
 ## C. Freshness, versioning, and uncertainty
 
