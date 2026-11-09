@@ -18,6 +18,8 @@ The 2024 CPS ASEC tax model supplies 2023 filing status, modeled AGI and unit id
 
 The $200,000-or-above band has 18.74% more modeled returns but 16.15% less total AGI than the IRS margin. This failure blocks the use of the uncalibrated CPS upper tail for the surtax, itemized deductions, or the OASDI high band. Reweighting to counts alone would leave the conditional mean within each band unchanged. A matched return-and-income calibration and a held-out validation year are separate admissions. The [national receipt](../publication/results/cps_irs_2023_calibration.json) and [306-cell comparison](../publication/results/cps_irs_2023_state_margins.csv) preserve the discrepancies. Sources: [2024 CPS ASEC](https://www.census.gov/data/datasets/2024/demo/cps/cps-asec-2024.html) and [2023 IRS geographic data](https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-2023-zip-code-data-soi).
 
+The [upper-tail calibration follow-up](HIGH_INCOME_TAX_CALIBRATION.md) matches both 2023 geographic moments and tests the adjustments against finer IRS national bands and a frozen 2022 transfer. It records the remaining gaps before provision scoring.
+
 ## 2. BEA product classification and BLS comparison
 
 The November 3, 2026 BEA flat-file archive supplies Table 2.4.5U in current dollars. The replay checks that goods and services reconcile to PCE and rejects any assignment of both an ancestor and its descendant. For 2025, PCE is $20.870 trillion. Removing the two published net geographic adjustment lines yields a $20.817 trillion expenditure proxy before those adjustments. This arithmetic helps keep resident-versus-destination bookkeeping explicit. The actual VAT destination test requires transaction and supplier information.
