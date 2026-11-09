@@ -1,0 +1,2189 @@
+{
+  "2023_fitted_adjustments": {
+    "count_only": {
+      "excess_income_factor": 1,
+      "log_weight_factor": -0.17172138595034753,
+      "tilt_per_million": 0
+    },
+    "stretch": {
+      "excess_income_factor": 1.9600846757234842,
+      "log_weight_factor": -0.17172138595034753,
+      "tilt_per_million": 0
+    },
+    "tilt": {
+      "excess_income_factor": 1,
+      "log_weight_factor": -0.485756431086628,
+      "tilt_per_million": 1.4865649471868712
+    }
+  },
+  "agi_floor_usd": 200000,
+  "by_income_year": {
+    "2022": {
+      "composition_by_agi_stub": {
+        "1": {
+          "cps_filing_counts": {
+            "head_of_household": 3301605.63,
+            "joint": 5424153.18,
+            "single": 27745351.92,
+            "single_dependent_subset": 6482575.38
+          },
+          "cps_household_weight_returns_and_agi_usd": [
+            33927653.35,
+            409828863078.03
+          ],
+          "cps_principals_only_returns_and_agi_usd": [
+            29988535.35,
+            385396103786.6
+          ],
+          "cps_returns_and_agi_usd": [
+            36471110.73,
+            440482163262.36
+          ],
+          "irs_filing_counts": {
+            "head_of_household": 6669510,
+            "joint": 4683800,
+            "other_and_rounding": 748910,
+            "single": 30821180
+          },
+          "irs_returns_and_agi_usd": [
+            42923400,
+            538943544000
+          ]
+        },
+        "2": {
+          "cps_filing_counts": {
+            "head_of_household": 4353445.9,
+            "joint": 6712369.87,
+            "single": 23855704.35,
+            "single_dependent_subset": 837895.43
+          },
+          "cps_household_weight_returns_and_agi_usd": [
+            32823836.41,
+            1187558470136.52
+          ],
+          "cps_principals_only_returns_and_agi_usd": [
+            34083624.69,
+            1232951209392.15
+          ],
+          "cps_returns_and_agi_usd": [
+            34921520.12,
+            1260247518446.94
+          ],
+          "irs_filing_counts": {
+            "head_of_household": 7495700,
+            "joint": 6448220,
+            "other_and_rounding": 1008300,
+            "single": 21462420
+          },
+          "irs_returns_and_agi_usd": [
+            36414640,
+            1341529119000
+          ]
+        },
+        "3": {
+          "cps_filing_counts": {
+            "head_of_household": 2336488.43,
+            "joint": 7937753.51,
+            "single": 15131835.18,
+            "single_dependent_subset": 228507.74
+          },
+          "cps_household_weight_returns_and_agi_usd": [
+            24466814.96,
+            1482429531093.46
+          ],
+          "cps_principals_only_returns_and_agi_usd": [
+            25177569.38,
+            1523586244269.12
+          ],
+          "cps_returns_and_agi_usd": [
+            25406077.12,
+            1537063416669.12
+          ],
+          "irs_filing_counts": {
+            "head_of_household": 3534950,
+            "joint": 6969110,
+            "other_and_rounding": 796240,
+            "single": 12197310
+          },
+          "irs_returns_and_agi_usd": [
+            23497610,
+            1446174589000
+          ]
+        },
+        "4": {
+          "cps_filing_counts": {
+            "head_of_household": 1008911.61,
+            "joint": 8011101.65,
+            "single": 6541655.25,
+            "single_dependent_subset": 44099.44
+          },
+          "cps_household_weight_returns_and_agi_usd": [
+            15317378.59,
+            1315200763451.67
+          ],
+          "cps_principals_only_returns_and_agi_usd": [
+            15517569.07,
+            1331665385579.33
+          ],
+          "cps_returns_and_agi_usd": [
+            15561668.51,
+            1335476053768.85
+          ],
+          "irs_filing_counts": {
+            "head_of_household": 1567590,
+            "joint": 7324320,
+            "other_and_rounding": 455380,
+            "single": 5862920
+          },
+          "irs_returns_and_agi_usd": [
+            15210210,
+            1318910230000
+          ]
+        },
+        "5": {
+          "cps_filing_counts": {
+            "head_of_household": 1062787.04,
+            "joint": 20782357.69,
+            "single": 6978120.89,
+            "single_dependent_subset": 72914.22
+          },
+          "cps_household_weight_returns_and_agi_usd": [
+            28691776.68,
+            3958213348566.11
+          ],
+          "cps_principals_only_returns_and_agi_usd": [
+            28750351.4,
+            3964102031915.66
+          ],
+          "cps_returns_and_agi_usd": [
+            28823265.62,
+            3973344815408.64
+          ],
+          "irs_filing_counts": {
+            "head_of_household": 1403860,
+            "joint": 18215410,
+            "other_and_rounding": 484100,
+            "single": 5746580
+          },
+          "irs_returns_and_agi_usd": [
+            25849950,
+            3574709324000
+          ]
+        },
+        "6": {
+          "cps_filing_counts": {
+            "head_of_household": 195648.9,
+            "joint": 11067447.17,
+            "single": 1904740.4,
+            "single_dependent_subset": 42417.15
+          },
+          "cps_household_weight_returns_and_agi_usd": [
+            13127402.72,
+            4712711496664.48
+          ],
+          "cps_principals_only_returns_and_agi_usd": [
+            13125419.32,
+            4704275952308.21
+          ],
+          "cps_returns_and_agi_usd": [
+            13167836.47,
+            4727709555275.15
+          ],
+          "irs_filing_counts": {
+            "head_of_household": 278250,
+            "joint": 10106300,
+            "other_and_rounding": 288170,
+            "single": 1595720
+          },
+          "irs_returns_and_agi_usd": [
+            12268440,
+            6500871507000
+          ]
+        }
+      },
+      "cps_nonpositive_return_rows_by_kind": {
+        "dependent": 68,
+        "principal": 1109
+      },
+      "distribution": {
+        "count_only": {
+          "agi_usd": 3981742197121.0117,
+          "fine_bands": {
+            "200000": {
+              "agi_usd": 2686363138625.349,
+              "returns": 9514127.742246056
+            },
+            "500000": {
+              "agi_usd": 712289003082.3799,
+              "returns": 1090820.2965452776
+            },
+            "1000000": {
+              "agi_usd": 501485580259.95026,
+              "returns": 441780.0700132451
+            },
+            "1500000": {
+              "agi_usd": 42617730192.7857,
+              "returns": 26140.235869082873
+            },
+            "2000000": {
+              "agi_usd": 38986744960.54692,
+              "returns": 17265.155360381905
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "kish_effective_sample_size": 4204.633384886531,
+          "max_agi_usd": 2502747,
+          "max_return_weight_share": 0.0008350058132214942,
+          "mean_agi_usd": 359034.64977304277,
+          "returns": 11090133.500034044,
+          "weighted_quantiles_usd": {
+            "0.5": 276266,
+            "0.9": 594485,
+            "0.99": 1219999,
+            "0.999": 2200020
+          }
+        },
+        "household_weight": {
+          "agi_usd": 4712711496664.48,
+          "fine_bands": {
+            "200000": {
+              "agi_usd": 3181317688343.93,
+              "returns": 11263744.92
+            },
+            "500000": {
+              "agi_usd": 843916508573.61,
+              "returns": 1292122.58
+            },
+            "1000000": {
+              "agi_usd": 590584472980.16,
+              "returns": 519997.96
+            },
+            "1500000": {
+              "agi_usd": 50602033050.32,
+              "returns": 31037.53
+            },
+            "2000000": {
+              "agi_usd": 46290793716.46,
+              "returns": 20499.73
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "kish_effective_sample_size": 4218.174594605364,
+          "max_agi_usd": 2502747,
+          "max_return_weight_share": 0.0006396474747595767,
+          "mean_agi_usd": 358998.0133301251,
+          "returns": 13127402.72,
+          "weighted_quantiles_usd": {
+            "0.5": 276283,
+            "0.9": 591550,
+            "0.99": 1219999,
+            "0.999": 2200020
+          }
+        },
+        "raw": {
+          "agi_usd": 4727709555275.15,
+          "fine_bands": {
+            "200000": {
+              "agi_usd": 3189645147945.78,
+              "returns": 11296570.8
+            },
+            "500000": {
+              "agi_usd": 845734193545.94,
+              "returns": 1295182.18
+            },
+            "1000000": {
+              "agi_usd": 595437387016.65,
+              "returns": 524546.23
+            },
+            "1500000": {
+              "agi_usd": 50602033050.32,
+              "returns": 31037.53
+            },
+            "2000000": {
+              "agi_usd": 46290793716.46,
+              "returns": 20499.73
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "kish_effective_sample_size": 4204.63338488653,
+          "max_agi_usd": 2502747,
+          "max_return_weight_share": 0.0008350058132214942,
+          "mean_agi_usd": 359034.6497730428,
+          "returns": 13167836.47,
+          "weighted_quantiles_usd": {
+            "0.5": 276266,
+            "0.9": 594485,
+            "0.99": 1219999,
+            "0.999": 2200020
+          }
+        },
+        "stretch": {
+          "agi_usd": 5675058418236.385,
+          "fine_bands": {
+            "200000": {
+              "agi_usd": 2388582096712.1177,
+              "returns": 7820060.126480966
+            },
+            "500000": {
+              "agi_usd": 1528644984538.0085,
+              "returns": 2236185.979849619
+            },
+            "1000000": {
+              "agi_usd": 546963254362.6523,
+              "returns": 448881.8609584817
+            },
+            "1500000": {
+              "agi_usd": 647234653390.5234,
+              "returns": 355032.52938803774
+            },
+            "2000000": {
+              "agi_usd": 563633429233.0833,
+              "returns": 229973.003356938
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "kish_effective_sample_size": 4204.633384886531,
+          "max_agi_usd": 4713579.106768226,
+          "max_return_weight_share": 0.0008350058132214942,
+          "mean_agi_usd": 511721.37992919236,
+          "returns": 11090133.500034044,
+          "weighted_quantiles_usd": {
+            "0.5": 349487.8178787272,
+            "0.9": 973224.0033027787,
+            "0.99": 2199284.409153278,
+            "0.999": 4120208.553140483
+          }
+        },
+        "tilt": {
+          "agi_usd": 5801019358441.767,
+          "fine_bands": {
+            "200000": {
+              "agi_usd": 2300501076351.4277,
+              "returns": 7904982.148523172
+            },
+            "500000": {
+              "agi_usd": 1083181380301.7988,
+              "returns": 1593300.5570789594
+            },
+            "1000000": {
+              "agi_usd": 1515408561755.8713,
+              "returns": 1313327.7773891503
+            },
+            "1500000": {
+              "agi_usd": 272187412948.95963,
+              "returns": 163789.40862117638
+            },
+            "2000000": {
+              "agi_usd": 629740927083.7095,
+              "returns": 275040.48530365503
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "kish_effective_sample_size": 2548.4407800690374,
+          "max_agi_usd": 2502747,
+          "max_return_weight_share": 0.00799112456396905,
+          "mean_agi_usd": 515625.9812144259,
+          "returns": 11250440.376916114,
+          "weighted_quantiles_usd": {
+            "0.5": 322521,
+            "0.9": 1106451,
+            "0.99": 2207273,
+            "0.999": 2502747
+          }
+        }
+      },
+      "fine_bands_by_cps_filing_status": {
+        "count_only": {
+          "head_of_household": {
+            "200000": {
+              "agi_usd": 38594014632.76403,
+              "returns": 132696.65332963073
+            },
+            "500000": {
+              "agi_usd": 8440400507.280484,
+              "returns": 13514.078302355789
+            },
+            "1000000": {
+              "agi_usd": 20482647726.896404,
+              "returns": 18567.47054861895
+            },
+            "1500000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "2000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "joint": {
+            "200000": {
+              "agi_usd": 2288337693721.176,
+              "returns": 8035606.015984611
+            },
+            "500000": {
+              "agi_usd": 612344905223.0935,
+              "returns": 940144.2737144587
+            },
+            "1000000": {
+              "agi_usd": 352829136983.4285,
+              "returns": 305280.046571176
+            },
+            "1500000": {
+              "agi_usd": 37201531672.23106,
+              "returns": 22861.169109249582
+            },
+            "2000000": {
+              "agi_usd": 38986744960.54692,
+              "returns": 17265.155360381905
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "single": {
+            "200000": {
+              "agi_usd": 359431430271.4093,
+              "returns": 1345825.0729318142
+            },
+            "500000": {
+              "agi_usd": 91503697352.00592,
+              "returns": 137161.94452846315
+            },
+            "1000000": {
+              "agi_usd": 128173795549.62534,
+              "returns": 117932.55289345015
+            },
+            "1500000": {
+              "agi_usd": 5416198520.554639,
+              "returns": 3279.066759833291
+            },
+            "2000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          }
+        },
+        "raw": {
+          "head_of_household": {
+            "200000": {
+              "agi_usd": 45824486549.55,
+              "returns": 157556.97
+            },
+            "500000": {
+              "agi_usd": 10021684014.97,
+              "returns": 16045.9
+            },
+            "1000000": {
+              "agi_usd": 24320009830.32,
+              "returns": 22046.03
+            },
+            "1500000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "2000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "joint": {
+            "200000": {
+              "agi_usd": 2717050839736.5,
+              "returns": 9541052.5
+            },
+            "500000": {
+              "agi_usd": 727065871226.04,
+              "returns": 1116277.46
+            },
+            "1000000": {
+              "agi_usd": 418930608692.38,
+              "returns": 362473.34
+            },
+            "1500000": {
+              "agi_usd": 44171126117.82,
+              "returns": 27144.14
+            },
+            "2000000": {
+              "agi_usd": 46290793716.46,
+              "returns": 20499.73
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "single": {
+            "200000": {
+              "agi_usd": 426769821659.73,
+              "returns": 1597961.33
+            },
+            "500000": {
+              "agi_usd": 108646638304.93,
+              "returns": 162858.82
+            },
+            "1000000": {
+              "agi_usd": 152186768493.95,
+              "returns": 140026.86
+            },
+            "1500000": {
+              "agi_usd": 6430906932.5,
+              "returns": 3893.39
+            },
+            "2000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          }
+        },
+        "stretch": {
+          "head_of_household": {
+            "200000": {
+              "agi_usd": 32952303140.422523,
+              "returns": 106119.61169890572
+            },
+            "500000": {
+              "agi_usd": 24650406986.894703,
+              "returns": 35113.56061674643
+            },
+            "1000000": {
+              "agi_usd": 2909997292.6619263,
+              "returns": 2691.5131513680462
+            },
+            "1500000": {
+              "agi_usd": 37011339568.463615,
+              "returns": 19275.224909632336
+            },
+            "2000000": {
+              "agi_usd": 3174907925.534155,
+              "returns": 1578.2918039529538
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "joint": {
+            "200000": {
+              "agi_usd": 2018673706723.3057,
+              "returns": 6543482.284300812
+            },
+            "500000": {
+              "agi_usd": 1337163199231.34,
+              "returns": 1958193.087468802
+            },
+            "1000000": {
+              "agi_usd": 483567160097.99567,
+              "returns": 397806.27711696964
+            },
+            "1500000": {
+              "agi_usd": 368831598762.4238,
+              "returns": 206513.62663474074
+            },
+            "2000000": {
+              "agi_usd": 528438370562.1681,
+              "returns": 215161.38521855194
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "single": {
+            "200000": {
+              "agi_usd": 336956086848.38965,
+              "returns": 1170458.2304812486
+            },
+            "500000": {
+              "agi_usd": 166831378319.77368,
+              "returns": 242879.33176407052
+            },
+            "1000000": {
+              "agi_usd": 60486096971.99471,
+              "returns": 48384.07069014396
+            },
+            "1500000": {
+              "agi_usd": 241391715059.636,
+              "returns": 129243.6778436647
+            },
+            "2000000": {
+              "agi_usd": 32020150745.381027,
+              "returns": 13233.326334433124
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          }
+        },
+        "tilt": {
+          "head_of_household": {
+            "200000": {
+              "agi_usd": 33703005476.239265,
+              "returns": 111810.58375503193
+            },
+            "500000": {
+              "agi_usd": 12443880910.217928,
+              "returns": 18976.936243147476
+            },
+            "1000000": {
+              "agi_usd": 57296823729.42382,
+              "returns": 51936.12610044545
+            },
+            "1500000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "2000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "joint": {
+            "200000": {
+              "agi_usd": 1966270488166.9023,
+              "returns": 6700636.688042743
+            },
+            "500000": {
+              "agi_usd": 924970668838.7283,
+              "returns": 1367881.357841937
+            },
+            "1000000": {
+              "agi_usd": 1104178427091.7615,
+              "returns": 937821.5888437184
+            },
+            "1500000": {
+              "agi_usd": 237944493691.0334,
+              "returns": 143058.11196131486
+            },
+            "2000000": {
+              "agi_usd": 629740927083.7095,
+              "returns": 275040.48530365503
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "single": {
+            "200000": {
+              "agi_usd": 300527582708.2859,
+              "returns": 1092534.8767253968
+            },
+            "500000": {
+              "agi_usd": 145766830552.85266,
+              "returns": 206442.2629938749
+            },
+            "1000000": {
+              "agi_usd": 353933310934.68616,
+              "returns": 323570.06244498666
+            },
+            "1500000": {
+              "agi_usd": 34242919257.926254,
+              "returns": 20731.296659861513
+            },
+            "2000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          }
+        }
+      },
+      "inputs": {
+        "cps": {
+          "sha256": "d2e000250782adfbdd7f29c82b66d866591a30f0d330496698ec19f9c784ce11",
+          "url": "https://www2.census.gov/programs-surveys/cps/datasets/2023/march/asecpub23csv.zip"
+        },
+        "irs": {
+          "sha256": "1402895408f6648e3ea8c8490afec5d1a797368550c957f64a6aa4093de4b2a6",
+          "url": "https://www.irs.gov/pub/irs-soi/22zpallagi.csv"
+        },
+        "soi": {
+          "sha256": "ffc483e16aa05762c5ac6dfdbfa86250cd4db5969b1cf6db2296539601a54503",
+          "url": "https://www.irs.gov/pub/irs-soi/22in12ms.xls"
+        }
+      },
+      "irs_national_soi_fine_bands_not_fit": {
+        "all": {
+          "200000": {
+            "agi_usd": 2891064828000,
+            "itemized_deductions_usd": 136240610000,
+            "itemizers": 3330396,
+            "returns": 10017626
+          },
+          "500000": {
+            "agi_usd": 1124299469000,
+            "itemized_deductions_usd": 54792042000,
+            "itemizers": 902511,
+            "returns": 1674608
+          },
+          "1000000": {
+            "agi_usd": 435177502000,
+            "itemized_deductions_usd": 21274748000,
+            "itemizers": 230387,
+            "returns": 360882
+          },
+          "1500000": {
+            "agi_usd": 254476785000,
+            "itemized_deductions_usd": 12194361000,
+            "itemizers": 101541,
+            "returns": 148221
+          },
+          "2000000": {
+            "agi_usd": 621044404000,
+            "itemized_deductions_usd": 29514407000,
+            "itemizers": 153659,
+            "returns": 208129
+          },
+          "5000000": {
+            "agi_usd": 362815724000,
+            "itemized_deductions_usd": 18019722000,
+            "itemizers": 42951,
+            "returns": 52968
+          },
+          "10000000": {
+            "agi_usd": 1051519384000,
+            "itemized_deductions_usd": 78344359000,
+            "itemizers": 30108,
+            "returns": 34630
+          }
+        },
+        "head_of_household": {
+          "200000": {
+            "agi_usd": 78908442000,
+            "itemized_deductions_usd": 4750773000,
+            "itemizers": 138978,
+            "returns": 277721
+          },
+          "500000": {
+            "agi_usd": 30309857000,
+            "itemized_deductions_usd": 1667663000,
+            "itemizers": 27309,
+            "returns": 44818
+          },
+          "1000000": {
+            "agi_usd": 11099083000,
+            "itemized_deductions_usd": 633118000,
+            "itemizers": 6168,
+            "returns": 9165
+          },
+          "1500000": {
+            "agi_usd": 6128994000,
+            "itemized_deductions_usd": 258024000,
+            "itemizers": 2579,
+            "returns": 3575
+          },
+          "2000000": {
+            "agi_usd": 14984657000,
+            "itemized_deductions_usd": 610039000,
+            "itemizers": 3700,
+            "returns": 5033
+          },
+          "5000000": {
+            "agi_usd": 8861342000,
+            "itemized_deductions_usd": 386770000,
+            "itemizers": 1006,
+            "returns": 1280
+          },
+          "10000000": {
+            "agi_usd": 28647107000,
+            "itemized_deductions_usd": 3080737000,
+            "itemizers": 723,
+            "returns": 866
+          }
+        },
+        "joint_or_surviving_spouse": {
+          "200000": {
+            "agi_usd": 2377873755000,
+            "itemized_deductions_usd": 104149105000,
+            "itemizers": 2441541,
+            "returns": 8217044
+          },
+          "500000": {
+            "agi_usd": 945135321000,
+            "itemized_deductions_usd": 43803892000,
+            "itemizers": 739013,
+            "returns": 1407631
+          },
+          "1000000": {
+            "agi_usd": 367071380000,
+            "itemized_deductions_usd": 16886840000,
+            "itemizers": 191975,
+            "returns": 304533
+          },
+          "1500000": {
+            "agi_usd": 212759924000,
+            "itemized_deductions_usd": 9765770000,
+            "itemizers": 84509,
+            "returns": 123960
+          },
+          "2000000": {
+            "agi_usd": 508979071000,
+            "itemized_deductions_usd": 23119286000,
+            "itemizers": 126130,
+            "returns": 170806
+          },
+          "5000000": {
+            "agi_usd": 295179490000,
+            "itemized_deductions_usd": 13782372000,
+            "itemizers": 35007,
+            "returns": 43126
+          },
+          "10000000": {
+            "agi_usd": 778371107000,
+            "itemized_deductions_usd": 51268214000,
+            "itemizers": 23988,
+            "returns": 27413
+          }
+        },
+        "married_separate": {
+          "200000": {
+            "agi_usd": 32638692000,
+            "itemized_deductions_usd": 1432179000,
+            "itemizers": 44289,
+            "returns": 113765
+          },
+          "500000": {
+            "agi_usd": 14725478000,
+            "itemized_deductions_usd": 660768000,
+            "itemizers": 13240,
+            "returns": 21615
+          },
+          "1000000": {
+            "agi_usd": 7498985000,
+            "itemized_deductions_usd": 357796000,
+            "itemizers": 3541,
+            "returns": 6098
+          },
+          "1500000": {
+            "agi_usd": 4847219000,
+            "itemized_deductions_usd": 176749000,
+            "itemizers": 1901,
+            "returns": 2815
+          },
+          "2000000": {
+            "agi_usd": 15401979000,
+            "itemized_deductions_usd": 1010606000,
+            "itemizers": 3580,
+            "returns": 5029
+          },
+          "5000000": {
+            "agi_usd": 11544457000,
+            "itemized_deductions_usd": 738738000,
+            "itemizers": 1387,
+            "returns": 1649
+          },
+          "10000000": {
+            "agi_usd": 83278521000,
+            "itemized_deductions_usd": 9022399000,
+            "itemizers": 1322,
+            "returns": 1514
+          }
+        },
+        "single": {
+          "200000": {
+            "agi_usd": 401643939000,
+            "itemized_deductions_usd": 25908552000,
+            "itemizers": 705588,
+            "returns": 1409096
+          },
+          "500000": {
+            "agi_usd": 134128813000,
+            "itemized_deductions_usd": 8659719000,
+            "itemizers": 122948,
+            "returns": 200544
+          },
+          "1000000": {
+            "agi_usd": 49508054000,
+            "itemized_deductions_usd": 3396993000,
+            "itemizers": 28703,
+            "returns": 41086
+          },
+          "1500000": {
+            "agi_usd": 30740648000,
+            "itemized_deductions_usd": 1993817000,
+            "itemizers": 12554,
+            "returns": 17872
+          },
+          "2000000": {
+            "agi_usd": 81678697000,
+            "itemized_deductions_usd": 4774475000,
+            "itemizers": 20249,
+            "returns": 27261
+          },
+          "5000000": {
+            "agi_usd": 47230435000,
+            "itemized_deductions_usd": 3111842000,
+            "itemizers": 5552,
+            "returns": 6913
+          },
+          "10000000": {
+            "agi_usd": 161222649000,
+            "itemized_deductions_usd": 14973009000,
+            "itemizers": 4075,
+            "returns": 4837
+          }
+        }
+      },
+      "sample": {
+        "households": 56769,
+        "tax_units": 77580,
+        "unresolved_and_joint_diagnostics": {
+          "joint_with_different_person_weights": 0,
+          "unresolved_or_nonfiler_units": 15083
+        }
+      },
+      "state_residuals_national_adjustments": {
+        "count_only": {
+          "agi_usd": {
+            "median_absolute_relative": 0.3170342577669954,
+            "wape": 0.39344156649431916,
+            "worst_absolute_relative": 0.6403462911215713,
+            "worst_state_fips": "56"
+          },
+          "returns": {
+            "median_absolute_relative": 0.12575679789023356,
+            "wape": 0.13186492356142254,
+            "worst_absolute_relative": 0.39310001953641455,
+            "worst_state_fips": "20"
+          }
+        },
+        "raw": {
+          "agi_usd": {
+            "median_absolute_relative": 0.22770822270882635,
+            "wape": 0.2910470381360623,
+            "worst_absolute_relative": 0.5729662565084903,
+            "worst_state_fips": "56"
+          },
+          "returns": {
+            "median_absolute_relative": 0.09290152671755726,
+            "wape": 0.10932691931492512,
+            "worst_absolute_relative": 0.654093094871491,
+            "worst_state_fips": "20"
+          }
+        },
+        "stretch": {
+          "agi_usd": {
+            "median_absolute_relative": 0.14206139162632878,
+            "wape": 0.18483628212415326,
+            "worst_absolute_relative": 0.8907368618821146,
+            "worst_state_fips": "19"
+          },
+          "returns": {
+            "median_absolute_relative": 0.12575679789023356,
+            "wape": 0.13186492356142254,
+            "worst_absolute_relative": 0.39310001953641455,
+            "worst_state_fips": "20"
+          }
+        },
+        "tilt": {
+          "agi_usd": {
+            "median_absolute_relative": 0.20814899346521246,
+            "wape": 0.22912723330279694,
+            "worst_absolute_relative": 2.214674899059166,
+            "worst_state_fips": "20"
+          },
+          "returns": {
+            "median_absolute_relative": 0.13344336947590596,
+            "wape": 0.11972135296379831,
+            "worst_absolute_relative": 0.8088826709691259,
+            "worst_state_fips": "20"
+          }
+        }
+      }
+    },
+    "2023": {
+      "composition_by_agi_stub": {
+        "1": {
+          "cps_filing_counts": {
+            "head_of_household": 3116829.2,
+            "joint": 4770435.74,
+            "single": 26864127.04,
+            "single_dependent_subset": 6714140.44
+          },
+          "cps_household_weight_returns_and_agi_usd": [
+            32622212.18,
+            399421403213.16
+          ],
+          "cps_principals_only_returns_and_agi_usd": [
+            28037251.54,
+            364124890107.14
+          ],
+          "cps_returns_and_agi_usd": [
+            34751391.98,
+            424807068255.34
+          ],
+          "irs_filing_counts": {
+            "head_of_household": 6190980,
+            "joint": 4319410,
+            "other_and_rounding": 834700,
+            "single": 29047680
+          },
+          "irs_returns_and_agi_usd": [
+            40392770,
+            512514757000
+          ]
+        },
+        "2": {
+          "cps_filing_counts": {
+            "head_of_household": 4257133.72,
+            "joint": 6423929.52,
+            "single": 23979833.11,
+            "single_dependent_subset": 1004365.83
+          },
+          "cps_household_weight_returns_and_agi_usd": [
+            32817223.58,
+            1189637394049.03
+          ],
+          "cps_principals_only_returns_and_agi_usd": [
+            33656530.52,
+            1222249088831.27
+          ],
+          "cps_returns_and_agi_usd": [
+            34660896.35,
+            1254412395379.55
+          ],
+          "irs_filing_counts": {
+            "head_of_household": 7572570,
+            "joint": 6035970,
+            "other_and_rounding": 1124970,
+            "single": 21144310
+          },
+          "irs_returns_and_agi_usd": [
+            35877820,
+            1327914439000
+          ]
+        },
+        "3": {
+          "cps_filing_counts": {
+            "head_of_household": 2364025.03,
+            "joint": 7467797.14,
+            "single": 15192180.45,
+            "single_dependent_subset": 214623.22
+          },
+          "cps_household_weight_returns_and_agi_usd": [
+            24315997.45,
+            1477607301570.2
+          ],
+          "cps_principals_only_returns_and_agi_usd": [
+            24809379.4,
+            1506296053470.51
+          ],
+          "cps_returns_and_agi_usd": [
+            25024002.62,
+            1519115585603.17
+          ],
+          "irs_filing_counts": {
+            "head_of_household": 3769650,
+            "joint": 6487130,
+            "other_and_rounding": 975650,
+            "single": 12872620
+          },
+          "irs_returns_and_agi_usd": [
+            24105050,
+            1483592897000
+          ]
+        },
+        "4": {
+          "cps_filing_counts": {
+            "head_of_household": 1109594.69,
+            "joint": 7538870.58,
+            "single": 7286892.42,
+            "single_dependent_subset": 86147.07
+          },
+          "cps_household_weight_returns_and_agi_usd": [
+            15730799.85,
+            1351902881166.55
+          ],
+          "cps_principals_only_returns_and_agi_usd": [
+            15849210.62,
+            1361523249419.85
+          ],
+          "cps_returns_and_agi_usd": [
+            15935357.69,
+            1368574717184.38
+          ],
+          "irs_filing_counts": {
+            "head_of_household": 1725570,
+            "joint": 6875050,
+            "other_and_rounding": 644980,
+            "single": 6400400
+          },
+          "irs_returns_and_agi_usd": [
+            15646000,
+            1354426376000
+          ]
+        },
+        "5": {
+          "cps_filing_counts": {
+            "head_of_household": 1240935.39,
+            "joint": 20919956.89,
+            "single": 8294650.43,
+            "single_dependent_subset": 42406.79
+          },
+          "cps_household_weight_returns_and_agi_usd": [
+            30250329.85,
+            4183576922146.69
+          ],
+          "cps_principals_only_returns_and_agi_usd": [
+            30413135.92,
+            4203982637008.91
+          ],
+          "cps_returns_and_agi_usd": [
+            30455542.71,
+            4209293825348.04
+          ],
+          "irs_filing_counts": {
+            "head_of_household": 1577980,
+            "joint": 18779000,
+            "other_and_rounding": 688240,
+            "single": 6444290
+          },
+          "irs_returns_and_agi_usd": [
+            27489510,
+            3813350329000
+          ]
+        },
+        "6": {
+          "cps_filing_counts": {
+            "head_of_household": 340300.39,
+            "joint": 13318369.34,
+            "single": 2216729.26,
+            "single_dependent_subset": 5972.27
+          },
+          "cps_household_weight_returns_and_agi_usd": [
+            15839491.27,
+            5586322964670.87
+          ],
+          "cps_principals_only_returns_and_agi_usd": [
+            15869426.72,
+            5598386407739.6
+          ],
+          "cps_returns_and_agi_usd": [
+            15875398.99,
+            5602499443281.41
+          ],
+          "irs_filing_counts": {
+            "head_of_household": 307590,
+            "joint": 10898590,
+            "other_and_rounding": 420320,
+            "single": 1743980
+          },
+          "irs_returns_and_agi_usd": [
+            13370480,
+            6681305473000
+          ]
+        }
+      },
+      "cps_nonpositive_return_rows_by_kind": {
+        "dependent": 46,
+        "principal": 607
+      },
+      "distribution": {
+        "count_only": {
+          "agi_usd": 4718502306845.343,
+          "fine_bands": {
+            "200000": {
+              "agi_usd": 3272731961919.142,
+              "returns": 11611565.998482637
+            },
+            "500000": {
+              "agi_usd": 840027573332.7457,
+              "returns": 1268460.9983272238
+            },
+            "1000000": {
+              "agi_usd": 503424484955.0948,
+              "returns": 435319.5238057825
+            },
+            "1500000": {
+              "agi_usd": 53500911424.29623,
+              "returns": 32453.790503239507
+            },
+            "2000000": {
+              "agi_usd": 48817375214.0641,
+              "returns": 22679.68888111706
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "kish_effective_sample_size": 4984.19352900779,
+          "max_agi_usd": 2276498,
+          "max_return_weight_share": 0.0007084565249090474,
+          "mean_agi_usd": 352904.4811289754,
+          "returns": 13370480.0,
+          "weighted_quantiles_usd": {
+            "0.5": 275101,
+            "0.9": 576030,
+            "0.99": 1252000,
+            "0.999": 2100105
+          }
+        },
+        "household_weight": {
+          "agi_usd": 5586322964670.87,
+          "fine_bands": {
+            "200000": {
+              "agi_usd": 3879896914268.16,
+              "returns": 13762383.79
+            },
+            "500000": {
+              "agi_usd": 992366777596.69,
+              "returns": 1499675.78
+            },
+            "1000000": {
+              "agi_usd": 592454421171.32,
+              "returns": 511894.39
+            },
+            "1500000": {
+              "agi_usd": 63641688818.72,
+              "returns": 38608.65
+            },
+            "2000000": {
+              "agi_usd": 57963162815.98,
+              "returns": 26928.66
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "kish_effective_sample_size": 4991.263853616161,
+          "max_agi_usd": 2276498,
+          "max_return_weight_share": 0.0007100625776600463,
+          "mean_agi_usd": 352683.2313895944,
+          "returns": 15839491.27,
+          "weighted_quantiles_usd": {
+            "0.5": 275098,
+            "0.9": 575462,
+            "0.99": 1252000,
+            "0.999": 2100105
+          }
+        },
+        "raw": {
+          "agi_usd": 5602499443281.41,
+          "fine_bands": {
+            "200000": {
+              "agi_usd": 3885868396855.75,
+              "returns": 13786957.77
+            },
+            "500000": {
+              "agi_usd": 997404198597.12,
+              "returns": 1506103.33
+            },
+            "1000000": {
+              "agi_usd": 597739539642.36,
+              "returns": 516875.32
+            },
+            "1500000": {
+              "agi_usd": 63524145370.2,
+              "returns": 38533.91
+            },
+            "2000000": {
+              "agi_usd": 57963162815.98,
+              "returns": 26928.66
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "kish_effective_sample_size": 4984.193529007791,
+          "max_agi_usd": 2276498,
+          "max_return_weight_share": 0.0007084565249090473,
+          "mean_agi_usd": 352904.4811289754,
+          "returns": 15875398.99,
+          "weighted_quantiles_usd": {
+            "0.5": 275101,
+            "0.9": 576030,
+            "0.99": 1252000,
+            "0.999": 2100105
+          }
+        },
+        "stretch": {
+          "agi_usd": 6681305473000.0,
+          "fine_bands": {
+            "200000": {
+              "agi_usd": 2938077998022.1055,
+              "returns": 9586341.28366549
+            },
+            "500000": {
+              "agi_usd": 1740398668303.7253,
+              "returns": 2586675.3469515163
+            },
+            "1000000": {
+              "agi_usd": 693285040792.2993,
+              "returns": 573168.900076432
+            },
+            "1500000": {
+              "agi_usd": 653804225007.2861,
+              "returns": 362148.3179265153
+            },
+            "2000000": {
+              "agi_usd": 655739540874.5837,
+              "returns": 262146.15138004796
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "kish_effective_sample_size": 4984.19352900779,
+          "max_agi_usd": 4270111.908970464,
+          "max_return_weight_share": 0.0007084565249090474,
+          "mean_agi_usd": 499705.7303103554,
+          "returns": 13370480.0,
+          "weighted_quantiles_usd": {
+            "0.5": 347204.31923150935,
+            "0.9": 937050.6406123018,
+            "0.99": 2262009.0788611053,
+            "0.999": 3924366.692765571
+          }
+        },
+        "tilt": {
+          "agi_usd": 6681305473000.004,
+          "fine_bands": {
+            "200000": {
+              "agi_usd": 2797725923844.6636,
+              "returns": 9638668.074862828
+            },
+            "500000": {
+              "agi_usd": 1296938609627.1611,
+              "returns": 1879706.6972083251
+            },
+            "1000000": {
+              "agi_usd": 1579088471330.7168,
+              "returns": 1339446.5544712502
+            },
+            "1500000": {
+              "agi_usd": 348866041431.339,
+              "returns": 208243.5504258722
+            },
+            "2000000": {
+              "agi_usd": 658686426766.1232,
+              "returns": 304415.1230317313
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "kish_effective_sample_size": 3092.851375500844,
+          "max_agi_usd": 2276498,
+          "max_return_weight_share": 0.003865070606625341,
+          "mean_agi_usd": 499705.7303103554,
+          "returns": 13370480.000000007,
+          "weighted_quantiles_usd": {
+            "0.5": 318000,
+            "0.9": 1101099,
+            "0.99": 2212212,
+            "0.999": 2276498
+          }
+        }
+      },
+      "fine_bands_by_cps_filing_status": {
+        "count_only": {
+          "head_of_household": {
+            "200000": {
+              "agi_usd": 62522906369.71892,
+              "returns": 227673.27121783415
+            },
+            "500000": {
+              "agi_usd": 16762131876.416544,
+              "returns": 23276.21206647859
+            },
+            "1000000": {
+              "agi_usd": 39406645305.02551,
+              "returns": 35656.198963626804
+            },
+            "1500000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "2000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "joint": {
+            "200000": {
+              "agi_usd": 2795231639931.2095,
+              "returns": 9862649.083111253
+            },
+            "500000": {
+              "agi_usd": 696307958408.1858,
+              "returns": 1061640.3005435267
+            },
+            "1000000": {
+              "agi_usd": 292593779146.30457,
+              "returns": 247351.47016104066
+            },
+            "1500000": {
+              "agi_usd": 41806474955.04639,
+              "returns": 25444.828362276017
+            },
+            "2000000": {
+              "agi_usd": 42434436361.71798,
+              "returns": 19828.677281615837
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "single": {
+            "200000": {
+              "agi_usd": 414977415618.2141,
+              "returns": 1521243.644153551
+            },
+            "500000": {
+              "agi_usd": 126957483048.14334,
+              "returns": 183544.48571721851
+            },
+            "1000000": {
+              "agi_usd": 171424060503.7647,
+              "returns": 152311.85468111502
+            },
+            "1500000": {
+              "agi_usd": 11694436469.24984,
+              "returns": 7008.962140963489
+            },
+            "2000000": {
+              "agi_usd": 6382938852.346122,
+              "returns": 2851.011599501223
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          }
+        },
+        "raw": {
+          "head_of_household": {
+            "200000": {
+              "agi_usd": 74236383782.31,
+              "returns": 270327.17
+            },
+            "500000": {
+              "agi_usd": 19902466587.67,
+              "returns": 27636.94
+            },
+            "1000000": {
+              "agi_usd": 46789361120.52,
+              "returns": 42336.28
+            },
+            "1500000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "2000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "joint": {
+            "200000": {
+              "agi_usd": 3318909833706.79,
+              "returns": 11710386.56
+            },
+            "500000": {
+              "agi_usd": 826759148485.49,
+              "returns": 1260535.4
+            },
+            "1000000": {
+              "agi_usd": 347410338741.73,
+              "returns": 293692.02
+            },
+            "1500000": {
+              "agi_usd": 49638791597.37,
+              "returns": 30211.84
+            },
+            "2000000": {
+              "agi_usd": 50384399674.36,
+              "returns": 23543.52
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "single": {
+            "200000": {
+              "agi_usd": 492722179366.65,
+              "returns": 1806244.04
+            },
+            "500000": {
+              "agi_usd": 150742583523.96,
+              "returns": 217930.99
+            },
+            "1000000": {
+              "agi_usd": 203539839780.11002,
+              "returns": 180847.02
+            },
+            "1500000": {
+              "agi_usd": 13885353772.830002,
+              "returns": 8322.07
+            },
+            "2000000": {
+              "agi_usd": 7578763141.62,
+              "returns": 3385.14
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          }
+        },
+        "stretch": {
+          "head_of_household": {
+            "200000": {
+              "agi_usd": 59353167254.20487,
+              "returns": 196132.69313042948
+            },
+            "500000": {
+              "agi_usd": 25778636508.20006,
+              "returns": 38458.10107685363
+            },
+            "1000000": {
+              "agi_usd": 18659958894.492058,
+              "returns": 14186.821835990908
+            },
+            "1500000": {
+              "agi_usd": 55023133184.00863,
+              "returns": 28653.898733766568
+            },
+            "2000000": {
+              "agi_usd": 18797709523.241943,
+              "returns": 9174.167470898949
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "joint": {
+            "200000": {
+              "agi_usd": 2504579121799.0264,
+              "returns": 8110233.2916021785
+            },
+            "500000": {
+              "agi_usd": 1510300939302.3447,
+              "returns": 2240538.6081093512
+            },
+            "1000000": {
+              "agi_usd": 580691515673.6394,
+              "returns": 480733.9486615322
+            },
+            "1500000": {
+              "agi_usd": 327150935378.98474,
+              "returns": 186370.21405865153
+            },
+            "2000000": {
+              "agi_usd": 505781134206.4519,
+              "returns": 199038.29702799805
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "single": {
+            "200000": {
+              "agi_usd": 374145708968.8743,
+              "returns": 1279975.2989328806
+            },
+            "500000": {
+              "agi_usd": 204319092493.18054,
+              "returns": 307678.6377653114
+            },
+            "1000000": {
+              "agi_usd": 93933566224.16788,
+              "returns": 78248.12957890893
+            },
+            "1500000": {
+              "agi_usd": 271630156444.29276,
+              "returns": 147124.20513409722
+            },
+            "2000000": {
+              "agi_usd": 131160697144.88988,
+              "returns": 53933.68688115095
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          }
+        },
+        "tilt": {
+          "head_of_household": {
+            "200000": {
+              "agi_usd": 52759508435.65167,
+              "returns": 186871.33231452468
+            },
+            "500000": {
+              "agi_usd": 27590420996.57309,
+              "returns": 37355.8444303448
+            },
+            "1000000": {
+              "agi_usd": 110828316516.05602,
+              "returns": 100144.94947873612
+            },
+            "1500000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "2000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "joint": {
+            "200000": {
+              "agi_usd": 2394743765137.9385,
+              "returns": 8206005.353583476
+            },
+            "500000": {
+              "agi_usd": 1061904543297.7578,
+              "returns": 1556698.8675862397
+            },
+            "1000000": {
+              "agi_usd": 960122211608.1589,
+              "returns": 794009.9006107001
+            },
+            "1500000": {
+              "agi_usd": 271042788934.4108,
+              "returns": 162143.81164691463
+            },
+            "2000000": {
+              "agi_usd": 562098741411.372,
+              "returns": 261273.14444076392
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          },
+          "single": {
+            "200000": {
+              "agi_usd": 350222650271.07306,
+              "returns": 1245791.3889648274
+            },
+            "500000": {
+              "agi_usd": 207443645332.8302,
+              "returns": 285651.9851917408
+            },
+            "1000000": {
+              "agi_usd": 508137943206.5019,
+              "returns": 445291.704381814
+            },
+            "1500000": {
+              "agi_usd": 77823252496.92818,
+              "returns": 46099.738778957595
+            },
+            "2000000": {
+              "agi_usd": 96587685354.75128,
+              "returns": 43141.97859096738
+            },
+            "5000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            },
+            "10000000": {
+              "agi_usd": 0.0,
+              "returns": 0.0
+            }
+          }
+        }
+      },
+      "inputs": {
+        "cps": {
+          "sha256": "cdb39cdac34bef99dd0940ab28e306f692404c2eea44d85dfd634214872a0a09",
+          "url": "https://www2.census.gov/programs-surveys/cps/datasets/2024/march/asecpub24csv.zip"
+        },
+        "irs": {
+          "sha256": "e312d7b865f0761527697611a35bfff036c20b27e173bd4253821f99b24ad8d7",
+          "url": "https://www.irs.gov/pub/irs-soi/23zpallagi.csv"
+        },
+        "soi": {
+          "sha256": "549861a1c7b38256abf9506a6111dcf82110266d0168199dfa465a5d61134490",
+          "url": "https://www.irs.gov/pub/irs-soi/23in12ms.xls"
+        }
+      },
+      "irs_national_soi_fine_bands_not_fit": {
+        "all": {
+          "200000": {
+            "agi_usd": 3153877437000,
+            "itemized_deductions_usd": 148023663000,
+            "itemizers": 3404313,
+            "returns": 10955818
+          },
+          "500000": {
+            "agi_usd": 1194934962000,
+            "itemized_deductions_usd": 59736379000,
+            "itemizers": 923935,
+            "returns": 1779720
+          },
+          "1000000": {
+            "agi_usd": 443658405000,
+            "itemized_deductions_usd": 22750149000,
+            "itemizers": 229991,
+            "returns": 368931
+          },
+          "1500000": {
+            "agi_usd": 252903399000,
+            "itemized_deductions_usd": 13216260000,
+            "itemizers": 99572,
+            "returns": 147290
+          },
+          "2000000": {
+            "agi_usd": 602653109000,
+            "itemized_deductions_usd": 32198531000,
+            "itemizers": 148521,
+            "returns": 203230
+          },
+          "5000000": {
+            "agi_usd": 336334760000,
+            "itemized_deductions_usd": 18491620000,
+            "itemizers": 39784,
+            "returns": 49262
+          },
+          "10000000": {
+            "agi_usd": 907900917000,
+            "itemized_deductions_usd": 71722296000,
+            "itemizers": 26456,
+            "returns": 30382
+          }
+        },
+        "head_of_household": {
+          "200000": {
+            "agi_usd": 92765328000,
+            "itemized_deductions_usd": 6099567000,
+            "itemizers": 149941,
+            "returns": 330844
+          },
+          "500000": {
+            "agi_usd": 29190161000,
+            "itemized_deductions_usd": 1455729000,
+            "itemizers": 25838,
+            "returns": 43777
+          },
+          "1000000": {
+            "agi_usd": 10948332000,
+            "itemized_deductions_usd": 679237000,
+            "itemizers": 6414,
+            "returns": 9103
+          },
+          "1500000": {
+            "agi_usd": 5654583000,
+            "itemized_deductions_usd": 293914000,
+            "itemizers": 2563,
+            "returns": 3306
+          },
+          "2000000": {
+            "agi_usd": 15165430000,
+            "itemized_deductions_usd": 643952000,
+            "itemizers": 3575,
+            "returns": 5117
+          },
+          "5000000": {
+            "agi_usd": 8019269000,
+            "itemized_deductions_usd": 368211000,
+            "itemizers": 925,
+            "returns": 1172
+          },
+          "10000000": {
+            "agi_usd": 18664730000,
+            "itemized_deductions_usd": 1324819000,
+            "itemizers": 578,
+            "returns": 694
+          }
+        },
+        "joint_or_surviving_spouse": {
+          "200000": {
+            "agi_usd": 2589059617000,
+            "itemized_deductions_usd": 113117313000,
+            "itemizers": 2482363,
+            "returns": 8960113
+          },
+          "500000": {
+            "agi_usd": 1010661523000,
+            "itemized_deductions_usd": 47432030000,
+            "itemizers": 759986,
+            "returns": 1503008
+          },
+          "1000000": {
+            "agi_usd": 376710822000,
+            "itemized_deductions_usd": 17935498000,
+            "itemizers": 192484,
+            "returns": 313744
+          },
+          "1500000": {
+            "agi_usd": 211785174000,
+            "itemized_deductions_usd": 10201751000,
+            "itemizers": 82323,
+            "returns": 123390
+          },
+          "2000000": {
+            "agi_usd": 494585687000,
+            "itemized_deductions_usd": 24766456000,
+            "itemizers": 122077,
+            "returns": 167059
+          },
+          "5000000": {
+            "agi_usd": 273208626000,
+            "itemized_deductions_usd": 14325898000,
+            "itemizers": 32443,
+            "returns": 40052
+          },
+          "10000000": {
+            "agi_usd": 693269282000,
+            "itemized_deductions_usd": 51901090000,
+            "itemizers": 21108,
+            "returns": 24120
+          }
+        },
+        "married_separate": {
+          "200000": {
+            "agi_usd": 36510186000,
+            "itemized_deductions_usd": 1844890000,
+            "itemizers": 58735,
+            "returns": 123766
+          },
+          "500000": {
+            "agi_usd": 15734896000,
+            "itemized_deductions_usd": 1048752000,
+            "itemizers": 14071,
+            "returns": 23447
+          },
+          "1000000": {
+            "agi_usd": 6204305000,
+            "itemized_deductions_usd": 385330000,
+            "itemizers": 3786,
+            "returns": 5231
+          },
+          "1500000": {
+            "agi_usd": 5480164000,
+            "itemized_deductions_usd": 292127000,
+            "itemizers": 2075,
+            "returns": 3156
+          },
+          "2000000": {
+            "agi_usd": 14439254000,
+            "itemized_deductions_usd": 995484000,
+            "itemizers": 3426,
+            "returns": 4802
+          },
+          "5000000": {
+            "agi_usd": 9830892000,
+            "itemized_deductions_usd": 735745000,
+            "itemizers": 1177,
+            "returns": 1438
+          },
+          "10000000": {
+            "agi_usd": 59263454000,
+            "itemized_deductions_usd": 7338760000,
+            "itemizers": 1175,
+            "returns": 1327
+          }
+        },
+        "single": {
+          "200000": {
+            "agi_usd": 435542306000,
+            "itemized_deductions_usd": 26961893000,
+            "itemizers": 713275,
+            "returns": 1541095
+          },
+          "500000": {
+            "agi_usd": 139348382000,
+            "itemized_deductions_usd": 9799867000,
+            "itemizers": 124040,
+            "returns": 209488
+          },
+          "1000000": {
+            "agi_usd": 49794946000,
+            "itemized_deductions_usd": 3750085000,
+            "itemizers": 27308,
+            "returns": 40853
+          },
+          "1500000": {
+            "agi_usd": 29983479000,
+            "itemized_deductions_usd": 2428467000,
+            "itemizers": 12611,
+            "returns": 17438
+          },
+          "2000000": {
+            "agi_usd": 78462738000,
+            "itemized_deductions_usd": 5792638000,
+            "itemizers": 19444,
+            "returns": 26253
+          },
+          "5000000": {
+            "agi_usd": 45275973000,
+            "itemized_deductions_usd": 3061766000,
+            "itemizers": 5239,
+            "returns": 6599
+          },
+          "10000000": {
+            "agi_usd": 136703451000,
+            "itemized_deductions_usd": 11157626000,
+            "itemizers": 3595,
+            "returns": 4241
+          }
+        }
+      },
+      "sample": {
+        "households": 56192,
+        "tax_units": 77352,
+        "unresolved_and_joint_diagnostics": {
+          "joint_with_different_person_weights": 0,
+          "unresolved_or_nonfiler_units": 15154
+        }
+      },
+      "state_residuals_national_adjustments": {
+        "count_only": {
+          "agi_usd": {
+            "median_absolute_relative": 0.24074459801053946,
+            "wape": 0.29616523582634574,
+            "worst_absolute_relative": 0.6908970808388387,
+            "worst_state_fips": "56"
+          },
+          "returns": {
+            "median_absolute_relative": 0.08723426250381056,
+            "wape": 0.07943929579575618,
+            "worst_absolute_relative": 0.4086866384842173,
+            "worst_state_fips": "50"
+          }
+        },
+        "raw": {
+          "agi_usd": {
+            "median_absolute_relative": 0.1558188784548835,
+            "wape": 0.1978682595016128,
+            "worst_absolute_relative": 0.6329875837922685,
+            "worst_state_fips": "56"
+          },
+          "returns": {
+            "median_absolute_relative": 0.20871076695215407,
+            "wape": 0.1884481566854743,
+            "worst_absolute_relative": 0.6725998197386209,
+            "worst_state_fips": "50"
+          }
+        },
+        "stretch": {
+          "agi_usd": {
+            "median_absolute_relative": 0.18246073687721864,
+            "wape": 0.1349660875585034,
+            "worst_absolute_relative": 0.7065788211370834,
+            "worst_state_fips": "21"
+          },
+          "returns": {
+            "median_absolute_relative": 0.08723426250381056,
+            "wape": 0.07943929579575618,
+            "worst_absolute_relative": 0.4086866384842173,
+            "worst_state_fips": "50"
+          }
+        },
+        "tilt": {
+          "agi_usd": {
+            "median_absolute_relative": 0.21028996452292464,
+            "wape": 0.180955220206914,
+            "worst_absolute_relative": 1.2229580561260838,
+            "worst_state_fips": "21"
+          },
+          "returns": {
+            "median_absolute_relative": 0.08398081051235416,
+            "wape": 0.07482052361849978,
+            "worst_absolute_relative": 0.45392397067823514,
+            "worst_state_fips": "21"
+          }
+        }
+      }
+    }
+  },
+  "classification": "RESEARCH_CALIBRATION_OF_GEOGRAPHIC_RETURN_AND_AGI_MARGINS",
+  "fit_income_year": 2023,
+  "frozen_transfer_income_year": 2022
+}

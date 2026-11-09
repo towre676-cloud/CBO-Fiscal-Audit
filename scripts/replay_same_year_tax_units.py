@@ -6,6 +6,7 @@ import argparse
 from bisect import bisect_right
 from collections import Counter, defaultdict
 import csv
+from dataclasses import dataclass
 from decimal import Decimal
 from hashlib import file_digest
 import json
@@ -27,34 +28,49 @@ def verify(path, expected):
             raise ValueError(f"Unexpected original source hash: {path.name}")
 
 
-def irs_cells(path):
+def irs_state_cells(path, fields):
     cells = {}
     with path.open(encoding="utf-8-sig", newline="") as handle:
         reader = csv.reader(handle)
         header = [column.upper() for column in next(reader)]
-        fips, zip_code, stub, count, agi = [
-            header.index(column) for column in ("STATEFIPS", "ZIPCODE", "AGI_STUB", "N1", "A00100")
-        ]
+        fips, zip_code, stub = map(header.index, ("STATEFIPS", "ZIPCODE", "AGI_STUB"))
+        indexes = [header.index(field) for field in fields]
         for row in reader:
             if int(row[zip_code]) != 0:
                 continue
             key = int(row[fips]), int(row[stub])
             if key in cells:
                 raise ValueError("Duplicate IRS state subtotal cell")
-            cells[key] = int(Decimal(row[count])), 1000 * int(Decimal(row[agi]))
+            cells[key] = tuple(int(Decimal(row[i])) for i in indexes)
     if len(cells) != 306 or any({b for s, b in cells if s == state} != set(range(1, 7))
                                 for state in {s for s, _ in cells}):
         raise ValueError("Incomplete IRS state subtotal data")
     return cells
 
 
-def cps_cells(path):
+def irs_cells(path):
+    return {key: (count, agi * 1000)
+            for key, (count, agi) in irs_state_cells(path, ("N1", "A00100")).items()}
+
+
+@dataclass(frozen=True)
+class ModeledReturn:
+    state: int
+    agi: int
+    person_weight: int
+    household_weight: int
+    kind: str
+    status: int
+
+
+def cps_returns(path, survey_year=2024):
+    suffix = survey_year % 100
     homes = {}
     groups = defaultdict(list)
     diagnostics = Counter()
     with ZipFile(path) as archive:
         for seq, interview, kind, state, weight, size in records(
-            archive, "hhpub24.csv", ["H_SEQ", "H_HHTYPE", "HRHTYPE", "GESTFIPS", "HSUP_WGT", "H_NUMPER"]
+            archive, f"hhpub{suffix:02d}.csv", ["H_SEQ", "H_HHTYPE", "HRHTYPE", "GESTFIPS", "HSUP_WGT", "H_NUMPER"]
         ):
             if interview == "1" and 1 <= int(kind) <= 8:
                 if seq in homes:
@@ -62,7 +78,7 @@ def cps_cells(path):
                 homes[seq] = tuple(map(int, (state, weight, size)))
         observed_sizes = Counter()
         for seq, unit, line, spouse, status, dep, agi, weight in records(
-            archive, "pppub24.csv",
+            archive, f"pppub{suffix:02d}.csv",
             ["PH_SEQ", "TAX_ID", "A_LINENO", "A_SPOUSE", "FILESTAT", "DEP_STAT", "AGI", "MARSUPWT"],
         ):
             if seq in homes:
@@ -71,20 +87,7 @@ def cps_cells(path):
     if any(observed_sizes[seq] != size for seq, (_, _, size) in homes.items()):
         raise ValueError("CPS person and household counts differ")
 
-    cells = defaultdict(Counter)
-
-    def add_return(state, agi, person_weight, household_weight, kind):
-        if agi <= 0:
-            diagnostics[f"{kind}_nonpositive_returns"] += 1
-            if agi == 0:
-                diagnostics[f"{kind}_zero_agi_person_weight"] += person_weight
-            return
-        cell = cells[state, bisect_right(THRESHOLDS, agi) + 1]
-        diagnostics[f"{kind}_positive_agi_sample_returns"] += 1
-        for label, weight in (("person", person_weight), ("household", household_weight)):
-            cell[f"{label}_count"] += weight
-            cell[f"{label}_agi"] += weight * agi
-
+    returns = []
     for (seq, _), members in groups.items():
         state, household_weight, _ = homes[seq]
         agi = filer_agi(members)
@@ -93,15 +96,32 @@ def cps_cells(path):
             # Joint members normally have identical weights. Preserve any discordance in the receipt.
             diagnostics["joint_with_different_person_weights"] += len({row[5] for row in principals}) > 1
             head = max(principals, key=lambda row: (row[4] != 0, -row[0]))
-            add_return(state, agi, head[5], household_weight, "principal")
+            returns.append(ModeledReturn(state, agi, head[5], household_weight, "principal", head[2]))
         else:
             diagnostics["unresolved_or_nonfiler_units"] += 1
         for row in members:
             if row[2] == 5 and row[3] != 0:
-                add_return(state, row[4], row[5], household_weight, "dependent")
+                returns.append(ModeledReturn(state, row[4], row[5], household_weight, "dependent", row[2]))
             elif row[2] != 6 and row[3] != 0:
                 diagnostics["dependent_other_filing_status"] += 1
-    return cells, dict(diagnostics), len(homes), len(groups)
+    return returns, diagnostics, len(homes), len(groups)
+
+
+def cps_cells(path):
+    returns, diagnostics, households, units = cps_returns(path)
+    cells = defaultdict(Counter)
+    for row in returns:
+        if row.agi <= 0:
+            diagnostics[f"{row.kind}_nonpositive_returns"] += 1
+            if row.agi == 0:
+                diagnostics[f"{row.kind}_zero_agi_person_weight"] += row.person_weight
+            continue
+        cell = cells[row.state, bisect_right(THRESHOLDS, row.agi) + 1]
+        diagnostics[f"{row.kind}_positive_agi_sample_returns"] += 1
+        for label, weight in (("person", row.person_weight), ("household", row.household_weight)):
+            cell[f"{label}_count"] += weight
+            cell[f"{label}_agi"] += weight * row.agi
+    return cells, dict(diagnostics), households, units
 
 
 def comparison(cps, irs):
